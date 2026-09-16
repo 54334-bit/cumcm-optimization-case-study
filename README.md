@@ -4,6 +4,12 @@
 
 本项目与 `cumcm-optimization-rag` 是两个独立项目：这里不含 RAG 引擎、语料或索引。RAG 仅可作为建模方法检索的可选外部服务，核心模型、说明和本地复核脚本不依赖它。
 
+## 协作者
+
+- [54334-bit](https://github.com/54334-bit)
+- [o0enon0ok-cell](https://github.com/o0enon0ok-cell)
+- yidan chen
+
 ## 案例范围
 
 四问沿同一储能物理合同逐步扩展信息与结算机制：Q1 为单日两阶段词典序 LP；Q2 为因果光伏预测、逐日 LP 与 E1 执行；Q3 加入 0:00/6:00/12:00/18:00 预报更新、读法 C 结算与 v2b 执行；Q4 在波动电价下分别重算 Q2 与 Q3。统一权威口径和冻结数值见 [models/unified-formulation.md](models/unified-formulation.md)。
