@@ -1,0 +1,6 @@
+# 可选 RAG 接入示例；请复制为 config.toml 后按本机环境填写。
+# 本仓库不依赖该服务，也不提交实际路径、令牌、索引或语料。
+
+[mcp_servers.cumcm_optimization_rag]
+command = "${CUMCM_RAG_COMMAND}"
+args = ["${CUMCM_RAG_ENTRYPOINT}"]

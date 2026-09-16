@@ -1,0 +1,38 @@
+\section{Q3 主体代码（核心算法）}\label{app:q3-core-code}
+
+本附录对应正文问题三的滚动优化、因果执行与需求分位修正。代码摘自项目 Q3 冻结实现，
+采用读法 C 结算口径、v2b 执行器和 334 天评价窗口。为保证可追溯性，代码内容按来源文件逐字保留。
+
+读法 C 的现金费用为
+\begin{equation}
+J=\sum_t p_t\min(G_t^0,A_t)+\sum_t\!\left[0.5p_t(G_t^0-A_t)^+ +1.5p_t(A_t-G_t^0)^+\right]+\sum_t5p_tH_t.
+\label{eq:app-cash-c}
+\end{equation}
+正文中的计划量、最终生效调整量和紧急购电量分别与代码变量 \lstinline|G0|、\lstinline|A| 和 \lstinline|H| 对应。
+
+\subsection{模块 \texttt{\detokenize{q3_solver_billingC.py}}}
+
+\subsubsection{函数 \texttt{\detokenize{cash_C}}}
+\lstinputlisting[style=q3python,caption={q3\_solver\_billingC.py 中的 cash\_C（源文件第 337 行起，共 20 行）},label={lst:app-01_q3_solver_billingC_cash_C}]{code_rendered/01_q3_solver_billingC_cash_C.py}
+
+\subsubsection{函数 \texttt{\detokenize{exec_E1}}}
+\lstinputlisting[style=q3python,caption={q3\_solver\_billingC.py 中的 exec\_E1（源文件第 270 行起，共 55 行）},label={lst:app-02_q3_solver_billingC_exec_E1}]{code_rendered/02_q3_solver_billingC_exec_E1.py}
+
+\subsubsection{函数 \texttt{\detokenize{solve_epoch}}}
+\lstinputlisting[style=q3python,caption={q3\_solver\_billingC.py 中的 solve\_epoch（源文件第 131 行起，共 138 行）},label={lst:app-03_q3_solver_billingC_solve_epoch}]{code_rendered/03_q3_solver_billingC_solve_epoch.py}
+
+\subsection{模块 \texttt{\detokenize{q3_exec_v2b.py}}}
+
+\subsubsection{函数 \texttt{\detokenize{run_day}}}
+\lstinputlisting[style=q3python,caption={q3\_exec\_v2b.py 中的 run\_day（源文件第 177 行起，共 113 行）},label={lst:app-04_q3_exec_v2b_run_day}]{code_rendered/04_q3_exec_v2b_run_day.py}
+
+\subsubsection{函数 \texttt{\detokenize{exec_v2b_trace}}}
+\lstinputlisting[style=q3python,caption={q3\_exec\_v2b.py 中的 exec\_v2b\_trace（源文件第 66 行起，共 71 行）},label={lst:app-05_q3_exec_v2b_exec_v2b_trace}]{code_rendered/05_q3_exec_v2b_exec_v2b_trace.py}
+
+\subsection{模块 \texttt{\detokenize{q3_demand_quantile.py}}}
+
+\subsubsection{函数 \texttt{\detokenize{causal_residual_quantile}}}
+\lstinputlisting[style=q3python,caption={q3\_demand\_quantile.py 中的 causal\_residual\_quantile（源文件第 160 行起，共 39 行）},label={lst:app-06_q3_demand_quantile_causal_residual_quantile}]{code_rendered/06_q3_demand_quantile_causal_residual_quantile.py}
+
+\subsubsection{函数 \texttt{\detokenize{plan_net_demand}}}
+\lstinputlisting[style=q3python,caption={q3\_demand\_quantile.py 中的 plan\_net\_demand（源文件第 199 行起，共 42 行）},label={lst:app-07_q3_demand_quantile_plan_net_demand}]{code_rendered/07_q3_demand_quantile_plan_net_demand.py}

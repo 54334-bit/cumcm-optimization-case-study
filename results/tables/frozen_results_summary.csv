@@ -1,0 +1,6 @@
+问题,策略或分支,总费用_元,结果性质,来源
+Q1,单日两阶段词典序LP,35126.9486,冻结汇总记录,models/unified-formulation.md
+Q2,因果裕度逐日LP加E1执行,13252341.09,冻结汇总记录,models/unified-formulation.md
+Q3,读法C滚动调整加v2b执行,13120194.06,冻结汇总记录,models/unified-formulation.md
+Q4-2,Q2换附件4价格重算,13850454.64,冻结汇总记录,models/unified-formulation.md
+Q4-3,Q3换附件4价格重算,13727033.66,冻结汇总记录,models/unified-formulation.md
