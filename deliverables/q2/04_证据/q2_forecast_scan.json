@@ -1,0 +1,110 @@
+[
+ {
+  "tag": "C: att1 typical-day forecast",
+  "total": 19043406.75,
+  "J_emg": 6681689.26,
+  "QG": 20564751.92,
+  "emg_days": 286,
+  "emg_segments": 597,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "C+margin 10% (att1 x (1-m))",
+  "total": 17672785.11,
+  "J_emg": 4321495.87,
+  "QG": 22014385.23,
+  "emg_days": 283,
+  "emg_segments": 588,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "C+margin 20% (att1 x (1-m))",
+  "total": 16942847.28,
+  "J_emg": 2496580.01,
+  "QG": 23584150.26,
+  "emg_days": 279,
+  "emg_segments": 525,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "C+margin 30% (att1 x (1-m))",
+  "total": 16969548.41,
+  "J_emg": 1273305.83,
+  "QG": 25469968.27,
+  "emg_days": 277,
+  "emg_segments": 437,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "past-4-same-weekday MEAN (point)",
+  "total": 16495950.62,
+  "J_emg": 4297938.34,
+  "QG": 20171074.81,
+  "emg_days": 258,
+  "emg_segments": 588,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "past-4-same-weekday MEAN -10%",
+  "total": 14399333.81,
+  "J_emg": 1245262.69,
+  "QG": 21713442.91,
+  "emg_days": 234,
+  "emg_segments": 501,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "past-4-same-weekday MEAN -20%",
+  "total": 14506197.09,
+  "J_emg": 265610.4,
+  "QG": 23326756.17,
+  "emg_days": 223,
+  "emg_segments": 407,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "past-4-same-weekday MEAN -30%",
+  "total": 15559128.02,
+  "J_emg": 111068.93,
+  "QG": 25071496.15,
+  "emg_days": 212,
+  "emg_segments": 361,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "past-8-same-weekday MEAN",
+  "total": 18397277.21,
+  "J_emg": 6213680.27,
+  "QG": 20171563.04,
+  "emg_days": 240,
+  "emg_segments": 626,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "past-12-same-weekday MEAN",
+  "total": 19577955.63,
+  "J_emg": 7380166.12,
+  "QG": 20221955.65,
+  "emg_days": 231,
+  "emg_segments": 634,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "last-7-days MEAN",
+  "total": 14278065.15,
+  "J_emg": 2058078.93,
+  "QG": 20198948.19,
+  "emg_days": 289,
+  "emg_segments": 567,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "actual PV (perfect info bound)",
+  "total": 12255730.01,
+  "J_emg": 0.0,
+  "QG": 20250543.76,
+  "emg_days": 0,
+  "emg_segments": 0,
+  "s_end": 7950.0
+ }
+]

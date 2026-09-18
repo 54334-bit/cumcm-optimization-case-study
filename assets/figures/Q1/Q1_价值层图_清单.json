@@ -1,0 +1,36 @@
+{
+  "group": "q1",
+  "generated_at": "2026-09-12T09:47:05",
+  "figure_dir": "D:\\CMUCU\\3对话\\output\\figures\\q1",
+  "dpi": 300,
+  "formats": [
+    "svg",
+    "png"
+  ],
+  "count": 1,
+  "figures": [
+    {
+      "name": "q1_08_value_function",
+      "purpose": "Q1 储能状态价值函数 V_0(s) 与其边际价值 -dV_0/ds；标注 s=6000 日界点与 LP 对偶参照",
+      "data_source": [
+        "3对话/output/q1_value_curve.json"
+      ],
+      "key_values": {
+        "V0_6000": 35129.24691110166,
+        "marginal_value_6000": 0.4754444444406545,
+        "lp_row288_marginal_value": 0.47544444444429246,
+        "lp_row289_shadow_price": 0.4711111111111111,
+        "J1_star": 35126.94858928963,
+        "S_min": 1200.0,
+        "S_max": 10800.0
+      },
+      "script": "fig_q1_value.py",
+      "note": "marginal_value=-dV0/ds；6000 处与 LP 行 288 对偶同支；DP 为 LP 上界近似；图中数字全部由 q1_value_curve.json 读取（含 9 个规范节点与理论下界 0.412556）",
+      "files": {
+        "png": "q1_08_value_function.png",
+        "svg": "q1_08_value_function.svg"
+      },
+      "key_values_source": "由 q1_value_curve.json 读取"
+    }
+  ]
+}

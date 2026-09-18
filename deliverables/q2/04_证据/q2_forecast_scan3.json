@@ -1,0 +1,57 @@
+[
+ {
+  "tag": "SAA K=12 recent days (load known)",
+  "K": 12,
+  "load_known": true,
+  "total": 13677086.41,
+  "J_emg": 1064580.67,
+  "emg_days": 167,
+  "emg_segments": 253,
+  "QG": 20693432.77,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "SAA K=16 recent days (load known)",
+  "K": 16,
+  "load_known": true,
+  "total": 13853356.17,
+  "J_emg": 1215574.26,
+  "emg_days": 166,
+  "emg_segments": 252,
+  "QG": 20708911.86,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "SAA K=20 recent days (load known)",
+  "K": 20,
+  "load_known": true,
+  "total": 13970436.39,
+  "J_emg": 1271225.88,
+  "emg_days": 154,
+  "emg_segments": 231,
+  "QG": 20790394.34,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "SAA K=16 recent days (load UNKNOWN)",
+  "K": 16,
+  "load_known": false,
+  "total": 16757800.95,
+  "J_emg": 1926570.1,
+  "emg_days": 138,
+  "emg_segments": 307,
+  "QG": 23047187.82,
+  "s_end": 1920.6
+ },
+ {
+  "tag": "SAA K=28 recent days (load known)",
+  "K": 28,
+  "load_known": true,
+  "total": 14261651.61,
+  "J_emg": 1474565.64,
+  "emg_days": 155,
+  "emg_segments": 251,
+  "QG": 20909642.92,
+  "s_end": 7950.0
+ }
+]

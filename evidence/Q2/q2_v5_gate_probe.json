@@ -1,0 +1,24 @@
+{
+ "P0_2_efficiency": {
+  "external_Q1_benchmark": {
+   "cost": 35126.95,
+   "energy": 59482.7
+  },
+  "per_leg_0.9": {
+   "cost": 35126.95,
+   "energy": 59482.7
+  },
+  "roundtrip_0.9": {
+   "cost": 33801.5,
+   "energy": 57526.24
+  },
+  "verdict": "per-leg 0.9 matches external benchmark"
+ },
+ "P0_4_emergency_use": {
+  "intervals_with_H": 510,
+  "H_and_charge": 0,
+  "H_and_curtail": 0,
+  "max_curtail_when_H": 0.0
+ },
+ "P0_5_mutex_executed": 0.0
+}

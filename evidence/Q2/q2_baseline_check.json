@@ -1,0 +1,30 @@
+{
+ "question": "交付物到底是哪一条线？",
+ "new_file": {
+  "path": "D:\\CMUCU\\5对话\\result2_对话5_同周4周MILP.xlsx",
+  "J_plan_from_xlsx": 13132150.732441,
+  "QG_from_xlsx": 21391611.3215,
+  "QH_segments_from_xlsx": 351537.145128,
+  "table3_rows": 384
+ },
+ "old_file": {
+  "path": "D:\\CMUCU\\5对话\\result2_对话5.xlsx",
+  "J_plan_from_xlsx": 14656698.594106,
+  "QG_from_xlsx": 23136277.2082,
+  "QH_segments_from_xlsx": 228208.382719,
+  "table3_rows": 356
+ },
+ "ledger_s1_wd4": {
+  "J_plan": 13132150.732439,
+  "QG": 21391611.3215,
+  "QH": 351537.145131,
+  "J_cash": 15238244.279052
+ },
+ "matches": {
+  "new_xlsx_plan_==_ledger": true,
+  "new_xlsx_perday_G_==_ledger_max_dev": 0.0,
+  "new_xlsx_H_==_ledger": true,
+  "old_xlsx_is_W7_16086052": true
+ },
+ "verdict": "交付物 = 同周4周+MILP+二级择优（即 `_s1_wd4` 台账）；旧件 `result2_对话5.xlsx` = W7+LP（对照/备份）"
+}

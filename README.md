@@ -1,77 +1,75 @@
-# CUMCM 优化调度案例：微网与外部电网协同
+# CUMCM 2026 Problem C: Microgrid-to-Grid Dispatch
 
-> 非官方案例项目。它整理一个微网优化调度的建模、代码片段、论文源码、最终论文和可复核的汇总结果；**不包含中国大学生数学建模竞赛题面、官方附件、官方结果模板、真实填报工作簿或第三方论文**。
+An open, evidence-oriented record of our team solution to **Problem C, 2026 China Undergraduate Mathematical Contest in Modeling (CUMCM)**: *Microgrid and External Grid Power Regulation Strategy*.
 
-本项目与 `cumcm-optimization-rag` 是两个独立项目：这里不含 RAG 引擎、语料或索引。RAG 仅可作为建模方法检索的可选外部服务，核心模型、说明和本地复核脚本不依赖它。
+This is a team project, not an official CUMCM repository. It contains our original implementation, final submission workbooks, processed inputs, model documentation, validation evidence, figure-generation code, and the final paper. The independently maintained `cumcm-optimization-rag` project is not part of this repository; RAG may provide methodological context but is never used as a substitute for the contest statement, attachment data, or computed results.
 
-## 协作者
+## Team
 
 - [54334-bit](https://github.com/54334-bit)
 - [o0enon0ok-cell](https://github.com/o0enon0ok-cell)
 - yidan chen
 
-## 案例范围
+## What the repository contains
 
-四问沿同一储能物理合同逐步扩展信息与结算机制：Q1 为单日两阶段词典序 LP；Q2 为因果光伏预测、逐日 LP 与 E1 执行；Q3 加入 0:00/6:00/12:00/18:00 预报更新、读法 C 结算与 v2b 执行；Q4 在波动电价下分别重算 Q2 与 Q3。统一权威口径和冻结数值见 [models/unified-formulation.md](models/unified-formulation.md)。
+The four questions share a storage-physics contract while expanding the information and settlement structures:
 
-项目仅保留汇总数值，不能把不同信息结构下的 Q2 与 Q3 总费用作优劣差额解释。已记录的源结果为：Q1 35,126.9486 元；Q2 13,252,341.09 元；Q3 13,120,194.06 元；Q4-2 13,850,454.64 元；Q4-3 13,727,033.66 元。它们是源工作流的冻结记录，而非本仓库重新运行的结果。
+| Question | Decision setting | Canonical output |
+| --- | --- | --- |
+| Q1 | Representative-day deterministic LP with a hard terminal SOC closure | `submissions/result1.xlsx` |
+| Q2 | Causal PV forecast, daily planning LP, and E1 execution | `submissions/result2.xlsx` |
+| Q3 | 0:00/6:00/12:00/18:00 rolling forecasts and settlement reading C | `submissions/result3.xlsx` |
+| Q4 | Q2 and Q3 recomputed under time-varying electricity prices | `submissions/result4-2.xlsx`, `submissions/result4-3.xlsx` |
 
-## 目录
+The frozen totals are historical, byte-preserved delivery records—not outputs recomputed during this repository reorganization. The binding mathematical conventions and result ledger are documented in [models/unified-formulation.md](models/unified-formulation.md).
+
+## Repository layout
 
 ```text
-models/                  四问权威口径入口与统一冻结方案
-src/cumcm_case_c/q3/     Q3 求解、执行与预测的已审计代码片段
-scripts/                 独立复核脚本
-tests/                   可移植路径接口测试
-data/                    数据许可、获取和目录约定；不含题面及附件
-results/                 汇总结果台账和来源说明；不含真实结果工作簿
-paper/                   稳定论文源码、Q3 代码附录与最终论文 PDF
-paper-optimization/      恢复的论文打磨过程、验证台账和 Q3 附录源码
-sensitivity-analysis/    恢复的 Q1–Q4 汇总建模与灵敏度分析工作区
-references/              来源、许可和获取登记
-docs/                    方法、复现、RAG 接入与重构设计/计划
+models/                  Binding Q1-Q4 formulations and sensitivity conventions
+src/cumcm_case_c/        Solvers, validators, execution logic, and figure generators
+data/processed/          Processed, aligned data derived from contest attachments
+submissions/             Five canonical, byte-preserved submission workbooks
+deliverables/            Recovered question-by-question delivery records and audit trail
+evidence/                Frozen checks, validation outputs, and sensitivity evidence
+assets/                  Figure assets and recovered paper-material archive
+paper/                   Final paper, TeX source, appendix, and referenced figures
+paper-optimization/      Historical paper-improvement workspace and Q3 appendix sources
+sensitivity-analysis/    Historical Q1-Q4 sensitivity-analysis workspace
+docs/                    Method, data processing, delivery notes, and reproducibility guides
+references/              Source register and team reference material
 ```
 
-## 恢复的原项目结构
+`deliverables/` preserves the manually recovered working records. `submissions/`, `src/`, `data/processed/`, `evidence/`, and `assets/` are the canonical public entry points. This separation avoids treating intermediate workbooks, voided artifacts, or audit notes as the final submission baseline.
 
-仓库在面向发布的稳定目录之外保留了可由证据验证的原工作区内容：
+## Reproduce and inspect
 
-- [`sensitivity-analysis/`](sensitivity-analysis/) 保存经字节级验证的原始 Q1–Q4 汇总建模方案。
-- [`paper-optimization/`](paper-optimization/) 保存经验证的论文优化版 TeX、修复台账和 Q3 附录源码。
-- `models/`、`paper/` 与 `src/` 仍是面向复现和引用的稳定入口；恢复目录用于保留原始工作结构和审计链。
-
-恢复只接受字节一致副本、已记录 SHA-256 或完整 canonical Codex 写入事件。仍缺失的工作簿、图件和过程文件记录在 [`docs/recovery/recovery-report.md`](docs/recovery/recovery-report.md)，不会根据文字描述伪造。
-
-## 环境与最小检查
-
-Python 3.11 或更高版本可运行本仓库的静态检查；如果要执行基于本地授权工作簿的 Q3 审计，还需要 `numpy` 与 `openpyxl`。
+Use Python 3.11+; the delivery environment recorded by the team used Python 3.12 with `numpy`, `scipy`, `pandas`, `openpyxl`, and `matplotlib`.
 
 ```powershell
 python -m pytest -q tests
 python -m compileall -q src scripts tests
 ```
 
-在已合法取得竞赛材料和填报结果后，使用者可将其保存在仓库外或 `data/local/`（已忽略），再显式执行：
+The processed CSV inputs are provided for auditability. The original CUMCM statement, raw attachments, and official templates are not redistributed here. See [data/README.md](data/README.md) for the scope and [docs/data-processing/](docs/data-processing/) for the cleaning record.
 
-```powershell
-python scripts/audit_q3_result.py `
-  --result-workbook <本地Q3结果工作簿> `
-  --price-workbook <本地附件1工作簿> `
-  --output results/tables/q3_fee_audit.txt
-```
+The canonical workbooks are retained without rewriting. Their SHA-256 hashes, delivery context, and separation from process-history copies are documented in [submissions/README.md](submissions/README.md).
 
-脚本不会下载、查找或内置任何个人绝对路径；输出为读法 C、右端点电价下的独立核算。它只验证给定工作簿的表结构和费用算式，不能证明输入材料的来源或竞赛提交有效性。
+## Paper and figures
 
-## 论文源码
+[paper/final-paper.pdf](paper/final-paper.pdf) is the team final paper. `paper/main.tex` is the stable TeX entry point; the 15 figures it references are available under `paper/figures/`. Additional figures, manifests, and generators live in `assets/figures/` and `src/cumcm_case_c/figures/`.
 
-[`paper/final-paper.pdf`](paper/final-paper.pdf) 是本案例的最终论文，49 页，SHA-256 为 `A843378D68ABD3C429AC56BE17E6ED70B4A7F3EFF33DF4C9747B13B53B74A44C`。`paper/main.tex` 是稳定论文源码入口，`paper/appendix/` 含可嵌入的 Q3 代码附录；恢复的优化过程源文件另见 `paper-optimization/`。由于公开仓库未分发竞赛模板和全部原始图件，不能据此声称 `paper/main.tex` 可在任意环境重新编译出完全相同的 PDF。详见 [`docs/reproducibility.md`](docs/reproducibility.md)。
+The paper is a frozen deliverable. A successful static check of the TeX source does not by itself establish that every environment will reproduce the exact compiled PDF.
 
-## 可选 RAG 接入
+## Data, provenance, and limitations
 
-没有 RAG 时，本项目仍可阅读模型并运行仓库内的检查。若已在本机另行安装独立 RAG 服务，可复制 `.codex/config.example.toml`，把其中的环境变量替换为本机服务入口。不要提交实际配置、令牌、索引、语料或模型缓存。详细约定见 `docs/rag-integration.md`。
+- Processed data are team-produced alignment outputs derived from the contest attachments. They preserve the derived fields used by our code, not the original attachment workbooks.
+- The five `submissions/*.xlsx` files are the team’s canonical delivery artifacts. They include solution outputs and are published here by the team as part of this case study.
+- Do not compare Q2 and Q3 total cost as a causal “improvement”: their information and settlement structures differ.
+- Historical validation evidence records what was checked in the source workflow; it is not a claim that every experiment has been rerun in the current checkout.
 
-## 许可、来源与贡献
+## License and citation
 
-本仓库中原创代码和原创文档以 Apache-2.0 许可发布，详见 `LICENSE`、`NOTICE` 和 `THIRD_PARTY_NOTICES.md`。竞赛材料和第三方内容不因本许可而获得再分发权。数据边界见 `data/README.md`，来源清单见 `references/SOURCES.md`。
+Original code and documentation are licensed under [Apache-2.0](LICENSE). CUMCM materials and any third-party content retain their own rights; see [NOTICE](NOTICE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), and [references/SOURCES.md](references/SOURCES.md). Cite the repository using [CITATION.cff](CITATION.cff).
 
-贡献前请阅读 `CONTRIBUTING.md`；引用方式见 `CITATION.cff`。已知限制、历史验证与未决事项见 `docs/reproducibility.md`。
+For contribution conventions, see [CONTRIBUTING.md](CONTRIBUTING.md). For the recovery history and known limits, see [docs/recovery/](docs/recovery/).

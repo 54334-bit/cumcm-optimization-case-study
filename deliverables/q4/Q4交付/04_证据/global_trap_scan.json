@@ -1,0 +1,905 @@
+{
+ "A_stale": [
+  {
+   "file": "8对话\\Q4-3_继承规格与执行器结论更正.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "8对话\\Q4-3_继承规格与执行器结论更正.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": true
+  },
+  {
+   "file": "8对话\\Q4_原创性自查与自有贡献.md",
+   "key": "18,076,037",
+   "why": "7 对话 Q3 旧数字",
+   "guarded": false
+  },
+  {
+   "file": "8对话\\Q4准备稿_接手底盘与待拍板口径_对话8.md",
+   "key": "18,076,037",
+   "why": "7 对话 Q3 旧数字",
+   "guarded": true
+  },
+  {
+   "file": "8对话\\Q4微型实验结果与Q3复检报告_20260912.md",
+   "key": "18,076,037",
+   "why": "7 对话 Q3 旧数字",
+   "guarded": true
+  },
+  {
+   "file": "8对话\\给队长的指导文档_攻坚期_Q2Q3Q4.md",
+   "key": "18,076,037",
+   "why": "7 对话 Q3 旧数字",
+   "guarded": true
+  },
+  {
+   "file": "8对话\\防陷阱策略_Q4.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "8对话\\output\\audit_novelty_and_scan.json",
+   "key": "18,076,037",
+   "why": "7 对话 Q3 旧数字",
+   "guarded": false
+  },
+  {
+   "file": "Q3交付\\manifest.sha256.json",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "Q3交付\\manifest.sha256.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "Q3交付\\01_提交件\\作废声明_v0.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "Q3交付\\01_提交件\\作废声明_v0.md",
+   "key": "9159846F",
+   "why": "Q3 v1 作废哈希",
+   "guarded": true
+  },
+  {
+   "file": "5对话\\外部意见\\给队长的指导文档_攻坚期_Q2Q3Q4.md",
+   "key": "18,076,037",
+   "why": "7 对话 Q3 旧数字",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\Q3检查点与推进计划_7.5.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\Q3检查点与推进计划_7.5.md",
+   "key": "13,626,881",
+   "why": "7.5 版 Q3 A 读法旧数字",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\判据_E1_q0.5边界扩展_预注册.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\外部同题解对照与行动清单_20260912.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\外部同题解对照与行动清单_20260912.md",
+   "key": "13,626,881",
+   "why": "7.5 版 Q3 A 读法旧数字",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\对话7交接_给7.5对话.md",
+   "key": "18,076,037",
+   "why": "7 对话 Q3 旧数字",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\总信息索引_7.5.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\接手记录_7.5_同源确认与待裁清单.md",
+   "key": "18,076,037",
+   "why": "7 对话 Q3 旧数字",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\更正_Q75_AC全年对比_修线后反转.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\结果_S2a_point层裕度全曲线_20260912.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\结果_S2a_point层裕度全曲线_20260912.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\结果_S2a_point层裕度全曲线_20260912.md",
+   "key": "13,626,881",
+   "why": "7.5 版 Q3 A 读法旧数字",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\给队长的指导文档_攻坚期_Q2Q3Q4.md",
+   "key": "18,076,037",
+   "why": "7 对话 Q3 旧数字",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\裁决请求_Q3计划层优化方向_三方共验_20260912.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\裁定_拯救者S1三项与残留清理_20260912.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\裁定记录_Q3优化方向_四方共验汇总_20260912.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\论文写作辅助_Q3_严格基于当前结果_v1.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\论文写作辅助_Q3_严格基于当前结果_v1.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\output\\q75_algo_probe.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\output\\q75_causal_margin.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\output\\q75_g2_s1_table.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\output\\q75_g2_s1_table.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\output\\q75_preflight_s2.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\output\\q75_rows_out_check.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\output\\q75_s2_table.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\output\\q75_s2_table.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\output\\q75_s2_table.md",
+   "key": "13,626,881",
+   "why": "7.5 版 Q3 A 读法旧数字",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\output\\g2_runs\\g2_v3seg_q0.8_C_m0.00.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_ac_audit.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_ac_audit.md",
+   "key": "13,626,881",
+   "why": "7.5 版 Q3 A 读法旧数字",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_algo_probe_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_causal_margin_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_causal_margin_report.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_data_audit_report.md",
+   "key": "18,076,037",
+   "why": "7 对话 Q3 旧数字",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_direction_audit_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_g2_s1_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_g2_s1_report.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_grid334_report.md",
+   "key": "18,076,037",
+   "why": "7 对话 Q3 旧数字",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_grid_guard_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_guard_report.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_guard_report.md",
+   "key": "13,626,881",
+   "why": "7.5 版 Q3 A 读法旧数字",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_guard_v3_report.md",
+   "key": "18,076,037",
+   "why": "7 对话 Q3 旧数字",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_o1_probe_report.md",
+   "key": "18,076,037",
+   "why": "7 对话 Q3 旧数字",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_paper_doc_check_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_paper_doc_check_report.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_pit_master_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_pit_master_report.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_pit_master_report.md",
+   "key": "13,626,881",
+   "why": "7.5 版 Q3 A 读法旧数字",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_preflight_s2_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_preflight_s2_report.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_rescuer_s1_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_rescuer_s1_report.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": true
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_rows_out_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_s1_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_s1_report.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_s2_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_s2_report.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": false
+  },
+  {
+   "file": "7.5对话\\_sub\\q75_s2_report.md",
+   "key": "13,626,881",
+   "why": "7.5 版 Q3 A 读法旧数字",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\000_先读我_入口索引.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\A段收口_呈队长审核_20260912_2245.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\B1_VOI四组结果_20260912.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\Q1_Q2衔接核对表_Q3_20260912.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\Q3口径冻结_v1_20260912.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\_请神_Q76_R1字段语义裁定_提示词.txt",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\交接_7.5到7.6_总纲与困境_20260912.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "7.6对话\\交接_7.5到7.6_总纲与困境_20260912.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": true
+  },
+  {
+   "file": "7.6对话\\交接_7.5到7.6_总纲与困境_20260912.md",
+   "key": "13,626,881",
+   "why": "7.5 版 Q3 A 读法旧数字",
+   "guarded": true
+  },
+  {
+   "file": "7.6对话\\交接_7.5到7.6_残留问题与待办清单_20260912.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\接手记录_7.6_全量阅读与接手结论.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "7.6对话\\接手记录_7.6_全量阅读与接手结论.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": true
+  },
+  {
+   "file": "7.6对话\\接手记录_7.6_全量阅读与接手结论.md",
+   "key": "13,626,881",
+   "why": "7.5 版 Q3 A 读法旧数字",
+   "guarded": true
+  },
+  {
+   "file": "7.6对话\\放行闸门判定_20260913.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\放行闸门判定_20260913.md",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\施工布置_B段整改后_20260912.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\请神_Q76_R1字段语义裁定.txt",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\遗言_7.5交给7.6的最后叮嘱.md",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "7.6对话\\output\\verify_759_handover.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\b2\\b2_materialize_report.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\b2\\b2_materialize_report_fixed.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\b2\\b2_materialize_report_fixed.json",
+   "key": "9159846F",
+   "why": "Q3 v1 作废哈希",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\b2\\b2_report.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\b2\\b2_verify.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\b3rebut\\s1_full_year_recon.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\b3rebut\\summary.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\e4\\alignment_metrics.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\e4\\q08_m0_out.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\preflight_B\\timing_ep061218.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\preflight_B\\timing_ep061218.stdout.txt",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\v2b_full\\q76_v2b_full.json",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\v2b_full\\q76_v2b_full.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\voi\\ep061218_q08.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\output\\voi\\voi_summary.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\_sub\\q76_b3_rebut_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\_sub\\q76_cheap_win_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\_sub\\q76_e4_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\_sub\\q76_errata_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\_sub\\q76_pioneer_B.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\_sub\\q76_recheck_fixed_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\_sub\\q76_v2b_full_report.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\_sub\\q76_v2b_full_report.md",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\交付\\论文素材_Q3_勘误修订_v2.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\交付\\论文素材_Q3_勘误修订_v2.md",
+   "key": "13,456,394",
+   "why": "7.5 版 Q3 C 读法数字（已被 v2 取代）",
+   "guarded": false
+  },
+  {
+   "file": "7.6对话\\交付\\Q3交付\\manifest.sha256.json",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "7.6对话\\交付\\Q3交付\\manifest.sha256.json",
+   "key": "13369682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "7.6对话\\交付\\Q3交付\\01_提交件\\作废声明_v0.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  },
+  {
+   "file": "7.6对话\\交付\\Q3交付\\01_提交件\\作废声明_v0.md",
+   "key": "9159846F",
+   "why": "Q3 v1 作废哈希",
+   "guarded": true
+  },
+  {
+   "file": "7.6对话\\外部意见\\gpt针对B段瓶颈给出的决议.txt",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": false
+  },
+  {
+   "file": "6对话\\Q3图件规划与方案.md",
+   "key": "13,369,682",
+   "why": "Q3 v1 数字（作废）",
+   "guarded": true
+  }
+ ],
+ "B_version": [
+  {
+   "file": "Q3交付\\01_提交件\\作废声明_v0.md",
+   "note": "含 v1 作废哈希（应仅出现在作废语境）"
+  },
+  {
+   "file": "7.6对话\\交付\\Q3交付\\01_提交件\\作废声明_v0.md",
+   "note": "含 v1 作废哈希（应仅出现在作废语境）"
+  }
+ ],
+ "C_mapping": [
+  {
+   "file": "8对话\\Q4_原创性自查与自有贡献.md",
+   "note": "出现'标签对齐'且无作废限定"
+  },
+  {
+   "file": "5对话\\致对话3_Q1表1落位口径统一_呈队长转交.md",
+   "note": "出现'标签对齐'且无作废限定"
+  },
+  {
+   "file": "3对话\\output\\q1_checkpoint.json",
+   "note": "出现'标签对齐'且无作废限定"
+  },
+  {
+   "file": "3对话\\output\\q1_label_readback.json",
+   "note": "出现'标签对齐'且无作废限定"
+  },
+  {
+   "file": "3对话\\output\\q1_materialize_report.json",
+   "note": "出现'标签对齐'且无作废限定"
+  },
+  {
+   "file": "3对话\\Q1价值层_交付包_20260912\\manifest.sha256.json",
+   "note": "出现'标签对齐'且无作废限定"
+  },
+  {
+   "file": "3对话\\Q1价值层_交付包_20260912\\02_结果JSON\\q1_checkpoint.json",
+   "note": "出现'标签对齐'且无作废限定"
+  },
+  {
+   "file": "3对话\\Q1价值层_交付包_20260912\\06_result1落位修订_位置对齐\\对话5_转交件_表1落位口径统一.md",
+   "note": "出现'标签对齐'且无作废限定"
+  },
+  {
+   "file": "外部意见\\A\\豆包_初步方案意见.txt",
+   "note": "出现'标签对齐'且无作废限定"
+  }
+ ],
+ "D_template": [
+  {
+   "file": "result1.xlsx",
+   "size": 13323,
+   "expected": 13323,
+   "pass": true,
+   "mtime": "2026-09-10 18:40:22"
+  },
+  {
+   "file": "result2.xlsx",
+   "size": 18397,
+   "expected": 18397,
+   "pass": true,
+   "mtime": "2026-09-10 18:40:22"
+  },
+  {
+   "file": "result3.xlsx",
+   "size": 265429,
+   "expected": 265429,
+   "pass": true,
+   "mtime": "2026-09-10 18:40:22"
+  },
+  {
+   "file": "result4-2.xlsx",
+   "size": 18397,
+   "expected": 18397,
+   "pass": true,
+   "mtime": "2026-09-10 18:40:22"
+  },
+  {
+   "file": "result4-3.xlsx",
+   "size": 265429,
+   "expected": 265429,
+   "pass": true,
+   "mtime": "2026-09-10 18:40:22"
+  }
+ ],
+ "E_q4num": [
+  {
+   "file": "8对话\\Q4-3_继承规格与执行器结论更正.md",
+   "nums": [
+    "13,850,454.64"
+   ]
+  },
+  {
+   "file": "8对话\\Q4_剩余工作计划与倒排.md",
+   "nums": [
+    "13,850,454.64"
+   ]
+  },
+  {
+   "file": "8对话\\Q4_稳健性与裕度结论.md",
+   "nums": [
+    "13,850,454.64"
+   ]
+  },
+  {
+   "file": "8对话\\Q4建模方案_v2_定稿.md",
+   "nums": [
+    "13,850,454.64"
+   ]
+  },
+  {
+   "file": "8对话\\Q4微型实验结果与Q3复检报告_20260912.md",
+   "nums": [
+    "13,850,454.64"
+   ]
+  },
+  {
+   "file": "8对话\\三方共验_Q4交付件_裁定.md",
+   "nums": [
+    "13,850,454.64"
+   ]
+  },
+  {
+   "file": "8对话\\交付说明模板_Q4-3.md",
+   "nums": [
+    "13,850,454.64"
+   ]
+  },
+  {
+   "file": "8对话\\出题人视角_反AI意图与评分识别点.md",
+   "nums": [
+    "13,850,454.64"
+   ]
+  },
+  {
+   "file": "8对话\\请神_Q4_前沿与结构性遗漏.txt",
+   "nums": [
+    "13,850,454.64"
+   ]
+  },
+  {
+   "file": "8对话\\防陷阱策略_Q4.md",
+   "nums": [
+    "13,850,454.64"
+   ]
+  },
+  {
+   "file": "8对话\\output\\q4_quality_guard_report.md",
+   "nums": [
+    "13,850,454.64"
+   ]
+  },
+  {
+   "file": "8对话\\output\\q4_validator_review_report.md",
+   "nums": [
+    "13,850,454.64"
+   ]
+  },
+  {
+   "file": "8对话\\交付包_Q4-2_波动电价完整购电策略\\交付清单.md",
+   "nums": [
+    "13,850,454.64"
+   ]
+  },
+  {
+   "file": "8对话\\交付包_Q4-2_波动电价完整购电策略\\稳健性与封存清单_Q4.md",
+   "nums": [
+    "13,850,454.64"
+   ]
+  }
+ ],
+ "F_pkg": {
+  "n_listed": 23,
+  "bad": []
+ }
+}

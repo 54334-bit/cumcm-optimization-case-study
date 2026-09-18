@@ -1,0 +1,54 @@
+[
+ {
+  "tag": "K=8 margin 2%",
+  "K": 8,
+  "margin": 0.02,
+  "causal": false,
+  "quantile": 0.0,
+  "total": 13758955.77,
+  "J_emg": 1358202.17,
+  "emg_days": 276,
+  "emg_segments": 521,
+  "QG": 20501900.15,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=8 margin 3%",
+  "K": 8,
+  "margin": 0.03,
+  "causal": false,
+  "quantile": 0.0,
+  "total": 13561207.61,
+  "J_emg": 1068338.6,
+  "emg_days": 267,
+  "emg_segments": 500,
+  "QG": 20653103.38,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=8 margin 4%",
+  "K": 8,
+  "margin": 0.04,
+  "causal": false,
+  "quantile": 0.0,
+  "total": 13430624.93,
+  "J_emg": 844601.21,
+  "emg_days": 259,
+  "emg_segments": 473,
+  "QG": 20804526.26,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=8 margin 6%",
+  "K": 8,
+  "margin": 0.06,
+  "causal": false,
+  "quantile": 0.0,
+  "total": 13300306.85,
+  "J_emg": 524480.4,
+  "emg_days": 243,
+  "emg_segments": 418,
+  "QG": 21107232.56,
+  "s_end": 7950.0
+ }
+]

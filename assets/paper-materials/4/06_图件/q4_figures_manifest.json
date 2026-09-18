@@ -1,0 +1,232 @@
+{
+  "group": "q4",
+  "generated_at": "2026-09-13T04:18:21",
+  "figure_dir": "D:\\CMUCU\\6对话\\output\\figures\\q4",
+  "dpi": 300,
+  "formats": [
+    "svg",
+    "png"
+  ],
+  "count": 6,
+  "key_values_source": "q4_data_frozen.py（锚点闸门 ANCHORS: PASS，与 Q4交付\\manifest.sha256.json 逐文件对表；图内数值由脚本现算）",
+  "figures": [
+    {
+      "name": "q4_01_price_caliber",
+      "purpose": "Q4 价格口径：附件1 典型日曲线 vs 附件4 逐日逐时段波动电价（5/50/95 分位带 + 日尺度波动）",
+      "data_source": [
+        "D:\\CMUCU\\B对话\\clean\\q1_clean.csv",
+        "D:\\CMUCU\\B对话\\clean\\attachment4_clean.csv"
+      ],
+      "key_values": {
+        "att1_mean": 0.766197,
+        "att1_max": 1.3952,
+        "att4_mean_365d": 0.766198,
+        "att4_max_365d": 1.7936,
+        "att4_min_365d": 0.0076,
+        "p05_p50_p95_at_20h_365d": [
+          1.11244,
+          1.3106,
+          1.67394
+        ],
+        "n_days_window": 334
+      },
+      "script": "q4_fig_main.py",
+      "note": "",
+      "files": {
+        "png": "q4_01_price_caliber.png",
+        "svg": "q4_01_price_caliber.svg"
+      }
+    },
+    {
+      "name": "q4_02_plan_heatmap",
+      "purpose": "Q4-2 计划购电量结构：334 天 × 144 区间热力图 + 逐日合计（附件4 波动价下的计划层输出）",
+      "data_source": [
+        "D:\\CMUCU\\Q4交付\\04_证据\\q4_cp2_checkpoint.json（days[i].G）"
+      ],
+      "key_values": {
+        "n_days": 334,
+        "QG_kWh": 21323915.2224,
+        "max_day_QG_kWh": 100038.0707,
+        "argmax_date": "2025-12-04",
+        "vmax_display": 1500.0
+      },
+      "script": "q4_fig_main.py",
+      "note": "",
+      "files": {
+        "png": "q4_02_plan_heatmap.png",
+        "svg": "q4_02_plan_heatmap.svg"
+      }
+    },
+    {
+      "name": "q4_03_soc_price_7d",
+      "purpose": "Q4-2 代表 7 天的 SOC 轨迹与当日实时电价（双轴）；SOC 逐段由 C/D 与 η=0.9 重建，日界两端取自 checkpoint，重建残差 ≤1e-6 kWh",
+      "data_source": [
+        "D:\\CMUCU\\Q4交付\\04_证据\\q4_cp2_checkpoint.json",
+        "D:\\CMUCU\\B对话\\clean\\attachment4_clean.csv"
+      ],
+      "key_values": {
+        "2025-03-20": {
+          "S0": 7200.444,
+          "S1": 7950.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "price_max": 1.3228,
+          "price_min": 0.2794,
+          "H_kWh": 157.141
+        },
+        "2025-05-15": {
+          "S0": 4977.072,
+          "S1": 4200.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "price_max": 1.3271,
+          "price_min": 0.3356,
+          "H_kWh": 172.644
+        },
+        "2025-06-21": {
+          "S0": 9499.349,
+          "S1": 9497.302,
+          "soc_min": 1247.302,
+          "soc_max": 10800.0,
+          "price_max": 1.2633,
+          "price_min": 0.1828,
+          "H_kWh": 0.0
+        },
+        "2025-07-15": {
+          "S0": 1200.0,
+          "S1": 1200.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "price_max": 1.7416,
+          "price_min": 0.3419,
+          "H_kWh": 7.21
+        },
+        "2025-09-23": {
+          "S0": 4950.0,
+          "S1": 3450.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "price_max": 1.3866,
+          "price_min": 0.3271,
+          "H_kWh": 26.074
+        },
+        "2025-10-15": {
+          "S0": 8700.0,
+          "S1": 10200.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "price_max": 1.3505,
+          "price_min": 0.3279,
+          "H_kWh": 26.013
+        },
+        "2025-12-21": {
+          "S0": 10800.0,
+          "S1": 5700.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "price_max": 1.5659,
+          "price_min": 0.3905,
+          "H_kWh": 0.0
+        }
+      },
+      "script": "q4_fig_main.py",
+      "note": "",
+      "files": {
+        "png": "q4_03_soc_price_7d.png",
+        "svg": "q4_03_soc_price_7d.svg"
+      }
+    },
+    {
+      "name": "q4_04_price_four",
+      "purpose": "Q4-2 四种计划价格口径的费用对比（I 主口径当日价 / II 上周同日价 / III 典型日价 / IV 同周4周价），并标出 Q2 基线（价格区制不同，仅参考）",
+      "data_source": [
+        "D:\\CMUCU\\Q4交付\\04_证据\\q4_probe_price_caliber_v2.json",
+        "Q4交付/03_论文素材/三方共验_Q4交付件_裁定.md（口径定义）"
+      ],
+      "key_values": {
+        "I_yuan": 13850454.6381,
+        "II_yuan": 13996208.1228,
+        "III_yuan": 13996863.5741,
+        "IV_yuan": 13958811.1689,
+        "dII_pct": 1.052337,
+        "dIII_pct": 1.05707,
+        "dIV_pct": 0.782332,
+        "C_att1_reference_yuan": 13252341.0921,
+        "note": "I/II/III/IV 定义取自三方共验裁定的第 34 行"
+      },
+      "script": "q4_fig_main.py",
+      "note": "",
+      "files": {
+        "png": "q4_04_price_four.png",
+        "svg": "q4_04_price_four.svg"
+      }
+    },
+    {
+      "name": "q4_05_cf_2x2",
+      "purpose": "Q4 价格区制 2×2 反事实（Q4-2 与 Q4-3 并列）：左上=基线、右下=交付值，并给出价格环境效应与重优化效应",
+      "data_source": [
+        "D:\\CMUCU\\Q4交付\\04_证据\\q4_counterfactual_2x2.json",
+        "D:\\CMUCU\\Q4交付\\04_证据\\q4_q43_2x2.json"
+      ],
+      "key_values": {
+        "Q4_2_cells_yuan": {
+          "G1P1": 13252341.0921,
+          "G1P4": 13996863.5741,
+          "G4P1": 13363136.8547,
+          "G4P4": 13850454.6381
+        },
+        "Q4_3_cells_yuan": {
+          "plan1_settle1": 13120194.0621,
+          "plan1_settle4": 13880227.0365,
+          "plan4_settle1": 13225150.3808,
+          "plan4_settle4": 13727033.6575
+        },
+        "Q4_2_price_effect": 744522.482,
+        "Q4_2_reopt_effect": -146408.936,
+        "Q4_3_price_effect": 760032.9743,
+        "Q4_3_reopt_effect": -153193.3789
+      },
+      "script": "q4_fig_main.py",
+      "note": "",
+      "files": {
+        "png": "q4_05_cf_2x2.png",
+        "svg": "q4_05_cf_2x2.svg"
+      }
+    },
+    {
+      "name": "q4_06_effect_split",
+      "purpose": "Q4-2 价格环境效应与重优化效应的时段分解（00-06 / 06-12 / 12-18 / 18-24）",
+      "data_source": [
+        "D:\\CMUCU\\Q4交付\\04_证据\\q4_price_block_decomp.json"
+      ],
+      "key_values": {
+        "blocks": [
+          "00-06",
+          "06-12",
+          "12-18",
+          "18-24"
+        ],
+        "eff_price_yuan": [
+          84941.3854,
+          201601.7872,
+          303868.1818,
+          154111.1276
+        ],
+        "eff_reopt_yuan": [
+          251395.8058,
+          -1217.9711,
+          -89462.8159,
+          -307123.9548
+        ],
+        "total_price_yuan": 744522.482,
+        "total_reopt_yuan": -146408.936
+      },
+      "script": "q4_fig_main.py",
+      "note": "",
+      "files": {
+        "png": "q4_06_effect_split.png",
+        "svg": "q4_06_effect_split.svg"
+      }
+    }
+  ]
+}

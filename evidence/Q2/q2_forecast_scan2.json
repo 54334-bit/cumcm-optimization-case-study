@@ -1,0 +1,26 @@
+[
+ {
+  "tag": "SAA past-16-days scenarios",
+  "total": 13853356.17,
+  "J_emg": 1215574.26,
+  "emg_days": 166,
+  "emg_segments": 252,
+  "QG": 20708911.86
+ },
+ {
+  "tag": "SAA past-30-days scenarios",
+  "total": 14324747.27,
+  "J_emg": 1511498.78,
+  "emg_days": 155,
+  "emg_segments": 256,
+  "QG": 20945230.44
+ },
+ {
+  "tag": "ATT3 0:00 official forecast (Q3 input!)",
+  "total": 15597736.05,
+  "J_emg": 3016144.13,
+  "emg_days": 298,
+  "emg_segments": 455,
+  "QG": 20417527.75
+ }
+]

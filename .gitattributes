@@ -1,0 +1,5 @@
+# Restored SVG path data and historical evidence are kept byte-for-byte.
+# Do not treat their generator formatting as a source-code whitespace error.
+*.svg whitespace=-trailing-space
+*.md whitespace=-trailing-space,-blank-at-eof
+*.py whitespace=-blank-at-eof

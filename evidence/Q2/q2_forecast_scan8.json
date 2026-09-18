@@ -1,0 +1,98 @@
+[
+ {
+  "tag": "K=8 causal bias",
+  "K": 8,
+  "margin": 0.0,
+  "causal_q": 0.0,
+  "total": 14195097.14,
+  "J_emg": 1957454.84,
+  "emg_days": 301,
+  "emg_segments": 542,
+  "QG": 20208823.59,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=8 causal bias+q30",
+  "K": 8,
+  "margin": 0.0,
+  "causal_q": 0.3,
+  "total": 13638718.76,
+  "J_emg": 1031369.43,
+  "emg_days": 246,
+  "emg_segments": 406,
+  "QG": 20794131.39,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=8 causal bias+q40",
+  "K": 8,
+  "margin": 0.0,
+  "causal_q": 0.4,
+  "total": 14025601.94,
+  "J_emg": 1603511.81,
+  "emg_days": 271,
+  "emg_segments": 463,
+  "QG": 20488204.67,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=3 margin 5%",
+  "K": 3,
+  "margin": 0.05,
+  "causal_q": null,
+  "total": 13254011.26,
+  "J_emg": 564032.98,
+  "emg_days": 257,
+  "emg_segments": 410,
+  "QG": 20964392.94,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=4 margin 4%",
+  "K": 4,
+  "margin": 0.04,
+  "causal_q": null,
+  "total": 13308865.04,
+  "J_emg": 717572.48,
+  "emg_days": 259,
+  "emg_segments": 439,
+  "QG": 20807483.57,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=4 margin 6%",
+  "K": 4,
+  "margin": 0.06,
+  "causal_q": null,
+  "total": 13207200.81,
+  "J_emg": 426270.16,
+  "emg_days": 249,
+  "emg_segments": 400,
+  "QG": 21110713.21,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=5 margin 4%",
+  "K": 5,
+  "margin": 0.04,
+  "causal_q": null,
+  "total": 13343337.49,
+  "J_emg": 753273.27,
+  "emg_days": 261,
+  "emg_segments": 449,
+  "QG": 20806049.34,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=5 margin 6%",
+  "K": 5,
+  "margin": 0.06,
+  "causal_q": null,
+  "total": 13227036.9,
+  "J_emg": 447314.51,
+  "emg_days": 244,
+  "emg_segments": 404,
+  "QG": 21109069.16,
+  "s_end": 7950.0
+ }
+]

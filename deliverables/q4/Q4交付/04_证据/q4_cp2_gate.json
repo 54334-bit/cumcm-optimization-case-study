@@ -1,0 +1,161 @@
+{
+ "task": "q4_main_solve",
+ "gate": "把价格换成附件1 后同一条链重跑，复现 Q2 现行主口径全年费用",
+ "pass": true,
+ "total_att1": 13252341.092092,
+ "diff_vs_expected": 0.002092,
+ "expected_total": 13252341.09,
+ "items": [
+  {
+   "item": "total_att1",
+   "measured": 13252341.092092,
+   "expected": 13252341.09,
+   "diff": 0.002092,
+   "tol": 0.01,
+   "pass": true
+  },
+  {
+   "item": "J_plan",
+   "measured": 12891818.24484,
+   "expected": 12891818.24,
+   "diff": 0.00484,
+   "tol": 0.01,
+   "pass": true
+  },
+  {
+   "item": "J_emg",
+   "measured": 360522.847252,
+   "expected": 360522.85,
+   "diff": -0.002748,
+   "tol": 0.01,
+   "pass": true
+  },
+  {
+   "item": "emg_days",
+   "measured": 242.0,
+   "expected": 242.0,
+   "diff": 0.0,
+   "tol": 0.0,
+   "pass": true
+  },
+  {
+   "item": "QH_kWh",
+   "measured": 55801.045903,
+   "expected": 55801.0,
+   "diff": 0.045903,
+   "tol": 0.05,
+   "pass": true
+  },
+  {
+   "item": "s_end",
+   "measured": 7950.00009,
+   "expected": 7950.0,
+   "diff": 9e-05,
+   "tol": 0.05,
+   "pass": true
+  }
+ ],
+ "items_flat": {
+  "J_plan": 12891818.24484,
+  "J_emg": 360522.847252,
+  "emg_days": 242,
+  "QH_kWh": 55801.045903,
+  "s_end": 7950.00009
+ },
+ "assertions_gate_run": [
+  {
+   "no": "①",
+   "name": "H_t >= 0 逐时成立",
+   "pass": true,
+   "value": {
+    "min_all_flows": 0.0,
+    "QH": 55801.045903
+   },
+   "criterion": "所有小时 H>=0（容差 1e-9）"
+  },
+  {
+   "no": "②",
+   "name": "R_t <= PV_actual_t*dt 逐时成立",
+   "pass": true,
+   "value": {
+    "max_RPV_minus_PV": 0.0,
+    "Q_RPV": 2112479.547101,
+    "Q_PV_actual": 19068889.994283
+   },
+   "criterion": "逐时 R_PV<=Pa（容差 1e-9）"
+  },
+  {
+   "no": "③",
+   "name": "全时段 1200 <= S <= 10800",
+   "pass": true,
+   "value": {
+    "soc_min": 1200.0,
+    "soc_max": 10800.0,
+    "soc_end": 7950.00009
+   },
+   "criterion": "含每日 S_path 全部 145 个点"
+  },
+  {
+   "no": "④",
+   "name": "逐日能量恒等式残差 <= 1e-6 kWh",
+   "pass": true,
+   "value": {
+    "worst_bal_resid": 9.663381206337363e-13,
+    "worst_soc_recursion_resid": 0.0
+   },
+   "criterion": "G+Pa+D+H = La+C+R_PV+R_G 且 SOC 递推一致"
+  },
+  {
+   "no": "⑤",
+   "name": "G >= 0",
+   "pass": true,
+   "value": {
+    "min_all_flows": 0.0,
+    "QG": 21283432.621706
+   },
+   "criterion": "购电计划非负"
+  },
+  {
+   "no": "⑥",
+   "name": "无'无限弃光压成本'的解：ΣR_PV <= ΣPV",
+   "pass": true,
+   "value": {
+    "Q_RPV": 2112479.547101,
+    "Q_PV_actual": 19068889.994283,
+    "ratio": 0.110781,
+    "Q_RG": 15841.102931
+   },
+   "criterion": "弃光不超过实际可用光伏"
+  },
+  {
+   "no": "⑦",
+   "name": "执行层同充同放禁止：chi = Σ_t min(C_t,D_t) = 0",
+   "pass": true,
+   "value": {
+    "chi": 0.0,
+    "plan_layer_both": -0.0
+   },
+   "criterion": "执行层逐时互斥；计划层同充同放量另列诊断"
+  },
+  {
+   "no": "⑧",
+   "name": "无售电/无反送：购电+放电+光伏+紧急购电 = 负荷+充电+弃光",
+   "pass": true,
+   "value": {
+    "worst_bal_resid": 9.663381206337363e-13,
+    "worst_negative_flow": 0.0
+   },
+   "criterion": "所有流向非负且逐时守恒；模型不含售电变量"
+  }
+ ],
+ "assertions_all_pass": true,
+ "diag": {
+  "soc_min": 1200.0,
+  "soc_max": 10800.0,
+  "worst_bal_resid": 9.663381206337363e-13,
+  "worst_soc_recursion_resid": 0.0,
+  "worst_negative_flow": 0.0,
+  "max_RPV_minus_PV": 0.0,
+  "elapsed_s": 7.51
+ }
+}

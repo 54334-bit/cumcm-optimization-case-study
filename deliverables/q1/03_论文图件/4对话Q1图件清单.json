@@ -1,0 +1,202 @@
+{
+  "group": "q1",
+  "figure_dir": "D:\\CMUCU\\4对话\\output\\figures\\q1",
+  "dpi": 300,
+  "formats": [
+    "svg",
+    "png"
+  ],
+  "count": 7,
+  "key_values_source": "由 D:\\CMUCU\\4对话\\code\\rebuild_manifests.py 从 data_io 独立复算",
+  "figures": [
+    {
+      "name": "q1_01_plan_overview",
+      "purpose": "Q1 最优调度的供需平衡（光伏/购电/放电堆叠 vs 负载+充电需求）与储能套利结构（充放电柱 + 电价）",
+      "data_source": [
+        "3对话/output/q1_checkpoint.json",
+        "B对话/clean/q1_clean.csv"
+      ],
+      "key_values": {
+        "J_actual": 35126.948624416575,
+        "J1_star": 35126.94858928963,
+        "J0": 48052.046590846665,
+        "Q_G": 59482.698915258756,
+        "Q_C": 20740.66569434433,
+        "Q_D": 16799.939212418907,
+        "Q_R": 0.0,
+        "H": 37540.60490676324,
+        "charge_avg_price": 0.492958,
+        "discharge_avg_price": 1.137602
+      },
+      "script": "fig_q1_p4.py",
+      "files": {
+        "png": "q1_01_plan_overview.png",
+        "svg": "q1_01_plan_overview.svg"
+      },
+      "note": "",
+      "key_values_source": "rebuild_manifests.py 由 data_io 独立复算"
+    },
+    {
+      "name": "q1_02_soc_price",
+      "purpose": "储能 SOC 全天轨迹与电价对照：上午降、正午升至运行上限、晚峰降至运行下限",
+      "data_source": [
+        "3对话/output/q1_checkpoint.json",
+        "B对话/clean/q1_clean.csv"
+      ],
+      "key_values": {
+        "10:00": 1973.966459,
+        "14:00": 10658.074995,
+        "18:00": 10800.0,
+        "21:00": 1200.0,
+        "S0": 6000.0,
+        "S144": 6000.0,
+        "S_min_bound": 1200.0,
+        "S_max_bound": 10800.0
+      },
+      "script": "fig_q1_p4.py",
+      "files": {
+        "png": "q1_02_soc_price.png",
+        "svg": "q1_02_soc_price.svg"
+      },
+      "note": "",
+      "key_values_source": "rebuild_manifests.py 由 data_io 独立复算"
+    },
+    {
+      "name": "q1_03_grid_vs_netload",
+      "purpose": "计划购电量与净负荷的背离：光伏富余时段与晚峰购电集中的经济机制",
+      "data_source": [
+        "3对话/output/q1_checkpoint.json",
+        "B对话/clean/q1_clean.csv"
+      ],
+      "key_values": {
+        "10:00-10:10": 0.0,
+        "12:00-12:10": 480.41245,
+        "14:00-14:10": 0.0,
+        "16:00-16:10": 445.43165,
+        "18:00-18:10": 531.89405,
+        "20:00-20:10": 0.0,
+        "late_1800_2100_purchase_kWh": 4026.3715
+      },
+      "script": "fig_q1_p4.py",
+      "files": {
+        "png": "q1_03_grid_vs_netload.png",
+        "svg": "q1_03_grid_vs_netload.svg"
+      },
+      "note": "",
+      "key_values_source": "rebuild_manifests.py 由 data_io 独立复算"
+    },
+    {
+      "name": "q1_04_blocks",
+      "purpose": "六个 4 小时块的充放电量与块购电量：晚峰块放电与购电同时高；六块汇总等于 Q_C/Q_D",
+      "data_source": [
+        "3对话/output/q1_checkpoint.json",
+        "B对话/clean/q1_clean.csv"
+      ],
+      "key_values": {
+        "blocks": {
+          "0:00-4:00": {
+            "charge": 4500.0,
+            "discharge": 0.0
+          },
+          "4:00-8:00": {
+            "charge": 833.333333,
+            "discharge": 6365.840846
+          },
+          "8:00-12:00": {
+            "charge": 4787.963851,
+            "discharge": 1702.996983
+          },
+          "12:00-16:00": {
+            "charge": 5286.035177,
+            "discharge": 91.101383
+          },
+          "16:00-20:00": {
+            "charge": 0.0,
+            "discharge": 5780.131883
+          },
+          "20:00-24:00": {
+            "charge": 5333.333333,
+            "discharge": 2859.868117
+          }
+        },
+        "sum_charge": 20740.665694,
+        "sum_discharge": 16799.939212
+      },
+      "script": "fig_q1_p4.py",
+      "files": {
+        "png": "q1_04_blocks.png",
+        "svg": "q1_04_blocks.svg"
+      },
+      "note": "",
+      "key_values_source": "rebuild_manifests.py 由 data_io 独立复算"
+    },
+    {
+      "name": "q1_05_cost_compare",
+      "purpose": "成本对照（无储能上界 / 一阶段最优 / 二阶段实际 / 效率 100% 反事实），量化储能套利价值",
+      "data_source": [
+        "3对话/output/q1_checkpoint.json",
+        "3对话/output/q1_audit_report.md §9"
+      ],
+      "key_values": {
+        "J0": 48052.046590846665,
+        "J1_star": 35126.94858928963,
+        "J_actual": 35126.948624416575,
+        "J_eta100": 32377.08827295874,
+        "J_eta100_source": "3对话/output/q1_audit_report.md §9 退化测试",
+        "saving_yuan": 12925.097966,
+        "saving_pct": 26.898122,
+        "J1_vs_actual_gap_yuan": 3.5126948e-05,
+        "J1_vs_actual_gap_note": "J1* 与 J_actual 两位小数同为 35126.95，柱顶标签按此说明差异"
+      },
+      "script": "fig_q1_p4.py",
+      "files": {
+        "png": "q1_05_cost_compare.png",
+        "svg": "q1_05_cost_compare.svg"
+      },
+      "note": "",
+      "key_values_source": "rebuild_manifests.py 由 data_io 独立复算"
+    },
+    {
+      "name": "q1_06_sensitivity",
+      "purpose": "Q1 灵敏度：22 个参数/扰动场景对购电费的影响（龙卷风图 + 参数族影响范围）",
+      "data_source": [
+        "3对话/output/q1_sensitivity_report.json",
+        "3对话/output/q1_checkpoint.json"
+      ],
+      "key_values": {
+        "base_J_actual": 35126.948624416575,
+        "n_scenarios": 22,
+        "max_abs_dJ_yuan": 3707.22,
+        "max_scene": "load_overall_plus"
+      },
+      "script": "fig_eda_p3.py",
+      "files": {
+        "png": "q1_06_sensitivity.png",
+        "svg": "q1_06_sensitivity.svg"
+      },
+      "note": "字段 dJ_vs_base 实为相对比例(ΔJ/J_base)，非元；条长用 J_actual-base_J_actual 重算",
+      "key_values_source": "rebuild_manifests.py 由 data_io 独立复算"
+    },
+    {
+      "name": "q1_07_price_separation",
+      "purpose": "充放电价分离：充电加权均价与放电加权均价之差远大于往返损耗",
+      "data_source": [
+        "3对话/output/q1_checkpoint.json",
+        "B对话/clean/q1_clean.csv"
+      ],
+      "key_values": {
+        "charge_weighted_avg_price": 0.492958,
+        "discharge_weighted_avg_price": 1.137602,
+        "spread": 0.644643,
+        "roundtrip_eta": 0.81
+      },
+      "script": "fig_q1_p4.py",
+      "files": {
+        "png": "q1_07_price_separation.png",
+        "svg": "q1_07_price_separation.svg"
+      },
+      "note": "",
+      "key_values_source": "rebuild_manifests.py 由 data_io 独立复算"
+    }
+  ]
+}

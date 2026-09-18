@@ -1,0 +1,59 @@
+参考文献
+
+ARROW K J, HARRIS T, MARSHAK J. Optimal inventory policy[J]. Econometrica, 1951, 19(3): 250-272.
+
+BELLMAN R. Dynamic Programming[M]. Princeton: Princeton University Press, 1957.
+
+BEN-TAL A, GORYASHKO A, GUSLITZER E, et al. Adjustable robust solutions of uncertain linear programs[J]. Mathematical Programming, 2004, 99(2): 351-376.
+
+BIRGE J R, LOUVEAUX F. Introduction to Stochastic Programming[M]. 2nd ed. New York: Springer, 2011.
+
+CELADES E, PÉREZ E, APARICIO N, et al. Tool for optimization of sale and storage of energy in wind farms[J]. Mathematics and Computers in Simulation, 2024, 224: 2-18. DOI: 10.1016/j.matcom.2023.03.010.
+
+CHEN C, DUAN S, CAI T, et al. Smart energy management system for optimal microgrid economic operation[J]. IET Renewable Power Generation, 2011, 5(3): 258-267. DOI: 10.1049/iet-rpg.2010.0052.
+
+CONEJO A J, CARRIÓN M, MORALES J M. Decision Making Under Uncertainty in Electricity Markets[M]. New York: Springer, 2010.
+
+DANESHVAR M, MOHAMMADI-IVATLOO B, ZARE K, et al. Two-stage robust stochastic model scheduling for transactive energy based renewable microgrids[J]. IEEE Transactions on Industrial Informatics, 2020, 16(11): 6857-6867. DOI: 10.1109/TII.2020.2973740.
+
+DANTZIG G B. Linear Programming and Extensions[M]. Princeton: Princeton University Press, 1963.
+
+DUFO-LÓPEZ R. Optimisation of size and control of grid-connected storage under real time electricity pricing conditions[J]. Applied Energy, 2015, 140: 395-408. DOI: 10.1016/j.apenergy.2014.12.012.
+
+FAZLALIPOUR P, EHSAN M, MOHAMMADI-IVATLOO B. Risk-aware stochastic bidding strategy of renewable micro-grids in day-ahead and real-time markets[J]. Energy, 2019, 171: 689-700. DOI: 10.1016/j.energy.2018.12.173.
+
+GRIMALDI A, MINUTO F D, BROUWER J, et al. Profitability of energy arbitrage net profit for grid-scale battery energy storage considering dynamic efficiency and degradation using a linear, mixed-integer linear, and mixed-integer non-linear optimization approach[J]. Journal of Energy Storage, 2024, 95: 112380. DOI: 10.1016/j.est.2024.112380.
+
+GULIN M, PAVLOVIĆ T, VAŠAK M. A one-day-ahead photovoltaic array power production prediction with combined static and dynamic on-line correction[J]. Solar Energy, 2017, 142: 49-60. DOI: 10.1016/j.solener.2016.12.008.
+
+HOWARD R A. Information value theory[J]. IEEE Transactions on Systems Science and Cybernetics, 1966, 2(1): 22-26.
+
+HYNDMAN R J, ATHANASOPOULOS G. Forecasting: Principles and Practice[M]. 2nd ed. Melbourne: OTexts, 2018.
+
+KAUFMAN L, ROUSSEEUW P J. Finding Groups in Data: An Introduction to Cluster Analysis[M]. New York: Wiley, 1990.
+
+KLEYWEGT A J, SHAPIRO A, HOMEM-DE-MELLO T. The sample average approximation method for stochastic discrete optimization[J]. SIAM Journal on Optimization, 2002, 12(2): 479-502.
+
+LI Y, PENG J, JIA H, et al. Optimal battery schedule for grid-connected photovoltaic-battery systems of office buildings based on a dynamic programming algorithm[J]. Journal of Energy Storage, 2022, 50: 104557. DOI: 10.1016/j.est.2022.104557.
+
+LUJANO-ROJAS J M, DUFO-LÓPEZ R, BERNAL-AGUSTÍN J L, et al. Optimizing daily operation of battery energy storage systems under real-time pricing schemes[J]. IEEE Transactions on Smart Grid, 2017, 8(1): 316-330. DOI: 10.1109/TSG.2016.2602268.
+
+MALYSZ P, SIROUSPOUR S, EMADI A. MILP-based rolling horizon control for microgrids with battery storage[C]//IECON 2013 - 39th Annual Conference of the IEEE Industrial Electronics Society. Vienna: IEEE, 2013: 2099-2104.
+
+NADARAYA E A. On estimating regression[J]. Theory of Probability and Its Applications, 1964, 9(1): 141-142.
+
+PARISIO A, RIKOS E, GLIELMO L. A model predictive control approach to microgrid operation optimization[J]. IEEE Transactions on Control Systems Technology, 2014, 22(5): 1813-1827. DOI: 10.1109/TCST.2013.2295737.
+
+SIOSHANSI R, DENHOLM P, JENKIN T, et al. Estimating the value of electricity storage in PJM: arbitrage and some welfare effects[J]. Energy Economics, 2009, 31(2): 269-277. DOI: 10.1016/j.eneco.2008.10.005.
+
+UMEZOZOR E C, TRIFKOVIC M. Operational scheduling of microgrids via parametric programming[J]. Applied Energy, 2016, 180: 672-681. DOI: 10.1016/j.apenergy.2016.08.009.
+
+WATSON G S. Smooth regression analysis[J]. Sankhyā: The Indian Journal of Statistics, Series A, 1964, 26(4): 359-372.
+
+WU J, XING X, LIU X, et al. Energy management strategy for grid-tied microgrids considering the energy storage efficiency[J]. IEEE Transactions on Industrial Electronics, 2018, 65(12): 9539-9549. DOI: 10.1109/TIE.2018.2818660.
+
+XU Y, XIE L, SINGH C. Optimal scheduling and operation of load aggregator with electric energy storage in power markets[C]//2010 North American Power Symposium. Arlington, TX: IEEE, 2010: 1-7.
+
+ZHANG X, HUANG C, SHEN J. Energy optimal management of microgrid with high photovoltaic penetration[J]. IEEE Transactions on Industry Applications, 2023, 59(1): 128-137. DOI: 10.1109/TIA.2022.3208885.
+
+ZHANG Y, MENG F, WANG R, et al. A stochastic MPC based approach to integrated energy management in microgrids[J]. Sustainable Cities and Society, 2018, 41: 349-362. DOI: 10.1016/j.scs.2018.05.044.

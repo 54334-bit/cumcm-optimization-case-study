@@ -1,0 +1,14 @@
+{
+ "positional": {
+  "total_emergency_kwh": 0.0,
+  "days_with_shortage": 0,
+  "worst_shortage_kwh": 0.0,
+  "s_end": 6000.0
+ },
+ "label_aligned": {
+  "total_emergency_kwh": 257989.974,
+  "days_with_shortage": 1819,
+  "worst_shortage_kwh": 880.08,
+  "s_end": 6069.61
+ }
+}

@@ -1,0 +1,173 @@
+1. 官方题面、附件与结果模板
+以下文件只能确认存在，无法从 Codex 会话恢复原始二进制：
+CUMCM2026Problems/C题/<官方题面文件>
+CUMCM2026Problems/C题/附件/附件1.xlsx
+CUMCM2026Problems/C题/附件/附件2.xlsx
+CUMCM2026Problems/C题/附件/附件3.xlsx
+CUMCM2026Problems/C题/附件/附件4.xlsx
+CUMCM2026Problems/C题/附件/result1.xlsx
+CUMCM2026Problems/C题/附件/result2.xlsx
+CUMCM2026Problems/C题/附件/result3.xlsx
+CUMCM2026Problems/C题/附件/result4-2.xlsx
+CUMCM2026Problems/C题/附件/result4-3.xlsx
+已知原始大小：
+附件1.xlsx       16,003 字节
+附件2.xlsx      907,128 字节
+附件3.xlsx      293,526 字节
+附件4.xlsx      409,790 字节
+result1.xlsx     13,323 字节
+result2.xlsx     18,397 字节
+result3.xlsx    265,429 字节
+result4-2.xlsx   18,397 字节
+result4-3.xlsx  265,429 字节
+官方题面的具体文件名没有完整保留在现存命令输出中，因此不能可靠猜测。
+2. 项目根目录中的团队支撑材料
+微信图片_20260913131645_13_24.jpg
+一些方法论.txt
+一些项目prompt.txt
+一些易错点.txt
+终局评审.txt
+重构方案.md
+重构方案2.0.md
+AI工具使用声明_规则与实际情况汇总.md
+ai声明.pdf
+Q1-Q3重构方案2.0完整审计报告.md
+其中 TXT、Markdown 文件可能在个别会话中出现过部分内容，但尚未找到可证明“从首字节到末字节完整”的写入记录，所以目前不能作为原件恢复。
+3. 灵敏度分析材料
+当前只恢复了 Q1–Q4 汇总方案。以下原文件仍无法完整恢复：
+灵敏度分析/灵敏度分析2.0_全面审计与修改意见_20260913.md
+灵敏度分析/灵敏度分析2.0.md
+灵敏度分析/灵敏度分析2.2.md
+4. Q1 建模方案
+Q1/Q1_1.3.md
+Q1/Q1_2.2.md
+Q1/Q1_2.3.md
+Q1/Q1_2.4.md
+Q1/Q1_3.1.yaml
+其中 Q1_3.1.yaml 在会话中出现过大量内容，但尚未证明所有段落均未截断，因此不能声称已完整恢复。
+5. Q2 建模方案
+Q2/Q2_3.0.yaml
+Q2/Q2_3.2.yaml
+Q2/Q2_3.3.md
+Q2/Q2_3.3.yaml
+Q2/Q2_重建方案与思路说明.md
+Q2/Q2建模方案_最终plus版.md
+Q2/Q2建模方案（最终版）.md
+6. Q3 建模、审计和真实结果
+Q3/final_audit.py
+Q3/q3_2.0.md
+Q3/q3_2.1.md
+Q3/Q3_3.0.md
+Q3/Q3_3.2.md
+Q3/Q3_problem_plus_更新同步审计与修订建议_20260911.md
+Q3/result3_v2.xlsx
+Q3/result3_v2.xlsx 是最明确的不可恢复二进制文件之一：
+SHA-256:
+39F4C8DFC10AEAC0FD341BF6B2E3FB3115953532521E171C67B1474B378C1EA8
+现存会话只保留了它的读取结果、汇总数值、路径、大小和哈希，没有工作簿二进制载荷。
+7. Q4 建模、冻结口径与审计材料
+Q4/论文写作辅助_Q3_严格基于当前结果_v2.md
+Q4/Q3冻结清单_v0_20260912.md
+Q4/Q3口径冻结_最新.md
+Q4/Q4_2.0_全面审计与修改意见_20260912.md
+Q4/Q4_2.0.md
+Q4/Q4_2.1.md
+Q4/Q4_3.0_终极建模方案.md
+Q4/Q4_3.1.md
+Q4/Q4_3.2_全面审计与修改意见_20260913.md
+Q4/Q4_3.2.md
+Q4/Q4_4.0_完整优化建模方案.md
+Q4/Q4_v6.0_终极建模方案_审计闭环版.md
+8. Q1–Q3 重构过程与最终方案
+q1-q3重构/现有方案_Q1求解与价值层.md
+q1-q3重构/Q1-Q3统一建模审计与优化意见_最终汇总.md
+q1-q3重构/Q1-Q3终极建模方案_FINAL.md
+q1-q3重构/Q1-Q3终极建模方案_v1.0.md
+q1-q3重构/Q1最终方案.md
+q1-q3重构/Q2-Q3路线A重构_静态审计报告_2026-09-12.md
+q1-q3重构/Q2建模方案_路线A同步版_v3.0.md
+q1-q3重构/Q2建模方案_v2.2_对话5.md
+q1-q3重构/Q2建模方案_v2.2_对话5(1).md
+q1-q3重构/Q2交接方案_最终版_对话5(1).md
+q1-q3重构/Q2重构审计_问题修复验证记录_v4.md
+q1-q3重构/Q2重构优化版4.0_最终.md
+q1-q3重构/Q2重构优化版5.0.md
+q1-q3重构/Q3成型方案_7.5_v1.md
+q1-q3重构/Q3成型方案_7.5_v1(1).md
+q1-q3重构/Q3建模方案_路线A重构版_v8.0.md
+q1-q3重构/Q3建模方案_v3.0_最终重构版.md
+q1-q3重构/Q3建模方案.md
+q1-q3重构/Q3重构审计_问题修复验证记录_v2.md
+q1-q3重构/Q3重构审计_问题修复验证记录.md
+q1-q3重构/Q3重构优化版2.0.md
+q1-q3重构/Q3重构优化版3.0_最终.md
+q1-q3重构/result2 - 计划购电量.csv
+9. 论文优化过程文件
+以下文件尚未恢复；不包括已经恢复的最终优化版 TeX、两份验证台账和 Q3 七个代码片段：
+论文优化/附录_主体代码.md
+论文优化/附录_Q3主体代码/附录生成验证报告.md
+论文优化/附录_Q3主体代码/build_appendix.py
+论文优化/附录_Q3主体代码/main.tex
+论文优化/附录_Q3主体代码/README_衔接说明.md
+
+论文优化/论文初稿.tex
+论文优化/论文审查_1.0_问题与建议_20260913.md
+论文优化/论文终版_20260913.tex
+论文优化/论文终稿_Q2及之前全面优化版_20260913.tex
+论文优化/论文tex2.0.tex
+
+论文优化/论文TeX表层格式优化设计_20260913.md
+论文优化/论文TeX表层格式优化实施计划_20260913.md
+论文优化/论文TeX格式问题修复验证台账_20260913.md
+
+论文优化/最后意见/论文改稿_00_逻辑链与骨架.md
+论文优化/最后意见/论文改稿_01_摘要.md
+论文优化/最后意见/论文改稿_02_问题重述与分析.md
+论文优化/最后意见/论文改稿_03_假设与符号.md
+论文优化/最后意见/论文改稿_05_问题一.md
+论文优化/最后意见/论文改稿_07_问题二.md
+
+论文优化/test_compile.tex
+论文优化/verify_paper.py
+以下 PDF 属于过程输出或附录成品，若希望完整保留论文工程，也需要原件：
+论文优化/编译验证/compile_test.pdf
+论文优化/附录_Q3主体代码/微网与外部电网电力调控策略__5_.pdf
+论文优化/附录_Q3主体代码/main.pdf
+论文优化/附录_Q3主体代码/Q3主体代码附录.pdf
+其中部分内容可能被目前的最终论文覆盖，但它们不是字节相同的可替代关系，因此不能冒充恢复。
+10. 原论文引用但缺失的 15 张图件
+当前 paper/main.tex 明确引用以下图件，但源 PNG 已被删除，Codex 会话没有图像载荷：
+figures/fig_paper_route.png
+figures/q1_01_plan_overview.png
+figures/q1_02_soc_price.png
+figures/q1_06_sensitivity.png
+figures/q1_08_value_function.png
+figures/q2_04_cost_structure.png
+figures/q2_10_model_flow.png
+figures/q3_03_rolling_value_voi.png
+figures/q3_05_soc_year.png
+figures/q3_16_rollout_timeline.png
+figures/q4_01_price_caliber.png
+figures/q4_02_plan_heatmap.png
+figures/q4_03_soc_price_7d.png
+figures/q4_05_cf_2x2.png
+figures/q4_06_effect_split.png
+最终 PDF 内虽然包含这些图的渲染结果，但不能保证无损提取后与原始 PNG 字节、分辨率、颜色配置和透明通道一致，因此不能视为原件恢复。
+11. 原设计与实施计划
+当前 GitHub 只保留了重构相关计划，以下早期设计和实施计划尚未恢复：
+docs/superpowers/plans/2026-09-12-q1-q3-ultimate-a-plus.md
+docs/superpowers/plans/2026-09-12-q2-q3-route-a-sync.md
+docs/superpowers/plans/2026-09-12-q4-model-scheme-v3.md
+docs/superpowers/plans/2026-09-13-论文全文一致性与30页压缩实施计划.md
+docs/superpowers/plans/2026-09-13-q3-appendix-tex.md
+
+docs/superpowers/specs/2026-09-12-q1-q3-ultimate-a-plus-design.md
+docs/superpowers/specs/2026-09-12-q2-q3-route-a-sync-design.md
+docs/superpowers/specs/2026-09-13-论文全文一致性与30页压缩设计.md
+docs/superpowers/specs/2026-09-13-q3-appendix-tex-design.md
+12. 文献库
+原项目根目录明确存在：
+文献库/
+但重构前的现存会话没有保存该目录的完整逐文件清单，只保留了对若干条目和一个核验汇总文件的引用。因此目前只能确认该目录整体缺失，不能可靠声称已经枚举了其中每一个文件。
+明确出现过但无法完整恢复的文件至少包括：
+文献库/C题可引用文献汇总_核验版_20260910.txt

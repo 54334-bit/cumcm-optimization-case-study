@@ -1,0 +1,571 @@
+{
+  "group": "q2",
+  "generated_at": "2026-09-13T13:26:18",
+  "figure_dir": "D:\\CMUCU\\6对话\\output\\figures\\q2",
+  "dpi": 300,
+  "formats": [
+    "svg",
+    "png"
+  ],
+  "count": 14,
+  "key_values_source": "q2_data_causal.py（Q2 主口径唯一数据入口：q2_emg_detail.json + result2.xlsx，先验 sha256 再对锚点；图内数值由脚本现算）",
+  "figures": [
+    {
+      "name": "q2_01_day_plan_exec",
+      "purpose": "指定日 2025-06-01 的 Q2「计划—执行」全链：负载/光伏、计划购电 G_plan（全额计费）、紧急购电 H（5p）、充放电与 SOC 轨迹（含上下限）",
+      "data_source": [
+        "D:\\CMUCU\\5对话\\output\\q2_emg_detail.json",
+        "D:\\CMUCU\\5对话\\result2.xlsx",
+        "B对话/clean/attachment2_*.csv",
+        "4对话/code/data_io.py::load_q1_day(附件1 电价)"
+      ],
+      "key_values": {
+        "day": "2025-06-01",
+        "day_index": 120,
+        "n_emg_span": 1,
+        "G_plan_kWh": 68727.1898,
+        "H_kWh": 5480.4364,
+        "C_kWh": 16109.2962,
+        "D_kWh": 13138.9675,
+        "R_PV_kWh": 12.4712,
+        "R_G_kWh": 0.0,
+        "causal_margin": 0.0573,
+        "s0_kWh": 8050.4862,
+        "s1_kWh": 7950.0001,
+        "soc_min_kWh": 1200.0,
+        "soc_max_kWh": 10800.0,
+        "J_plan_yuan": 42448.044,
+        "J_emg_yuan": 37142.3852,
+        "price_min": 0.3713,
+        "price_max": 1.3952
+      },
+      "script": "q2_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q2_01_day_plan_exec.png",
+        "svg": "q2_01_day_plan_exec.svg"
+      }
+    },
+    {
+      "name": "q2_02_emergency_calendar",
+      "purpose": "Q2 全年紧急购电结构：334 天 × 144 区间热力图 + 逐日合计，标注论文表 3 四日期与紧急费前 5 天",
+      "data_source": [
+        "D:\\CMUCU\\5对话\\output\\q2_emg_detail.json",
+        "D:\\CMUCU\\5对话\\result2.xlsx"
+      ],
+      "key_values": {
+        "QH_kWh": 55801.0459,
+        "emg_days": 242,
+        "emg_spans": 375,
+        "max_day_QH_kWh": 5480.4364,
+        "argmax_day": "2025-06-01",
+        "top5_dates": [
+          "2025-06-01",
+          "2025-04-28",
+          "2025-03-02",
+          "2025-06-24",
+          "2025-06-02"
+        ],
+        "top5_share_pct": 35.4332,
+        "table3_dates": [
+          "2025-03-20",
+          "2025-06-21",
+          "2025-09-23",
+          "2025-12-21"
+        ],
+        "table3_spans": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "script": "q2_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q2_02_emergency_calendar.png",
+        "svg": "q2_02_emergency_calendar.svg"
+      }
+    },
+    {
+      "name": "q2_03_paper_table3",
+      "purpose": "论文表 3 的图形化：2025-03-20 / 06-21 / 09-23 / 12-21 四个指定日期的紧急购电段（时间段与段电量，无紧急购电的日期明确标注）",
+      "data_source": [
+        "D:\\CMUCU\\5对话\\output\\q2_emg_detail.json",
+        "D:\\CMUCU\\5对话\\result2.xlsx::紧急购电量(表3 交查)",
+        "5对话/交付说明_Q2_因果裕度非预见.md §2（表3 四日期）"
+      ],
+      "key_values": {
+        "segments": {
+          "2025-03-20": [
+            {
+              "span": "20:30-20:40",
+              "kWh": 157.1948
+            }
+          ],
+          "2025-06-21": [],
+          "2025-09-23": [
+            {
+              "span": "20:30-20:40",
+              "kWh": 26.0742
+            }
+          ],
+          "2025-12-21": []
+        },
+        "span_counts": {
+          "2025-03-20": 1,
+          "2025-06-21": 0,
+          "2025-09-23": 1,
+          "2025-12-21": 0
+        },
+        "kwh_totals": {
+          "2025-03-20": 157.1948,
+          "2025-06-21": 0,
+          "2025-09-23": 26.0742,
+          "2025-12-21": 0
+        },
+        "ledger_span_n": {
+          "2025-03-20": 1,
+          "2025-06-21": 0,
+          "2025-09-23": 1,
+          "2025-12-21": 0
+        },
+        "ledger_kWh": {
+          "2025-03-20": [
+            157.1948
+          ],
+          "2025-06-21": [],
+          "2025-09-23": [
+            26.0742
+          ],
+          "2025-12-21": []
+        },
+        "grand_total_kWh": 183.2691,
+        "caliber": "主口径：0:00 计划（负荷已知、光伏=过去4天均值×(1−因果裕度)）→ 结算用实际，5 倍紧急购电；段=同日连续区间合并"
+      },
+      "script": "q2_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q2_03_paper_table3.png",
+        "svg": "q2_03_paper_table3.svg"
+      }
+    },
+    {
+      "name": "q2_04_cost_structure",
+      "purpose": "Q2 年度费用结构与多口径对照：主口径的 J_plan/J_emg 分解 + 同数据下 ①无裕度 / ②完全信息下界（不可执行）/ ③旧灵敏度（仅对照）/ ④附件1 典型日 / ⑤无储能 的对照，相对值一律以主口径 13,252,341.09 元为基准",
+      "data_source": [
+        "D:\\CMUCU\\Q2交付\\04_证据\\q2_emg_detail.json",
+        "5对话/附录_Q2口径对照.md（对照数字）",
+        "5对话/交付说明_Q2_因果裕度非预见.md §2"
+      ],
+      "key_values": {
+        "J_plan_yuan": 12891818.2448,
+        "J_emg_yuan": 360522.8473,
+        "total_yuan": 13252341.0921,
+        "J_emg_share_pct": 2.7204,
+        "cmp_total_yuan": {
+          "★ 主口径 非预见+因果裕度": 13252341.092093,
+          "① 无裕度 （同预报）": 14178004.0,
+          "② 完全信息 不可执行下界": 12254696.55,
+          "③ 旧灵敏度 （仅对照）": 15238244.28,
+          "④ 附件1 典型日口径": 19043406.75,
+          "⑤ 无储能 （逐区间买缺口）": 16407319.63
+        },
+        "cmp_rel_pct": {
+          "★ 主口径 非预见+因果裕度": 0.0,
+          "① 无裕度 （同预报）": 6.9849,
+          "② 完全信息 不可执行下界": -7.5281,
+          "③ 旧灵敏度 （仅对照）": 14.9853,
+          "④ 附件1 典型日口径": 43.6984,
+          "⑤ 无储能 （逐区间买缺口）": 23.807
+        },
+        "note": "②完全信息下界不可执行（紧急 0、5 倍机制与表3退化）；旧同周4周口径已按队长指令从图中剔除，不再引用"
+      },
+      "script": "q2_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q2_04_cost_structure.png",
+        "svg": "q2_04_cost_structure.svg"
+      }
+    },
+    {
+      "name": "q2_05_soc_year",
+      "purpose": "Q2 全年储能 SOC：日界轨迹 + 时段内范围 + 1200/10800 边界，逐日触顶/触底日历",
+      "data_source": [
+        "D:\\CMUCU\\5对话\\output\\q2_emg_detail.json（s0/s1 + C/D 按 η=0.9 重放时段内轨迹）"
+      ],
+      "key_values": {
+        "n_days": 334,
+        "soc_min_kWh": 1200.0,
+        "soc_max_kWh": 10800.0,
+        "touch_low_days": 183,
+        "touch_high_days": 192,
+        "s0_first_kWh": 6000.0,
+        "s_end_kWh": 7950.0001,
+        "recursion_eta": 0.9,
+        "boundary_closure_max_abs_kWh": 1.39e-05
+      },
+      "script": "q2_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q2_05_soc_year.png",
+        "svg": "q2_05_soc_year.svg"
+      }
+    },
+    {
+      "name": "q2_06_curtail_split",
+      "purpose": "Q2 弃电拆分：弃光伏 R_PV 与弃计划电 R_G 的月度堆叠与年度量级对比（R_G 为已付费未取用，不是售电/反送）",
+      "data_source": [
+        "D:\\CMUCU\\Q2交付\\04_证据\\q2_emg_detail.json"
+      ],
+      "key_values": {
+        "R_PV_kWh": 2112479.5471,
+        "R_G_kWh": 15841.1029,
+        "QG_kWh": 21283432.6217,
+        "R_G_over_QG_pct": 0.074429,
+        "R_G_positive_days": 89,
+        "monthly": {
+          "2025-02": {
+            "R_PV": 93264.433,
+            "R_G": 1564.25
+          },
+          "2025-03": {
+            "R_PV": 175530.208,
+            "R_G": 233.146
+          },
+          "2025-04": {
+            "R_PV": 227078.046,
+            "R_G": 1.01
+          },
+          "2025-05": {
+            "R_PV": 267953.227,
+            "R_G": 0.0
+          },
+          "2025-06": {
+            "R_PV": 160036.629,
+            "R_G": 1133.095
+          },
+          "2025-07": {
+            "R_PV": 217747.597,
+            "R_G": 390.494
+          },
+          "2025-08": {
+            "R_PV": 290803.341,
+            "R_G": 0.0
+          },
+          "2025-09": {
+            "R_PV": 254172.285,
+            "R_G": 95.462
+          },
+          "2025-10": {
+            "R_PV": 228586.762,
+            "R_G": 1065.784
+          },
+          "2025-11": {
+            "R_PV": 114588.817,
+            "R_G": 2202.509
+          },
+          "2025-12": {
+            "R_PV": 82718.203,
+            "R_G": 9155.352
+          }
+        }
+      },
+      "script": "q2_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q2_06_curtail_split.png",
+        "svg": "q2_06_curtail_split.svg"
+      }
+    },
+    {
+      "name": "q2_08_quantile_margin",
+      "purpose": "Q2 分位/报童机制：为何计划光伏要在'过去 4 天均值'上再按因果保守裕度下移 ≈7%（(a) 实测相对预报误差分布与 P20；(b) 冻结台账逐日裕度）",
+      "data_source": [
+        "D:\\CMUCU\\Q2交付\\04_证据\\q2_emg_detail.json（margin 逐日序列）",
+        "B对话/clean/attachment2_pv.csv（相对误差分布）",
+        "5对话/交付说明_Q2_因果裕度非预见.md §1（裕度规则）"
+      ],
+      "key_values": {
+        "err_pct_p05_p20_p50_p80_p95": [
+          -14.8635,
+          -7.2688,
+          -0.1957,
+          7.1006,
+          15.3708
+        ],
+        "err_sample_n": 23971,
+        "margin_mean_pct": 7.1138,
+        "margin_min_pct": 2.55,
+        "margin_max_pct": 10.5,
+        "critical_ratio": 0.8,
+        "margin_quantile": 0.2,
+        "margin_clip": [
+          0.0,
+          0.35
+        ],
+        "repro_note": "本人按文档规则的独立复算与台账均值差 0.15pp、逐日最大差 0.019762（窗口/分位约定差异）；图上裕度一律取台账值，不声称逐日复现"
+      },
+      "script": "q2_fig_B_main.py",
+      "note": "",
+      "files": {
+        "png": "q2_08_quantile_margin.png",
+        "svg": "q2_08_quantile_margin.svg"
+      }
+    },
+    {
+      "name": "q2_07_saa_structure",
+      "purpose": "Q2 两阶段随机规划结构示意：here-and-now 的 0:00 全天计划 + 情景 recourse + 终端价值项；突出「计划层看不到当天实际光伏，只能用可得信息」的主口径特征（概念图，无数值结论）",
+      "data_source": [
+        "5对话/交付说明_Q2_因果裕度非预见.md §0/§1（口径声明）",
+        "6对话/Q2最终裁决与可用数字_对话5到6对话.md（关键数字）"
+      ],
+      "key_values": {
+        "caliber": "非预见 + 因果保守裕度（主口径）",
+        "total_yuan": 13252341.09,
+        "J_plan_yuan": 12891818.24,
+        "J_emg_yuan": 360522.85,
+        "QG_kWh": 21283432.62,
+        "emg_days": 242,
+        "emg_spans": 375,
+        "emg_kWh": 55801.05,
+        "note": "概念示意图：图中数值仅取自交付说明/裁决书的主口径值，不含任何旧口径数字"
+      },
+      "script": "q2_fig_B_concept.py",
+      "note": "",
+      "files": {
+        "png": "q2_07_saa_structure.png",
+        "svg": "q2_07_saa_structure.svg"
+      }
+    },
+    {
+      "name": "q2_10_model_flow",
+      "purpose": "Q2 全流程与双轨验证：数据（附件1 电价 / 附件2 实际）→ 预报构造（过去 4 天均值 × 因果裕度）→ 计划层 → 结算/执行（实际值、5 倍紧急购电）→ 物化 result2.xlsx → 物理轨/经济轨验证（概念图）",
+      "data_source": [
+        "5对话/交付说明_Q2_因果裕度非预见.md §0/§1（口径声明）",
+        "6对话/Q2最终裁决与可用数字_对话5到6对话.md（关键数字）"
+      ],
+      "key_values": {
+        "caliber": "非预见 + 因果保守裕度（主口径）",
+        "total_yuan": 13252341.09,
+        "J_plan_yuan": 12891818.24,
+        "J_emg_yuan": 360522.85,
+        "QG_kWh": 21283432.62,
+        "emg_days": 242,
+        "emg_spans": 375,
+        "emg_kWh": 55801.05,
+        "note": "概念示意图：图中数值仅取自交付说明/裁决书的主口径值，不含任何旧口径数字"
+      },
+      "script": "q2_fig_B_concept.py",
+      "note": "",
+      "files": {
+        "png": "q2_10_model_flow.png",
+        "svg": "q2_10_model_flow.svg"
+      }
+    },
+    {
+      "name": "q2_11_forecast_caliber",
+      "purpose": "Q2 计划口径灵敏度：在相同数据/储能参数/结算规则下，仅改变计划阶段可得信息（预报口径），比较全年费用；含完全信息不可执行下界与题面典型日口径",
+      "data_source": [
+        "Q2交付/04_证据/q2_forecast_scan*.json（9 份扫描）",
+        "6对话/Q2最终裁决与可用数字_对话5到6对话.md §一（★①②④）"
+      ],
+      "key_values": {
+        "② 完全信息下界（不可执行）": 12254696.55,
+        "★ 主口径：过去4天均值×因果裕度": 13252341.09,
+        "SAA K=12 情景（最近12天）": 13677086.41,
+        "SAA K=16 情景（最近16天）": 13853356.17,
+        "① 均值点预报·裕度=0（同对象）": 14178004.0,
+        "最近 7 天均值": 14278065.15,
+        "附件3 0:00 官方预报（Q3 输入）": 15597736.05,
+        "过去 8 天同星期均值": 18397277.21,
+        "④ 附件1 典型日曲线（题面口径）": 19043406.75,
+        "过去 12 天同星期均值": 19577955.63
+      },
+      "script": "q2_fig_C_main.py",
+      "note": "",
+      "files": {
+        "png": "q2_11_forecast_caliber.png",
+        "svg": "q2_11_forecast_caliber.svg"
+      }
+    },
+    {
+      "name": "q2_12_irreducible_cost",
+      "purpose": "Q2 费用三段分解：改用过去 4 天均值口径的收益、加因果保守裕度的收益，以及★与完全信息下界之差（预报误差的不可消除代价，下界不可执行）",
+      "data_source": [
+        "6对话/Q2最终裁决与可用数字_对话5到6对话.md §一",
+        "D:\\CMUCU\\Q2交付\\04_证据\\q2_emg_detail.json"
+      ],
+      "key_values": {
+        "typical_day_yuan": 19043406.75,
+        "no_margin_yuan": 14178004.0,
+        "main_yuan": 13252341.09,
+        "perfect_info_bound_yuan": 12254696.55,
+        "gain_vs_typical_yuan": 4865402.75,
+        "gain_of_margin_yuan": 925662.91,
+        "irreducible_gap_yuan": 997644.54,
+        "irreducible_gap_pct": 7.5281
+      },
+      "script": "q2_fig_C_main.py",
+      "note": "",
+      "files": {
+        "png": "q2_12_irreducible_cost.png",
+        "svg": "q2_12_irreducible_cost.svg"
+      }
+    },
+    {
+      "name": "q2_13_pv_shortfall_vs_emergency",
+      "purpose": "Q2 机制验证：当日'实际低于预报'的光伏缺额越大，当日紧急购电越多（散点 + 十分位分箱均值）",
+      "data_source": [
+        "D:\\CMUCU\\Q2交付\\04_证据\\q2_emg_detail.json",
+        "B对话/clean/attachment2_pv.csv（实际光伏）",
+        "5对话/交付说明_Q2_因果裕度非预见.md §1（预报构造）"
+      ],
+      "key_values": {
+        "n_days": 330,
+        "spearman_rho": 0.4943,
+        "pearson_r": 0.6881,
+        "shortfall_kWh_sum": 612368.7019,
+        "H_kWh_sum": 54749.9365,
+        "bin_x": [
+          128.6,
+          474.7,
+          751.9,
+          1051.7,
+          1299.1,
+          1593.5,
+          2021.1,
+          2419.1,
+          3249.4,
+          5567.6
+        ],
+        "bin_y": [
+          4.17,
+          4.55,
+          23.35,
+          43.73,
+          39.87,
+          47.0,
+          59.85,
+          91.99,
+          155.42,
+          1189.13
+        ]
+      },
+      "script": "q2_fig_C_main.py",
+      "note": "",
+      "files": {
+        "png": "q2_13_pv_shortfall_vs_emergency.png",
+        "svg": "q2_13_pv_shortfall_vs_emergency.svg"
+      }
+    },
+    {
+      "name": "q2_14_emergency_tail",
+      "purpose": "Q2 紧急购电费的尾部集中：Lorenz 型累计曲线 + 最高的 10 天（含前 5/10/17/34/50 天占比）",
+      "data_source": [
+        "D:\\CMUCU\\Q2交付\\04_证据\\q2_emg_detail.json（J_emg_day）"
+      ],
+      "key_values": {
+        "total_yuan": 360522.8473,
+        "n_days": 334,
+        "top_shares_pct": {
+          "5": 35.4332,
+          "10": 51.7812,
+          "17": 65.5515,
+          "34": 81.8464,
+          "50": 89.1094
+        },
+        "top20pct_days_share_pct": 93.5929,
+        "top10_days": [
+          "2025-06-01",
+          "2025-04-28",
+          "2025-03-02",
+          "2025-06-24",
+          "2025-06-02",
+          "2025-08-20",
+          "2025-07-06",
+          "2025-03-03",
+          "2025-04-01",
+          "2025-04-02"
+        ],
+        "top10_J_emg_yuan": [
+          37142.39,
+          31493.38,
+          26832.44,
+          18703.29,
+          13573.19,
+          13537.59,
+          12639.77,
+          12398.98,
+          12009.03,
+          8353.05
+        ]
+      },
+      "script": "q2_fig_C_main.py",
+      "note": "",
+      "files": {
+        "png": "q2_14_emergency_tail.png",
+        "svg": "q2_14_emergency_tail.svg"
+      }
+    },
+    {
+      "name": "q2_09_terminal_lambda",
+      "purpose": "Q2 终端残值 λ 机制图：8 点 λ 扫描的三级台阶（年末放空 1200 / 适中 7950 / 充满 10800），双轴显示费用与年末 SOC，标出本文取值 λ=0.4720；说明费用对终端口径不敏感、紧急形态恒定",
+      "data_source": [
+        "D:\\CMUCU\\Q2交付\\04_证据\\q2_lam_new_caliber.json",
+        "6对话/q2_09_终端口径机制图_数据交付.md"
+      ],
+      "key_values": {
+        "lam_grid": [
+          0.0,
+          0.15,
+          0.3,
+          0.4,
+          0.472,
+          0.55,
+          0.7,
+          0.9
+        ],
+        "total_yuan": [
+          13251225.13,
+          13251225.13,
+          13251225.13,
+          13251225.13,
+          13252341.09,
+          13287931.82,
+          13287931.82,
+          13287931.82
+        ],
+        "s_end_kWh": [
+          1200.0,
+          1200.0,
+          1200.0,
+          1200.0,
+          7950.0,
+          10800.0,
+          10800.0,
+          10800.0
+        ],
+        "lambda_star": 0.472,
+        "lambda_star_total_yuan": 13252341.09,
+        "range_yuan": 36706.69,
+        "range_pct": 0.277,
+        "gap_vs_cheapest_yuan": 1115.96,
+        "gap_vs_cheapest_pct": 0.0084,
+        "emg_days_constant": [
+          242
+        ],
+        "emg_segments_constant": [
+          375
+        ],
+        "note": "λ=0.4720 行逐位复现交付值 13,252,341.09（同源自洽）；旧 09-11 λ 曲线属旧口径，未使用"
+      },
+      "script": "q2_fig_B_main.py",
+      "note": "",
+      "files": {
+        "png": "q2_09_terminal_lambda.png",
+        "svg": "q2_09_terminal_lambda.svg"
+      }
+    }
+  ]
+}

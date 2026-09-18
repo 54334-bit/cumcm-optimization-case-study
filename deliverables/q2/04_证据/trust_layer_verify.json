@@ -1,0 +1,72 @@
+{
+ "L1_hashes": {
+  "att1": {
+   "path": "D:\\CMUCU\\赛题\\C题\\附件\\附件1.xlsx",
+   "sha256": "66b87134f5ecccd68184d3539bb1293e",
+   "bytes": 16003
+  },
+  "att2": {
+   "path": "D:\\CMUCU\\赛题\\C题\\附件\\附件2.xlsx",
+   "sha256": "2e95fd446bfafa0d8c59577b5c2e2ea8",
+   "bytes": 907128
+  },
+  "att3": {
+   "path": "D:\\CMUCU\\赛题\\C题\\附件\\附件3.xlsx",
+   "sha256": "8a61b06c52bd0d639a1cc37c61a7d9f5",
+   "bytes": 293526
+  },
+  "att4": {
+   "path": "D:\\CMUCU\\赛题\\C题\\附件\\附件4.xlsx",
+   "sha256": "20e9c93aeab5e8e21ae4dd15587f9e19",
+   "bytes": 409790
+  },
+  "clean_load": {
+   "path": "D:\\CMUCU\\B对话\\clean\\attachment2_load.csv",
+   "sha256": "f4b88d80a461decb3466053cfd9c44f1",
+   "bytes": 490205
+  },
+  "clean_pv": {
+   "path": "D:\\CMUCU\\B对话\\clean\\attachment2_pv.csv",
+   "sha256": "7f8cc57fde85d1e2caf6095d3ae0cf70",
+   "bytes": 368016
+  },
+  "clean_price": {
+   "path": "D:\\CMUCU\\B对话\\clean\\q1_clean.csv",
+   "sha256": "10891803f3e40be98e0a86fbfa763c04",
+   "bytes": 10844
+  }
+ },
+ "L2_data_equality": {
+  "price_max_abs_diff": 0.0,
+  "load_max_abs_diff": 0.0,
+  "pv_max_abs_diff": 0.0,
+  "shapes": [
+   [
+    144
+   ],
+   [
+    144
+   ],
+   [
+    365,
+    144
+   ],
+   [
+    365,
+    144
+   ]
+  ],
+  "note": "load_all() reads B对话/clean/*.csv；本行证明其与官方附件逐元素一致（kWh/区间）"
+ },
+ "L3_q1_independent": {
+  "my_Q1_cost_yuan": 35126.95,
+  "my_Q1_energy_kWh": 59482.7,
+  "external_cost_yuan": 35126.95,
+  "external_energy_kWh": 59482.7,
+  "cost_abs_diff": 0.0,
+  "energy_abs_diff": 0.0
+ },
+ "L4_q2_recheck": {
+  "error": "[Errno 2] No such file or directory: 'D:\\\\CMUCU\\\\5对话\\\\output\\\\q2_forecast_scan4.json'"
+ }
+}

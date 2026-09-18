@@ -1,0 +1,58 @@
+{
+  "task": "probe_row288_289_dual",
+  "row_index": {
+    "S0": 288,
+    "ST": 289
+  },
+  "row_is": {
+    "S0": "2T (S_0 = s0)",
+    "ST": "2T+1 (S_T = s_t)"
+  },
+  "phase1_J1_star": 35126.94858928963,
+  "eqlin_marginal_available": true,
+  "eqlin_marginal_S0_row288": -0.47544444444444445,
+  "eqlin_marginal_ST_row289": 0.4711111111111111,
+  "central_diff_h_kWh": 1.0,
+  "central_diff_dJ_ds0_row288": -0.47544444444429246,
+  "central_diff_dJ_dsT_row289": 0.4711111111100763,
+  "rel_diff_S0_dual_vs_diff": 3.19678847544074e-13,
+  "rel_diff_ST_dual_vs_diff": 2.1964741346550357e-12,
+  "rel_diff_S0_ok": true,
+  "rel_diff_ST_ok": true,
+  "marginal_value_S0": 0.47544444444429246,
+  "semantics": {
+    "row288_dual_dJ_ds0": "多 1 kWh 初始库存对当天成本的边际影响（负=成本下降）",
+    "row288_marginal_value_S0": "-dJ/ds0，初始库存的边际价值（元/kWh）",
+    "row289_dual_dJ_dsT": "日末多存 1 kWh 的边际成本（影子价格，正）",
+    "pairing_note": "DP 的 V_0(6000) 斜率对应行 288 那一支；行 289 是另一个量"
+  },
+  "h_scan": {
+    "2": {
+      "dJ_ds0": -0.47544444444429246,
+      "dJ_dsT": 0.4711111111118953
+    },
+    "1": {
+      "dJ_ds0": -0.47544444444429246,
+      "dJ_dsT": 0.4711111111100763
+    },
+    "0.5": {
+      "dJ_ds0": -0.4754444444406545,
+      "dJ_dsT": 0.4711111111100763
+    }
+  },
+  "joint_perturbation": {
+    "dJ_dh_scan": {
+      "2": -0.00433333333239716,
+      "1": -0.0043333333342161495,
+      "0.5": -0.004333333330578171
+    },
+    "dual_sum_row288_plus_row289": -0.004333333333333356,
+    "rel_diff_joint_vs_dual_sum": 2.0372165493015892e-10,
+    "joint_equals_dual_sum": true,
+    "semantics": "同时把日初与日末库存目标提高 1 kWh 的单位成本变化（对角导数）"
+  },
+  "p_min": 0.3713,
+  "p_max": 1.3952,
+  "p_min_over_eta_d": 0.41255555555555556,
+  "physical_range_ok_S0": true
+}

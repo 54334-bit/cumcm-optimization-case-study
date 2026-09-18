@@ -1,15 +1,20 @@
-# 数据、题面与官方模板
+# Data boundary
 
-本目录不提供竞赛题面、官方附件、官方结果模板或真实结果工作簿。它们的许可和再分发状态未在本项目中确认，任何使用者须自行从权利人或官方渠道获得许可副本。
+The repository does **not** redistribute the original CUMCM problem statement, the raw official attachments, or the official workbook templates. Obtain those materials from the rights holder or official channel if you need the original sources.
 
-## 本地约定
+## Public processed inputs
 
-将已获许可的文件放在 `data/local/`，该目录已被 `.gitignore` 排除。`raw/`、`processed/` 和 `sample/` 仅保留目录角色，不包含原始材料、派生样本或脱敏不足的数据。
+`processed/` contains the team’s cleaned and aligned CSV/JSON inputs used by the delivery workflow. They are derived from the contest attachments and retain the fields required by the source code:
 
-| 预期本地文件 | 用途 | 公开仓库处理 |
-| --- | --- | --- |
-| 附件 1 工作簿 | Q1 电价/负荷/光伏输入；Q3 审计中的右端点电价 | 不分发；脚本通过 `--price-workbook` 显式接收路径。 |
-| 附件 2–4 工作簿 | Q2–Q4 预测、实测和波动价格输入 | 不分发；仅在取得许可后用于复现。 |
-| 结果模板与真实结果工作簿 | 输出结构与独立核算 | 不分发；仅保留汇总结果和工作簿审计接口。 |
+| File family | Role |
+| --- | --- |
+| `q1_clean.csv`, `q1_image.json` | Representative-day inputs for Q1 |
+| `attachment2_load.csv`, `attachment2_pv.csv` | Aligned 2025 load and PV actuals |
+| `attachment3_clean.csv` | Rolling PV forecast records |
+| `attachment4_clean.csv` | Time-varying electricity prices for Q4 |
 
-源工作流中 Q3 真实结果工作簿的 SHA-256 为 `39F4C8DFC10AEAC0FD341BF6B2E3FB3115953532521E171C67B1474B378C1EA8`，仅用于在持有合法副本时比对，不构成公开获取或再分发授权。
+The checksum file in `processed/manifest.sha256` and the cleaning/audit notes in [docs/data-processing/](../docs/data-processing/) are historical provenance records. They do not grant any right to redistribute the original attachments.
+
+## Local-only material
+
+Put any separately authorized raw files under `data/local/`; the directory is ignored by Git. Scripts must receive local file paths through command-line arguments, relative paths, or environment variables. No script should depend on a personal absolute path.

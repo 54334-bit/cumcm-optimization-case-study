@@ -1,0 +1,150 @@
+{
+  "version": "v2-2026-09-13",
+  "generated_at": "2026-09-13",
+  "producer": "7.6 对话（C 题 Q3 线）",
+  "caliber": "读法 C（p·min(G0,A)+0.5p(G0-A)+1.5p(A-G0)+5p·H）；执行器 v2b；窗口 d=31..364（334 天）",
+  "headline": {
+    "J_cash_yuan": 13120194.06,
+    "prev_v1_J_cash_yuan": 13369682.34,
+    "drop_pct": -1.8661,
+    "sum_H_kWh": 42672.2
+  },
+  "files": [
+    {
+      "path": "01_提交件/result3_v2.xlsx",
+      "bytes": 845915,
+      "sha256": "39f4c8dfc10aeac0fd341bf6b2e3fb3115953532521e171c67b1474b378c1ea8",
+      "status": "valid"
+    },
+    {
+      "path": "01_提交件/作废声明_v0.md",
+      "bytes": 2165,
+      "sha256": "7da0fe9c020b952d82c139975d2b18fc6d154397596b280d112c3e12e3f4bfa7",
+      "status": "valid"
+    },
+    {
+      "path": "02_交付说明与附录/交付说明_Q3_v2.md",
+      "bytes": 3960,
+      "sha256": "47a838d44b770419af3e2d0f964049ecd1aef5cd833dac3613b8f6b6971daaf7",
+      "status": "valid"
+    },
+    {
+      "path": "03_论文素材/论文表1表2表3_四个指定日期_v2.md",
+      "bytes": 6127,
+      "sha256": "b6147ab4526b134ed916a196954007df73d7ef6bd6336afde8d58a08a5b3acd9",
+      "status": "valid"
+    },
+    {
+      "path": "04_证据/_void/result3_VOID_v1.xlsx",
+      "bytes": 849796,
+      "sha256": "9159846fc1d91e5eed23c1cf91c10dedb9c21c1283a82d7b559fe213d54eb9a3",
+      "status": "VOID"
+    },
+    {
+      "path": "04_证据/_void/论文表1表2表3_四个指定日期_VOID_v1.md",
+      "bytes": 4956,
+      "sha256": "387c6ee90b1a1b033b1869dfecb92a763af41ff7f0bed496fc312b21be61629c",
+      "status": "VOID"
+    },
+    {
+      "path": "04_证据/_void/论文表1表2表3_四个指定日期_v2_勘误前.md",
+      "bytes": 4955,
+      "sha256": "7b34ebee4a976a4a5b65907dd93340f68d95ae659cafd202bd4c43de7c1d3256",
+      "status": "VOID"
+    },
+    {
+      "path": "04_证据/勘误_表3漏段_20260913.md",
+      "bytes": 1043,
+      "sha256": "4c6f1d9e6751f04e9db36ec53678b1835ba602482a1f93fa8522d84a580ee8db",
+      "status": "valid"
+    },
+    {
+      "path": "04_证据/组件哈希与环境指纹.md",
+      "bytes": 2276,
+      "sha256": "852250c2fe56a2f08c4f65c3b54422810004fa0f2b685a549edf7ab1e9cc76aa",
+      "status": "valid"
+    },
+    {
+      "path": "05_代码/q76_check_blockfix.py",
+      "bytes": 1395,
+      "sha256": "8bfb9f3276100dfbedd620e7bfa2830ba4ec17bb82cfae69c2a0150e3a02a99f",
+      "status": "valid"
+    },
+    {
+      "path": "05_代码/q76_e4_alignment.py",
+      "bytes": 47761,
+      "sha256": "c06cfdda24f502ef2b63bb1fec1d7bed54b73dd578fb798afe7990a563ef02bd",
+      "status": "valid"
+    },
+    {
+      "path": "05_代码/q76_fill_four_dates.py",
+      "bytes": 3391,
+      "sha256": "d74cd1d3ae2477729cebf0f1d92b36830b44d1bc6a86be2c71ebbf3199403689",
+      "status": "valid"
+    },
+    {
+      "path": "05_代码/q76_gate.py",
+      "bytes": 4130,
+      "sha256": "0b5727545d0241697430c26143e1fc295d5132061bb884a3104c361abb6d6106",
+      "status": "valid"
+    },
+    {
+      "path": "05_代码/q76_jsonl_to_days.py",
+      "bytes": 7704,
+      "sha256": "1a6aa53c5f4be38fc1096d267bd0422a9dced1ac1d866c1aafba80bb58e2432f",
+      "status": "valid"
+    },
+    {
+      "path": "05_代码/q76_materialize.py",
+      "bytes": 8383,
+      "sha256": "7b96668502b7a1aa418701e7298e088c4c0eeeab1d56e182b5be23a9724016c6",
+      "status": "valid"
+    },
+    {
+      "path": "05_代码/q76_scan.py",
+      "bytes": 30122,
+      "sha256": "11fc9f60cf92bf3f03bb0b83c34aa193fe21d33cf3852180885a55e58de6661c",
+      "status": "valid"
+    },
+    {
+      "path": "05_代码/q76_v2b_full.py",
+      "bytes": 44945,
+      "sha256": "c08585d54ab4e6c94b3d7dddaa2fab8eaa436fa20830e5ebc8bb33da0d9f9118",
+      "status": "valid"
+    },
+    {
+      "path": "05_代码/q76_v2b_mini.py",
+      "bytes": 29408,
+      "sha256": "16a3f68ed589ec4404b31e9b8da953a0ee52abb87ee248650760f68f4616c48d",
+      "status": "valid"
+    },
+    {
+      "path": "05_代码/复现说明.md",
+      "bytes": 1623,
+      "sha256": "4b790e1d0cbd3c32687be1dac05c57e20cafa758cfe3a5782390216d5353e528",
+      "status": "valid"
+    }
+  ],
+  "usage_notes": [
+    "禁止 v1/v2 混用：一切对外数字以 v2 的 13,120,194.06 为准，13,369,682.34 仅可出现在作废/对照语境。",
+    "xlsx 字节 sha256 不稳定（同内容重跑会因 zip 容器时间戳变化而变）⇒ 版本标识与验收请按“单元格值 / 逐段真值”比对。",
+    "禁止重跑 q76_v2b_full.py（会覆盖 result3_v2.xlsx）；端到端复现请改到副本路径。",
+    "下游 Q4-3 必须按 v2 整体重跑，不做“只换价格”的简化。"
+  ],
+  "component_hashes": {
+    "executor_q3_exec_v2b.py": "fa1d86f01f6616aa517a87cd9d11a09cc5b000abdf224687739fc0e659d52a00",
+    "mainline_7module_aggregate": "4ddf3879c220a617d2a97876517988a1f5248318792ede0359b4ce18c7e9379f"
+  },
+  "manifest_note": "本 manifest 不包含自身；以下为交付目录内全部文件（含作废件）",
+  "errata": [
+    {
+      "date": "2026-09-13",
+      "file": "03_论文素材/论文表1表2表3_四个指定日期_v2.md",
+      "issue": "表3 仅列每日期第 1 段（未对日期列前向填充）",
+      "fixed_sha256": "b6147ab4526b134ed916a196954007df73d7ef6bd6336afde8d58a08a5b3acd9",
+      "prev_sha256": "7b34ebee4a976a4a5b65907dd93340f68d95ae659cafd202bd4c43de7c1d3256",
+      "errata_record": "04_证据/勘误_表3漏段_20260913.md",
+      "backup": "04_证据/_void/论文表1表2表3_四个指定日期_v2_勘误前.md"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+ "caliber": "A deterministic (known actual L/PV), full-year joint LP",
+ "total_cost": 12230383.646207867,
+ "days": 334,
+ "intervals": 48096,
+ "plan_kwh": 20189815.79785095,
+ "charge_kwh": 6634823.925818312,
+ "discharge_kwh": 5374207.379912833,
+ "curtail_pv_kwh": 990009.7569788066,
+ "shortfall_kwh": 1.0673051331622219e-10,
+ "soc_min": 1200.0,
+ "soc_max": 10800.0,
+ "s_end": 6000.0,
+ "check_supply_slack_min": -2.2737367544323206e-13,
+ "check_soc_resid_max": 1.0231815394945443e-12,
+ "wall_sec": 4.1
+}

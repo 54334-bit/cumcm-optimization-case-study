@@ -1,0 +1,64 @@
+{
+  "group": "paper",
+  "generated_at": "2026-09-13T11:58:00",
+  "figure_dir": "D:\\CMUCU\\6对话\\output\\figures\\paper",
+  "dpi": 300,
+  "formats": [
+    "svg",
+    "png"
+  ],
+  "count": 1,
+  "key_values_source": "各问交付包与证据 JSON 现算（出处逐条见同目录 README_技术路线图.md）",
+  "figures": [
+    {
+      "name": "fig_paper_route",
+      "purpose": "论文摘要配图：本题技术路线（四问同标尺，从典型日最优计划到波动电价决策）",
+      "data_source": [
+        "Q1交付/02_权威数值/论文用_Q1数值总表.md",
+        "Q4交付/04_证据/q4_probe_price_caliber_v2.json",
+        "Q4交付/04_证据/q4_margin_M2_scan.json",
+        "Q3交付/05_图件/q3_figures_manifest.json",
+        "Q4交付/04_证据/q4_counterfactual_2x2.json",
+        "Q4交付/04_证据/q4_q43_2x2.json"
+      ],
+      "key_values": {
+        "q1_day_cost_yuan": 35126.948624416575,
+        "q1_no_storage_upper_yuan": 48052.046590846665,
+        "q1_saving_yuan": 12925.09796643009,
+        "q1_saving_pct": 26.9,
+        "q2_total_yuan": 13252341.092092,
+        "q2_plan_yuan": 12891818.24484,
+        "q2_emg_yuan": 360522.847252,
+        "q3_total_yuan": 13120194.062139,
+        "q3_voi_arms_yuan": [
+          13564151.8394,
+          13446385.0342,
+          13125320.043,
+          13120194.0621
+        ],
+        "q3_voi_saving_yuan": 443957.7773,
+        "q3_voi_saving_pct": 3.273,
+        "q4_2_total_yuan": 13850454.638123,
+        "q4_3_total_yuan": 13727033.657549,
+        "q4_2_price_effect_yuan": 744522.481998,
+        "q4_2_reopt_effect_yuan": -146408.935967,
+        "q4_2_net_yuan": 598113.546031,
+        "q4_2_price_shock_pct": 5.618,
+        "q4_2_reopt_hedge_pct_of_shock": 19.7,
+        "q4_2_net_pct": 4.513,
+        "corr_334d": 0.9801,
+        "lambda_step_range_pct": 0.277,
+        "price_info_value_pct_range": [
+          0.7823,
+          1.0571
+        ]
+      },
+      "script": "paper_route_fig.py",
+      "note": "图内数字逐条可溯源；作废值 13,369,682.34 不得进入本图",
+      "files": {
+        "png": "fig_paper_route.png",
+        "svg": "fig_paper_route.svg"
+      }
+    }
+  ]
+}

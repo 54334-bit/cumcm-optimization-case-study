@@ -1,0 +1,70 @@
+{
+  "scheme": "positional（位置对齐：第2+t行 = 时段 t = [t*10min,(t+1)*10min)）",
+  "supersedes": "q1_label_readback.json（scheme A 标签对齐，已作废）",
+  "source": {
+    "xlsx": "D:\\CMUCU\\3对话\\output\\result1.xlsx",
+    "checkpoint": "D:\\CMUCU\\3对话\\output\\q1_checkpoint.json",
+    "template": "D:\\CMUCU\\赛题\\C题\\附件\\附件5\\result1.xlsx"
+  },
+  "rows_checked": 144,
+  "colA_labels_unchanged": true,
+  "table1_check": [
+    {
+      "label": "10:00-10:10",
+      "excel_row": 62,
+      "template_label_in_colA": "10:10-10:20",
+      "G_index": 60,
+      "value": 0.0,
+      "expected_G": 0.0,
+      "ok": true
+    },
+    {
+      "label": "12:00-12:10",
+      "excel_row": 74,
+      "template_label_in_colA": "12:10-12:20",
+      "G_index": 72,
+      "value": 480.41245,
+      "expected_G": 480.4124499999999,
+      "ok": true
+    },
+    {
+      "label": "14:00-14:10",
+      "excel_row": 86,
+      "template_label_in_colA": "14:10-14:20",
+      "G_index": 84,
+      "value": 0.0,
+      "expected_G": 0.0,
+      "ok": true
+    },
+    {
+      "label": "16:00-16:10",
+      "excel_row": 98,
+      "template_label_in_colA": "16:10-16:20",
+      "G_index": 96,
+      "value": 445.43165,
+      "expected_G": 445.4316500000001,
+      "ok": true
+    },
+    {
+      "label": "18:00-18:10",
+      "excel_row": 110,
+      "template_label_in_colA": "18:10-18:20",
+      "G_index": 108,
+      "value": 531.89405,
+      "expected_G": 531.8940499999999,
+      "ok": true
+    },
+    {
+      "label": "20:00-20:10",
+      "excel_row": 122,
+      "template_label_in_colA": "20:10-20:20",
+      "G_index": 120,
+      "value": 0.0,
+      "expected_G": 0.0,
+      "ok": true
+    }
+  ],
+  "sumG_read": 59482.6989153,
+  "sumG_checkpoint": 59482.698915258756,
+  "errors": []
+}

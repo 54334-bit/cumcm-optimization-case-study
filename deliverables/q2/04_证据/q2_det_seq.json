@@ -1,0 +1,15 @@
+{
+ "caliber": "A: day-by-day decision + SOC physical chain (per GPT 2nd ruling)",
+ "chosen": "last_day_fix_6000",
+ "total": 12254696.552331612,
+ "plan": 12254696.552331612,
+ "emg": 0.0,
+ "qg": 20189815.797850937,
+ "s_end": 6000.0,
+ "lam_star": 0.47226562499999997,
+ "ref_free_end": 12252479.468998278,
+ "ref_last_fix": 12254696.552331612,
+ "ref_lam": 12260949.576455189,
+ "ref_joint_lp": 12230383.646207867,
+ "wall_sec": 20.8
+}

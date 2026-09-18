@@ -1,0 +1,12 @@
+{
+ "attachment1_gate": {
+  "emg_days": 242,
+  "emg_segments": 375,
+  "QH_kWh": 55801.046
+ },
+ "attachment4_main": {
+  "emg_days": 238,
+  "emg_segments": 398,
+  "QH_kWh": 57204.245
+ }
+}

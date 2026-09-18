@@ -1,0 +1,22 @@
+{
+  "task": "materialize_result1_positional",
+  "mapping": "B[r+2] = G[r]  (r=0..143)；第2行=[0:00,0:10)，第145行=[23:50,24:00)",
+  "template": "D:\\CMUCU\\赛题\\C题\\附件\\附件5\\result1.xlsx",
+  "out_xlsx": "D:\\CMUCU\\3对话\\output\\result1.xlsx",
+  "labels_unchanged": true,
+  "rows_written": 144,
+  "first_row_value_G0": 1406.6411,
+  "last_row_value_G143": 574.12098333,
+  "daily_purchase_kWh": 59482.6989153,
+  "daily_cost_yuan": 35126.948624416575,
+  "table1_named_intervals": {
+    "10:00-10:10": 0.0,
+    "12:00-12:10": 480.4124499999999,
+    "14:00-14:10": 0.0,
+    "16:00-16:10": 445.4316500000001,
+    "18:00-18:10": 531.8940499999999,
+    "20:00-20:10": 0.0
+  },
+  "errors": [],
+  "note": "位置对齐口径；全天购电量/购电费为聚合量，不受落位影响，仍以 q1_checkpoint.json 全精度为准。"
+}

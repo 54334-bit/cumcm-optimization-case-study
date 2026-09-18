@@ -1,0 +1,1370 @@
+{
+ "D:\\CMUCU\\7.5对话\\code\\q3_exec_v2b.py": {
+  "size": 21292,
+  "mtime": "2026-09-12 18:40:42",
+  "sha256": "fa1d86f01f6616aa517a87cd9d11a09cc5b000abdf224687739fc0e659d52a00"
+ },
+ "D:\\CMUCU\\7.6对话\\code\\q76_v2b_full.py": {
+  "size": 44945,
+  "mtime": "2026-09-13 00:44:29",
+  "sha256": "c08585d54ab4e6c94b3d7dddaa2fab8eaa436fa20830e5ebc8bb33da0d9f9118"
+ },
+ "D:\\CMUCU\\7.6对话\\code\\q76_materialize.py": {
+  "size": 8383,
+  "mtime": "2026-09-12 23:39:23",
+  "sha256": "7b96668502b7a1aa418701e7298e088c4c0eeeab1d56e182b5be23a9724016c6"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_milp_plan.py": {
+  "size": 5311,
+  "mtime": "2026-09-11 23:19:06",
+  "sha256": "5d475a4222dde276fffdd13dfaaef881fe466bf4bf6381004d53ad05905d0d81"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_v2_micro.py": {
+  "size": 11192,
+  "mtime": "2026-09-11 23:19:17",
+  "sha256": "e3d1c592d0318edc394e8cb96f88abdbfe40820d38ce40f30ffe5d216bfe6581"
+ },
+ "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full.json": {
+  "size": 552241,
+  "mtime": "2026-09-13 00:44:59"
+ },
+ "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_daily.csv": {
+  "size": 153222,
+  "mtime": "2026-09-13 00:44:56",
+  "sha256": "86268a4685121b2c98b4c8b1217ca534c795901f21984c5dd226b3e261e18fef"
+ },
+ "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_e1_seg.jsonl": {
+  "size": 4074350,
+  "mtime": "2026-09-13 00:44:56"
+ },
+ "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_materialize.json": {
+  "size": 2849,
+  "mtime": "2026-09-13 01:17:18",
+  "sha256": "11c54c834e8fee82efb63eb0b97974a847c314a0c595bd345a577e5cacfe29ed"
+ },
+ "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_seg.jsonl": {
+  "size": 3872037,
+  "mtime": "2026-09-13 00:44:56"
+ },
+ "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_solution.json": {
+  "size": 2425896,
+  "mtime": "2026-09-13 01:17:17"
+ },
+ "D:\\CMUCU\\7.6对话\\output\\v2b_full\\result3_v2_candidate.xlsx": {
+  "size": 845915,
+  "mtime": "2026-09-13 01:17:18"
+ },
+ "D:\\CMUCU\\7.6对话\\output\\v2b_full\\_independent_verify.py": {
+  "size": 8351,
+  "mtime": "2026-09-13 01:04:44",
+  "sha256": "145a30d6ccc940a3da07e8ee14bf83ae467ef31c905633797d14f4582a2590ee"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_alpha_final.py": {
+  "size": 4816,
+  "mtime": "2026-09-12 13:17:14",
+  "sha256": "fd7ffc76ab38472d32347e289927140e20d96e1786107560b765bb12430ee1d4"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_billing_ab.py": {
+  "size": 22464,
+  "mtime": "2026-09-12 13:23:51",
+  "sha256": "ac778d802b686b5e4967cd43144bdd8e2c36f4e67a929517fcef404696b925bd"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_data_io.py": {
+  "size": 7958,
+  "mtime": "2026-09-12 12:30:59",
+  "sha256": "909b4f622ffd43c9ce02c2959ea6f3209b472e79e2a347bea3947ad107046d9c"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_demand_quantile.py": {
+  "size": 51381,
+  "mtime": "2026-09-12 19:05:19",
+  "sha256": "731907edf90256158516773bed742bdb45f35adead7044d4941bba6710ce4d91"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_grid75.py": {
+  "size": 4774,
+  "mtime": "2026-09-12 13:17:16",
+  "sha256": "c7da90faef8f85f393ceecf8668cbf883af401a7a37d6286407d415b54e1aa70"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_main.py": {
+  "size": 7736,
+  "mtime": "2026-09-12 13:16:41",
+  "sha256": "ed788ebcde2b67fbcec0a5bd0de422f48c5c127bc85fa8eeca33ff6a4c63e0d8"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_main_v2.py": {
+  "size": 44426,
+  "mtime": "2026-09-12 20:31:51",
+  "sha256": "1ee1606780fa682cb92e8dad6a4010345c845cfdd3ab91968a994041b89e2f63"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_materialize.py": {
+  "size": 22509,
+  "mtime": "2026-09-12 19:03:08",
+  "sha256": "4b7caa678f15444579206dea85bd72357a6258d3390b9083954f4e86891501ff"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_pv_align_verify.py": {
+  "size": 21642,
+  "mtime": "2026-09-12 14:01:06",
+  "sha256": "9a6d0212f162520f2727b515aa6ee4b5186e87c114b6a569334a54ab021de337"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_pv_interp.py": {
+  "size": 36066,
+  "mtime": "2026-09-12 15:51:07",
+  "sha256": "75c715ba8833a1d2025584860707c2a8222dd34ac1919585608f338328e84980"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_pv_margin.py": {
+  "size": 24195,
+  "mtime": "2026-09-12 13:53:28",
+  "sha256": "c8e93492527106b81161db72f268331493e1c8ca842b95e96451583befc5770f"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_pv_margin_v2.py": {
+  "size": 61042,
+  "mtime": "2026-09-12 20:19:05",
+  "sha256": "af7024518ba2a559bf4f3998c1723c90439918d65fb58ce8c719a9b5ca165140"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_pv_margin_v3.py": {
+  "size": 14030,
+  "mtime": "2026-09-12 20:18:08",
+  "sha256": "c47fbecd6b5fb55fc2dacb00c56c3947c1c37c46340d866e531efe8046f4c942"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_roll_variant.py": {
+  "size": 13968,
+  "mtime": "2026-09-12 21:51:07",
+  "sha256": "e8671b58c0b0e5b1463d4d50e82edee0dd5d8953bbc34f6b158014ffca4d2283"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_smoke.py": {
+  "size": 5183,
+  "mtime": "2026-09-12 13:16:44",
+  "sha256": "c090e3b047f5b36c62564f56a52e48e6811179e43b6b669f5c531579db014386"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_solver.py": {
+  "size": 14045,
+  "mtime": "2026-09-12 12:20:30",
+  "sha256": "3fc1fd43f6d71632f8bf9be285bd7536da0a38b1de6c0fd3ddcea5e82904711b"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_solver_billingC.py": {
+  "size": 17623,
+  "mtime": "2026-09-12 13:21:33",
+  "sha256": "e5ff0f76d259f8ae20d72e327ae2ff06acd4cc5d591efda8f6bb317f261699a0"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_solver_risk.py": {
+  "size": 51474,
+  "mtime": "2026-09-12 15:34:39",
+  "sha256": "2fd080ddd9da64d070b669d2063573df42243f2888a8d846e10ad84f2e5cf058"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_tv_variant.py": {
+  "size": 13660,
+  "mtime": "2026-09-12 21:56:43",
+  "sha256": "d56d747fe7082cd426a6953f7d520c7092d4d877283c79efceb82f7d79f10109"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\q3_validator.py": {
+  "size": 28508,
+  "mtime": "2026-09-12 19:02:58",
+  "sha256": "959906fe5d0bc895989abdc6200b74bf3d8fd2c55cbe2b3b2ceab7c45a1da5b6"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_probe_ac_micro.py": {
+  "size": 6002,
+  "mtime": "2026-09-12 14:02:02",
+  "sha256": "8bde94a7bf3287109f09eec54c822158717975496b14710a75dbe0295b22c02c"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_probe_ac_year.py": {
+  "size": 4371,
+  "mtime": "2026-09-12 14:05:45",
+  "sha256": "fe4682d83b7cfe9ab53bc83e982e2e53f5f8f5b2b6bdee6cb34a2bc68780737b"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_probe_ac_year_v2.py": {
+  "size": 3576,
+  "mtime": "2026-09-12 14:53:11",
+  "sha256": "92c413982509b19fe3aae24270eb264495bbf0f56a40942afa65ba4e958211a6"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_probe_anchor.py": {
+  "size": 2634,
+  "mtime": "2026-09-12 15:17:06",
+  "sha256": "b4b69bdcf96d0f3300e605a2a0c88ca401166ff063e871b420705cf00bd4908b"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_probe_anchor_verify.py": {
+  "size": 3698,
+  "mtime": "2026-09-12 15:53:25",
+  "sha256": "63f0cf7f34cfe1a46ee32be78e3740ca7b1741d1ee4bc33cd9eb3b064a5fb77e"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_probe_equiv_check.py": {
+  "size": 3475,
+  "mtime": "2026-09-12 14:52:22",
+  "sha256": "6cdec4b69e13bd4527daed29a08b3c6a813f8d429b2821b72d754e4a87210866"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_probe_first_hour.py": {
+  "size": 2066,
+  "mtime": "2026-09-12 15:17:35",
+  "sha256": "89658e58ad0b9b09e0c13f53e5e7c81e67e363f8ffa2f690b2f3a39a5e987b48"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_probe_pv_align.py": {
+  "size": 3318,
+  "mtime": "2026-09-12 13:53:06",
+  "sha256": "258a5039242ca772a18b8662294d164f736bb661755a76501641153ad6fcab8e"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_probe_tau_align.py": {
+  "size": 1230,
+  "mtime": "2026-09-12 13:52:27",
+  "sha256": "0b7ea6f969eac80a40284fa8a85067fc7bcd453254bfa3362d888916f059f45a"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\exp\\q75_algo_probe.py": {
+  "size": 31729,
+  "mtime": "2026-09-12 21:59:42",
+  "sha256": "59959f73615f8fab8a278170456be1a23e77b84ba8e3016e3cc94d2a45ea3ee2"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\exp\\q75_block_margin.py": {
+  "size": 7472,
+  "mtime": "2026-09-12 14:42:54",
+  "sha256": "7dfeaa4f1581328981f14304fcc0babbda4b77c604527e6d731987ba270a8910"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\exp\\q75_g2_batch.py": {
+  "size": 64824,
+  "mtime": "2026-09-12 20:06:33",
+  "sha256": "825bb0f19c500a8c32b1487fcb268bdd6e9eae7cad38eef60326f7da6d79ff2a"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\exp\\q75_grid_probe.py": {
+  "size": 11537,
+  "mtime": "2026-09-12 19:49:06",
+  "sha256": "9f07930d46eb1da8e20ff3465fb227eb11194f5597523499b20123368ff437a1"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\exp\\q75_margin_policy_probe.py": {
+  "size": 53129,
+  "mtime": "2026-09-12 20:35:09",
+  "sha256": "8756ca7ebe3a99f374897049be105e8b4b88ba32c07040af5c1535b8ed35077b"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\exp\\q75_margin_search.py": {
+  "size": 56901,
+  "mtime": "2026-09-12 14:45:57",
+  "sha256": "f0d8811533258ca261c970d79554875d24692bcb19d43931d24b281d7a80a139"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\exp\\q75_noise_floor_probe.py": {
+  "size": 15625,
+  "mtime": "2026-09-12 20:34:09",
+  "sha256": "75f29646845d7d4ce73df086037e3ef0c1e2a776f9e2c72dffdc87164081338d"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\exp\\q75_o1_probe.py": {
+  "size": 39489,
+  "mtime": "2026-09-12 18:45:00",
+  "sha256": "d7cfea3a6a7cff10a0f7879e82a7db98d26acc99834641e9071d9c01a4cd63ff"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\exp\\q75_o1_recheck.py": {
+  "size": 31174,
+  "mtime": "2026-09-12 19:06:14",
+  "sha256": "a372f2f393cde3354a42b7a6545996b586a851836cd2b6e27a0250dfeea613a0"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\exp\\q75_pit_scan.py": {
+  "size": 10089,
+  "mtime": "2026-09-12 20:40:21",
+  "sha256": "21e926e7794879c9d5ffe9017d966242c93d3f6d2acf253dabc88642452297e9"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\exp\\q75_preflight_s2.py": {
+  "size": 63722,
+  "mtime": "2026-09-12 19:51:10",
+  "sha256": "a24905fb83b75a8eaa1421409e612f850b007b356a7ac416667aa5ce748ca494"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\exp\\q75_repair_manifest.py": {
+  "size": 3157,
+  "mtime": "2026-09-12 21:37:28",
+  "sha256": "490f4a29caba90a628b6c564dca1f7c8bca5c94afbb028796325fb7fa878784a"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\exp\\grids\\e1_q05_boundary.json": {
+  "size": 1382,
+  "mtime": "2026-09-12 21:50:12",
+  "sha256": "aef78f62eb389167747f94022e231306d96bba8f862274a253ac91829cc9f0d6"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_alpha_final.py": {
+  "size": 4816,
+  "mtime": "2026-09-12 13:17:14",
+  "sha256": "fd7ffc76ab38472d32347e289927140e20d96e1786107560b765bb12430ee1d4"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_billing_ab.py": {
+  "size": 22464,
+  "mtime": "2026-09-12 13:23:51",
+  "sha256": "ac778d802b686b5e4967cd43144bdd8e2c36f4e67a929517fcef404696b925bd"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_data_io.py": {
+  "size": 7958,
+  "mtime": "2026-09-12 12:30:59",
+  "sha256": "909b4f622ffd43c9ce02c2959ea6f3209b472e79e2a347bea3947ad107046d9c"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_demand_quantile.py": {
+  "size": 51381,
+  "mtime": "2026-09-12 19:05:19",
+  "sha256": "731907edf90256158516773bed742bdb45f35adead7044d4941bba6710ce4d91"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_exec_v2b.py": {
+  "size": 21292,
+  "mtime": "2026-09-12 18:40:42",
+  "sha256": "fa1d86f01f6616aa517a87cd9d11a09cc5b000abdf224687739fc0e659d52a00"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_grid75.py": {
+  "size": 4774,
+  "mtime": "2026-09-12 13:17:16",
+  "sha256": "c7da90faef8f85f393ceecf8668cbf883af401a7a37d6286407d415b54e1aa70"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_main.py": {
+  "size": 7736,
+  "mtime": "2026-09-12 13:16:41",
+  "sha256": "ed788ebcde2b67fbcec0a5bd0de422f48c5c127bc85fa8eeca33ff6a4c63e0d8"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_main_v2.py": {
+  "size": 38419,
+  "mtime": "2026-09-12 16:37:23",
+  "sha256": "c0c16b659db7999a8e1695ec61023cc4f3649705d1af3ba0cf20292bb0d96d08"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_materialize.py": {
+  "size": 22509,
+  "mtime": "2026-09-12 19:03:08",
+  "sha256": "4b7caa678f15444579206dea85bd72357a6258d3390b9083954f4e86891501ff"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_pv_align_verify.py": {
+  "size": 21642,
+  "mtime": "2026-09-12 14:01:06",
+  "sha256": "9a6d0212f162520f2727b515aa6ee4b5186e87c114b6a569334a54ab021de337"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_pv_interp.py": {
+  "size": 36066,
+  "mtime": "2026-09-12 15:51:07",
+  "sha256": "75c715ba8833a1d2025584860707c2a8222dd34ac1919585608f338328e84980"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_pv_margin.py": {
+  "size": 24195,
+  "mtime": "2026-09-12 13:53:28",
+  "sha256": "c8e93492527106b81161db72f268331493e1c8ca842b95e96451583befc5770f"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_smoke.py": {
+  "size": 5183,
+  "mtime": "2026-09-12 13:16:44",
+  "sha256": "c090e3b047f5b36c62564f56a52e48e6811179e43b6b669f5c531579db014386"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_solver.py": {
+  "size": 14045,
+  "mtime": "2026-09-12 12:20:30",
+  "sha256": "3fc1fd43f6d71632f8bf9be285bd7536da0a38b1de6c0fd3ddcea5e82904711b"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_solver_billingC.py": {
+  "size": 17623,
+  "mtime": "2026-09-12 13:21:33",
+  "sha256": "e5ff0f76d259f8ae20d72e327ae2ff06acd4cc5d591efda8f6bb317f261699a0"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_solver_risk.py": {
+  "size": 51474,
+  "mtime": "2026-09-12 15:34:39",
+  "sha256": "2fd080ddd9da64d070b669d2063573df42243f2888a8d846e10ad84f2e5cf058"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\q3_validator.py": {
+  "size": 28508,
+  "mtime": "2026-09-12 19:02:58",
+  "sha256": "959906fe5d0bc895989abdc6200b74bf3d8fd2c55cbe2b3b2ceab7c45a1da5b6"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\_probe_ac_micro.py": {
+  "size": 6002,
+  "mtime": "2026-09-12 14:02:02",
+  "sha256": "8bde94a7bf3287109f09eec54c822158717975496b14710a75dbe0295b22c02c"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\_probe_ac_year.py": {
+  "size": 4371,
+  "mtime": "2026-09-12 14:05:45",
+  "sha256": "fe4682d83b7cfe9ab53bc83e982e2e53f5f8f5b2b6bdee6cb34a2bc68780737b"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\_probe_ac_year_v2.py": {
+  "size": 3576,
+  "mtime": "2026-09-12 14:53:11",
+  "sha256": "92c413982509b19fe3aae24270eb264495bbf0f56a40942afa65ba4e958211a6"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\_probe_anchor.py": {
+  "size": 2634,
+  "mtime": "2026-09-12 15:17:06",
+  "sha256": "b4b69bdcf96d0f3300e605a2a0c88ca401166ff063e871b420705cf00bd4908b"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\_probe_anchor_verify.py": {
+  "size": 3698,
+  "mtime": "2026-09-12 15:53:25",
+  "sha256": "63f0cf7f34cfe1a46ee32be78e3740ca7b1741d1ee4bc33cd9eb3b064a5fb77e"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\_probe_equiv_check.py": {
+  "size": 3475,
+  "mtime": "2026-09-12 14:52:22",
+  "sha256": "6cdec4b69e13bd4527daed29a08b3c6a813f8d429b2821b72d754e4a87210866"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\_probe_first_hour.py": {
+  "size": 2066,
+  "mtime": "2026-09-12 15:17:35",
+  "sha256": "89658e58ad0b9b09e0c13f53e5e7c81e67e363f8ffa2f690b2f3a39a5e987b48"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\_probe_pv_align.py": {
+  "size": 3318,
+  "mtime": "2026-09-12 13:53:06",
+  "sha256": "258a5039242ca772a18b8662294d164f736bb661755a76501641153ad6fcab8e"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912b\\_probe_tau_align.py": {
+  "size": 1230,
+  "mtime": "2026-09-12 13:52:27",
+  "sha256": "0b7ea6f969eac80a40284fa8a85067fc7bcd453254bfa3362d888916f059f45a"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_alpha_final.py": {
+  "size": 4816,
+  "mtime": "2026-09-12 13:17:14",
+  "sha256": "fd7ffc76ab38472d32347e289927140e20d96e1786107560b765bb12430ee1d4"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_billing_ab.py": {
+  "size": 22464,
+  "mtime": "2026-09-12 13:23:51",
+  "sha256": "ac778d802b686b5e4967cd43144bdd8e2c36f4e67a929517fcef404696b925bd"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_data_io.py": {
+  "size": 7958,
+  "mtime": "2026-09-12 12:30:59",
+  "sha256": "909b4f622ffd43c9ce02c2959ea6f3209b472e79e2a347bea3947ad107046d9c"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_demand_quantile.py": {
+  "size": 51381,
+  "mtime": "2026-09-12 19:05:19",
+  "sha256": "731907edf90256158516773bed742bdb45f35adead7044d4941bba6710ce4d91"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_exec_v2b.py": {
+  "size": 21292,
+  "mtime": "2026-09-12 18:40:42",
+  "sha256": "fa1d86f01f6616aa517a87cd9d11a09cc5b000abdf224687739fc0e659d52a00"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_grid75.py": {
+  "size": 4774,
+  "mtime": "2026-09-12 13:17:16",
+  "sha256": "c7da90faef8f85f393ceecf8668cbf883af401a7a37d6286407d415b54e1aa70"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_main.py": {
+  "size": 7736,
+  "mtime": "2026-09-12 13:16:41",
+  "sha256": "ed788ebcde2b67fbcec0a5bd0de422f48c5c127bc85fa8eeca33ff6a4c63e0d8"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_main_v2.py": {
+  "size": 44426,
+  "mtime": "2026-09-12 20:31:51",
+  "sha256": "1ee1606780fa682cb92e8dad6a4010345c845cfdd3ab91968a994041b89e2f63"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_materialize.py": {
+  "size": 22509,
+  "mtime": "2026-09-12 19:03:08",
+  "sha256": "4b7caa678f15444579206dea85bd72357a6258d3390b9083954f4e86891501ff"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_pv_align_verify.py": {
+  "size": 21642,
+  "mtime": "2026-09-12 14:01:06",
+  "sha256": "9a6d0212f162520f2727b515aa6ee4b5186e87c114b6a569334a54ab021de337"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_pv_interp.py": {
+  "size": 36066,
+  "mtime": "2026-09-12 15:51:07",
+  "sha256": "75c715ba8833a1d2025584860707c2a8222dd34ac1919585608f338328e84980"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_pv_margin.py": {
+  "size": 24195,
+  "mtime": "2026-09-12 13:53:28",
+  "sha256": "c8e93492527106b81161db72f268331493e1c8ca842b95e96451583befc5770f"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_pv_margin_v2.py": {
+  "size": 61042,
+  "mtime": "2026-09-12 20:19:05",
+  "sha256": "af7024518ba2a559bf4f3998c1723c90439918d65fb58ce8c719a9b5ca165140"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_pv_margin_v3.py": {
+  "size": 14030,
+  "mtime": "2026-09-12 20:18:08",
+  "sha256": "c47fbecd6b5fb55fc2dacb00c56c3947c1c37c46340d866e531efe8046f4c942"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_smoke.py": {
+  "size": 5183,
+  "mtime": "2026-09-12 13:16:44",
+  "sha256": "c090e3b047f5b36c62564f56a52e48e6811179e43b6b669f5c531579db014386"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_solver.py": {
+  "size": 14045,
+  "mtime": "2026-09-12 12:20:30",
+  "sha256": "3fc1fd43f6d71632f8bf9be285bd7536da0a38b1de6c0fd3ddcea5e82904711b"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_solver_billingC.py": {
+  "size": 17623,
+  "mtime": "2026-09-12 13:21:33",
+  "sha256": "e5ff0f76d259f8ae20d72e327ae2ff06acd4cc5d591efda8f6bb317f261699a0"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_solver_risk.py": {
+  "size": 51474,
+  "mtime": "2026-09-12 15:34:39",
+  "sha256": "2fd080ddd9da64d070b669d2063573df42243f2888a8d846e10ad84f2e5cf058"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\q3_validator.py": {
+  "size": 28508,
+  "mtime": "2026-09-12 19:02:58",
+  "sha256": "959906fe5d0bc895989abdc6200b74bf3d8fd2c55cbe2b3b2ceab7c45a1da5b6"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\_probe_ac_micro.py": {
+  "size": 6002,
+  "mtime": "2026-09-12 14:02:02",
+  "sha256": "8bde94a7bf3287109f09eec54c822158717975496b14710a75dbe0295b22c02c"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\_probe_ac_year.py": {
+  "size": 4371,
+  "mtime": "2026-09-12 14:05:45",
+  "sha256": "fe4682d83b7cfe9ab53bc83e982e2e53f5f8f5b2b6bdee6cb34a2bc68780737b"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\_probe_ac_year_v2.py": {
+  "size": 3576,
+  "mtime": "2026-09-12 14:53:11",
+  "sha256": "92c413982509b19fe3aae24270eb264495bbf0f56a40942afa65ba4e958211a6"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\_probe_anchor.py": {
+  "size": 2634,
+  "mtime": "2026-09-12 15:17:06",
+  "sha256": "b4b69bdcf96d0f3300e605a2a0c88ca401166ff063e871b420705cf00bd4908b"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\_probe_anchor_verify.py": {
+  "size": 3698,
+  "mtime": "2026-09-12 15:53:25",
+  "sha256": "63f0cf7f34cfe1a46ee32be78e3740ca7b1741d1ee4bc33cd9eb3b064a5fb77e"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\_probe_equiv_check.py": {
+  "size": 3475,
+  "mtime": "2026-09-12 14:52:22",
+  "sha256": "6cdec4b69e13bd4527daed29a08b3c6a813f8d429b2821b72d754e4a87210866"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\_probe_first_hour.py": {
+  "size": 2066,
+  "mtime": "2026-09-12 15:17:35",
+  "sha256": "89658e58ad0b9b09e0c13f53e5e7c81e67e363f8ffa2f690b2f3a39a5e987b48"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\_probe_pv_align.py": {
+  "size": 3318,
+  "mtime": "2026-09-12 13:53:06",
+  "sha256": "258a5039242ca772a18b8662294d164f736bb661755a76501641153ad6fcab8e"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_frozen_20260912c\\_probe_tau_align.py": {
+  "size": 1230,
+  "mtime": "2026-09-12 13:52:27",
+  "sha256": "0b7ea6f969eac80a40284fa8a85067fc7bcd453254bfa3362d888916f059f45a"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_pre_grid_entry\\cmp_grids.py": {
+  "size": 2869,
+  "mtime": "2026-09-12 20:02:55",
+  "sha256": "a21519ac697eb5c5789f33edbceb5d16b5e9201d5f9efa041af7b8b7c84295a0"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_pre_grid_entry\\q75_g2_batch_pre_grid.py": {
+  "size": 33594,
+  "mtime": "2026-09-12 19:32:08",
+  "sha256": "526d9f4579ab9d8f62b6ff5564004766fe3a0b6666e7abc81f7ca6b220c89517"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_pre_grid_entry\\q75_g2_batch_pre_grid_isolated.py": {
+  "size": 33923,
+  "mtime": "2026-09-12 19:56:01",
+  "sha256": "4854e1f6919bf20b3ac567b8d2294382946996bedf1e51f4c20b8a1574f9f55c"
+ },
+ "D:\\CMUCU\\7.5对话\\code\\_pre_grid_entry\\regress_numeric.py": {
+  "size": 4584,
+  "mtime": "2026-09-12 20:03:34",
+  "sha256": "74969e6971fc60bacf2d29f76959cb97bf4497fc4ff46893bb228abd1ee6d7b4"
+ },
+ "D:\\CMUCU\\Q3交付\\manifest.sha256.json": {
+  "size": 2519,
+  "mtime": "2026-09-13 01:09:36",
+  "sha256": "f1adb0281d0934965f9ccde36df33345f945a8e049ea5ba1314f9ae1a754c64c"
+ },
+ "D:\\CMUCU\\Q3交付\\01_提交件\\result3_v2.xlsx": {
+  "size": 845915,
+  "mtime": "2026-09-13 00:44:58"
+ },
+ "D:\\CMUCU\\Q3交付\\01_提交件\\作废声明_v0.md": {
+  "size": 2165,
+  "mtime": "2026-09-13 01:07:41",
+  "sha256": "7da0fe9c020b952d82c139975d2b18fc6d154397596b280d112c3e12e3f4bfa7"
+ },
+ "D:\\CMUCU\\Q3交付\\03_论文素材\\论文表1表2表3_四个指定日期_v2.md": {
+  "size": 4955,
+  "mtime": "2026-09-13 00:51:46",
+  "sha256": "7b34ebee4a976a4a5b65907dd93340f68d95ae659cafd202bd4c43de7c1d3256"
+ },
+ "D:\\CMUCU\\Q3交付\\04_证据\\组件哈希与环境指纹.md": {
+  "size": 2276,
+  "mtime": "2026-09-13 01:07:51",
+  "sha256": "852250c2fe56a2f08c4f65c3b54422810004fa0f2b685a549edf7ab1e9cc76aa"
+ },
+ "D:\\CMUCU\\Q3交付\\04_证据\\_void\\result3_VOID_v1.xlsx": {
+  "size": 849796,
+  "mtime": "2026-09-12 23:39:36"
+ },
+ "D:\\CMUCU\\Q3交付\\04_证据\\_void\\论文表1表2表3_四个指定日期_VOID_v1.md": {
+  "size": 4956,
+  "mtime": "2026-09-13 00:03:39",
+  "sha256": "387c6ee90b1a1b033b1869dfecb92a763af41ff7f0bed496fc312b21be61629c"
+ },
+ "D:\\CMUCU\\赛题\\C题\\附件\\附件5\\result1.xlsx": {
+  "size": 13323,
+  "mtime": "2026-09-10 18:40:22",
+  "sha256": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688"
+ },
+ "D:\\CMUCU\\赛题\\C题\\附件\\附件5\\result2.xlsx": {
+  "size": 18397,
+  "mtime": "2026-09-10 18:40:22",
+  "sha256": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47"
+ },
+ "D:\\CMUCU\\赛题\\C题\\附件\\附件5\\result3.xlsx": {
+  "size": 265429,
+  "mtime": "2026-09-10 18:40:22",
+  "sha256": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc"
+ },
+ "D:\\CMUCU\\赛题\\C题\\附件\\附件5\\result4-2.xlsx": {
+  "size": 18397,
+  "mtime": "2026-09-10 18:40:22",
+  "sha256": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47"
+ },
+ "D:\\CMUCU\\赛题\\C题\\附件\\附件5\\result4-3.xlsx": {
+  "size": 265429,
+  "mtime": "2026-09-10 18:40:22",
+  "sha256": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc"
+ },
+ "D:\\CMUCU\\B对话\\clean\\attachment2_load.csv": {
+  "size": 490205,
+  "mtime": "2026-09-10 23:06:49",
+  "sha256": "f4b88d80a461decb3466053cfd9c44f14716048dd403260539368edcb355d650"
+ },
+ "D:\\CMUCU\\B对话\\clean\\attachment2_pv.csv": {
+  "size": 368016,
+  "mtime": "2026-09-10 23:06:49",
+  "sha256": "7f8cc57fde85d1e2caf6095d3ae0cf7022f4df9e280f0bf81395818976a83208"
+ },
+ "D:\\CMUCU\\B对话\\clean\\attachment3_clean.csv": {
+  "size": 270285,
+  "mtime": "2026-09-10 23:06:49",
+  "sha256": "8ec598735d866670774bd59ad2ffdc1b36b3e2eb70d1c7742cd0c21a56f7d441"
+ },
+ "D:\\CMUCU\\B对话\\clean\\attachment4_clean.csv": {
+  "size": 367560,
+  "mtime": "2026-09-10 23:06:49",
+  "sha256": "675be075bf268d7cdc427045cfd00946893c49bbfa079cb32faeeb1c1e78ef60"
+ },
+ "D:\\CMUCU\\B对话\\clean\\q1_clean.csv": {
+  "size": 10844,
+  "mtime": "2026-09-10 23:06:48",
+  "sha256": "10891803f3e40be98e0a86fbfa763c04fd8a62253e8016b207a8b0ec7d77927d"
+ },
+ "D:\\CMUCU\\B对话\\clean\\q1_image.json": {
+  "size": 462,
+  "mtime": "2026-09-10 23:06:48",
+  "sha256": "920cdbf2da9cf644898f201b6ddd5e9cca1f8b8dc1a51ebebfb4e1eb507b7c17"
+ },
+ "D:\\CMUCU\\5对话\\code\\ask_5.py": {
+  "size": 3439,
+  "mtime": "2026-09-11 18:19:54",
+  "sha256": "eceb37e387f2c9ad60296a6644b2d1f9c424ed014a99afb91e158a46c549030c"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_absorb_light.py": {
+  "size": 2271,
+  "mtime": "2026-09-11 23:18:56",
+  "sha256": "3d8d0e5f6a22ca074a10b938a31d0894a1434ae870d448c0176297ee18dd048e"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_add_bonus_nozip.py": {
+  "size": 1823,
+  "mtime": "2026-09-12 13:41:16",
+  "sha256": "c8601a3d7fb57c71fe3061bf0f11fa5693e9206b4d64a13e80743cdd6c339182"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_add_caliber_banner.py": {
+  "size": 2608,
+  "mtime": "2026-09-12 12:39:06",
+  "sha256": "faf7b765b9e84260317e4300edc9a1d5e794d6cc8212733f5c11385aea872ad9"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_add_limits.py": {
+  "size": 1900,
+  "mtime": "2026-09-11 20:53:58",
+  "sha256": "66cae21da59e49bed7b24e52d6463439fa2c7f21cc81cff84d07325a3f7c491f"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_assemble_delivery.py": {
+  "size": 3869,
+  "mtime": "2026-09-12 13:49:40",
+  "sha256": "349fc48f8d74dbd7c6fb0862af0d8d44483980a4fbb7842f39b2a81c5f1c2a97"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_backfill_v22.py": {
+  "size": 6695,
+  "mtime": "2026-09-11 23:12:01",
+  "sha256": "008f55e1531d292a424b7de40df6f40736437b09c0a0142754ed176495bd9b3b"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_band_trace.py": {
+  "size": 6055,
+  "mtime": "2026-09-12 10:48:26",
+  "sha256": "a61ae0e4856056cabbfc7835c05e98354e038ccbccd3b44fcd4a8493d21b3ff3"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_banner_causal.py": {
+  "size": 1783,
+  "mtime": "2026-09-12 13:24:14",
+  "sha256": "f464199b67352be7aff2c31d5f931b0bb75c115b264ef9234acc80e9d217743b"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_baseline_check.py": {
+  "size": 3927,
+  "mtime": "2026-09-12 12:41:12",
+  "sha256": "8e465d99e4ce24e54de10d91df40ff8512208fd6decc2da680d7bad1cbd733b7"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_bprime.py": {
+  "size": 3991,
+  "mtime": "2026-09-12 12:50:50",
+  "sha256": "6eabcefd280439f54d5d9fe8819854faa0b9edb5aaea8568eb5999b97fec101e"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_closure_scen.py": {
+  "size": 6927,
+  "mtime": "2026-09-11 19:30:15",
+  "sha256": "5670b1c13ec35df469e1e68da9f76af967e988308738d43a5ab5b8677a45479a"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_closure_v3.py": {
+  "size": 6617,
+  "mtime": "2026-09-11 19:31:43",
+  "sha256": "8992689702369d005217dc4dd557dcbce8dd45ebedcf4bf126c7d5cb7737e4ce"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_closure_v4.py": {
+  "size": 7454,
+  "mtime": "2026-09-11 19:39:15",
+  "sha256": "277ed218d699a094a9141d4bdb5ac9d0f7e4dd1c27ddac0158c928a5c5153433"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_closure_v5.py": {
+  "size": 5302,
+  "mtime": "2026-09-11 19:42:40",
+  "sha256": "b4ea17825705690b9ec130f2840d221db9d6d2cb49d686e7d51e15142f4e0846"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_closure_v6.py": {
+  "size": 4287,
+  "mtime": "2026-09-11 19:44:08",
+  "sha256": "64906224822d3463246298c4798760129503352e8ff22e1c301d815028111e35"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_copt_main.py": {
+  "size": 6677,
+  "mtime": "2026-09-11 22:14:44",
+  "sha256": "2f707f56078c96c4223ecbc11453cf5dffcc291dfd0b73b0b44b57fc6cdf6baf"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_copt_plan.py": {
+  "size": 4924,
+  "mtime": "2026-09-11 22:11:12",
+  "sha256": "c418f0f6370821b19b64dcaa55aa5e4aabbc25a72065adb759c47fe760396078"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_copt_wd4.py": {
+  "size": 6700,
+  "mtime": "2026-09-12 00:35:33",
+  "sha256": "265e9b7a866e4e3931122c7109730709e5d769f68a16afe6ebb42fb3156732a2"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_cp1_smoke.py": {
+  "size": 3836,
+  "mtime": "2026-09-11 20:37:51",
+  "sha256": "65605e46abf1a1dffd7f6b31604ae38450f5bd849cdcb209c708ecddcd421e52"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_cp2_main.py": {
+  "size": 5538,
+  "mtime": "2026-09-11 21:04:47",
+  "sha256": "36f52dd14e6d4e5c6663b208f386e13ee39b729c67a9271327051d1a42738ee4"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_cp3_beta.py": {
+  "size": 2600,
+  "mtime": "2026-09-11 20:41:03",
+  "sha256": "ec311839576a51640cab769a673ae3686e0e93c3f1780e2f21e46b8bc6f2d700"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_cp4_materialize.py": {
+  "size": 4656,
+  "mtime": "2026-09-12 12:41:12",
+  "sha256": "3eb7951046875a72b2b2770591bb428ecd602b701f75ae3842e7ef263daae9ad"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_cp5_verify.py": {
+  "size": 8638,
+  "mtime": "2026-09-12 12:41:12",
+  "sha256": "a144428f6aa4e5fd835da7ece31334acc81a4a80b6b2d934a681cfd5c433c6e3"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_cp7_nostorage.py": {
+  "size": 2198,
+  "mtime": "2026-09-11 21:04:23",
+  "sha256": "a1b814378dfad5de2cf959635f68e21cacc8624e3ce21faacad5145c29900e60"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_cp8_mutex.py": {
+  "size": 6704,
+  "mtime": "2026-09-11 21:31:40",
+  "sha256": "9d1824a5f1ef6896794727df588d97b523b9d05bf5bdf1c4e0537e88a5f4ba43"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_cp9_planchoice.py": {
+  "size": 6081,
+  "mtime": "2026-09-11 21:44:51",
+  "sha256": "edd5ea0e0632d6d465317f0c5e6ab52322aaabb75d4515fcfa1f7b0d74004205"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_cpc_band.py": {
+  "size": 3886,
+  "mtime": "2026-09-12 01:55:24",
+  "sha256": "c671a21c021b4972daf88f0b340794bfa72185981080276e3ba2858e7262008d"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_cpf_risk.py": {
+  "size": 3763,
+  "mtime": "2026-09-12 10:01:10",
+  "sha256": "65bfa191a76ff3c0add114d6f21fcbb48e9f91e2928a7d1c4085387faccb3660"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_det_seq.py": {
+  "size": 4269,
+  "mtime": "2026-09-12 12:21:26",
+  "sha256": "07aa4f5ae1b8393b6a024526af7258832a119d6dc9aa13fc717ea6de8e590fcf"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_det_year.py": {
+  "size": 3873,
+  "mtime": "2026-09-12 12:28:54",
+  "sha256": "17528267de63b234e8f6b9a0d80b70bc5915a461fcfe649d49357c14f695d674"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_dp_run.py": {
+  "size": 3710,
+  "mtime": "2026-09-11 22:17:50",
+  "sha256": "b312c2e5ce024587045d1626de6a15a7313ea033d5ddf1ac93b8fa7c18d84541"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_dp_value.py": {
+  "size": 7579,
+  "mtime": "2026-09-11 23:19:46",
+  "sha256": "c9947e9deb977face5548ad7ed338d03630f7d038abd7f87d80d83f77bfb38b3"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_e1_threshold.py": {
+  "size": 3128,
+  "mtime": "2026-09-12 00:36:30",
+  "sha256": "0dbf5d8bbcee956fb339c6356827ad00a1537dc2e5882f02408e26372166004b"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_emg_detail.py": {
+  "size": 5087,
+  "mtime": "2026-09-12 13:17:33",
+  "sha256": "c8a6bf1480bca23f5c70dcd645383013334b525ce14c646079cde47ce4b93a31"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_exec_decomp.py": {
+  "size": 4806,
+  "mtime": "2026-09-11 20:19:17",
+  "sha256": "280511c7749d347330f2046696ac6758af57873380c1c478ae934c876054d8c9"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_extern_check.py": {
+  "size": 8263,
+  "mtime": "2026-09-11 19:24:04",
+  "sha256": "7f989a91cd18ac8ef7b564fa2616f2bb5f28ef7f825156497266a3b21af1091a"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_final_run.py": {
+  "size": 5376,
+  "mtime": "2026-09-11 21:06:14",
+  "sha256": "7716955bc16a77539b13dbe6a4bdbe986ab878812175754db87a06225177b397"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_baseline_and_table3.py": {
+  "size": 5134,
+  "mtime": "2026-09-12 14:21:11",
+  "sha256": "18111eac98d85207f4fed4bf62bddb54a6dc1b099ab836770de7d9645c107fc6"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_baseline_note.py": {
+  "size": 5027,
+  "mtime": "2026-09-12 12:00:46",
+  "sha256": "d85592499079e8cdd4bb5e13d0911bcd020a1da3c28e3786bf62beac4b9a93bf"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_cp2_cp5.py": {
+  "size": 3455,
+  "mtime": "2026-09-11 21:04:47",
+  "sha256": "17acd335ccd5c82d7c93ba88cceb62d7113511701943e17cc38f3602a33fe44e"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_docs_after_R19.py": {
+  "size": 2063,
+  "mtime": "2026-09-12 12:45:54",
+  "sha256": "ee5e9413b342ca11b7c5116607ee3141d9e592f23671b3d9209a93f43eb79457"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_four.py": {
+  "size": 3559,
+  "mtime": "2026-09-12 10:13:27",
+  "sha256": "ed388ada879ea146faf873d9d78c67ecf383ed31a680989483a40fabc672aa70"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_handover_A_remnant.py": {
+  "size": 3794,
+  "mtime": "2026-09-12 18:26:45",
+  "sha256": "e0b1221dba3efe216f660d21d8d3741439dab3f8aec183c07e4d2cdd827e38ee"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_logic_round1.py": {
+  "size": 4859,
+  "mtime": "2026-09-12 18:25:09",
+  "sha256": "26eac0666d6822dfe4b999749fa92b6076901f142624db6f26317c5dc40ce6a6"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_logic_round2.py": {
+  "size": 4805,
+  "mtime": "2026-09-12 18:25:57",
+  "sha256": "a41c72e0c41c2d24b81b6f2918a52eb11c411c379260859ec65ddca7046008cd"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_mapping_B.py": {
+  "size": 1102,
+  "mtime": "2026-09-12 12:41:07",
+  "sha256": "9c659963c110f7f58d216b28ec32a33678e47e6b66b1cf26d553fb3d9a1c6e13"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_nav_caliberA.py": {
+  "size": 6329,
+  "mtime": "2026-09-12 12:38:42",
+  "sha256": "ebb4cbfa63831c5c40064a4fa5aa61be0155b3e4db12cd69d80069fb2183a9d6"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_nomargin_object.py": {
+  "size": 4745,
+  "mtime": "2026-09-12 18:29:26",
+  "sha256": "8badcfff2afc6774c63953cb16ac5073b5fdc62f9931a5b650da1ee4e005a0f5"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_R20_items.py": {
+  "size": 8227,
+  "mtime": "2026-09-12 13:48:05",
+  "sha256": "d8339238b95ca73d73736badd58fda9795cab3733d5e6329559f551cb515e7ba"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_r8.py": {
+  "size": 4057,
+  "mtime": "2026-09-12 10:19:58",
+  "sha256": "45464c2a167ed9722b9d7e75e07d09f24d994e56202a6d5085fce7bb0e1e9517"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_r9.py": {
+  "size": 14030,
+  "mtime": "2026-09-12 10:34:37",
+  "sha256": "4df676061cb1d6d148a2be7574b71e678bc1a62c7f3b3391b4d30e6bcb54d043"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_r9b.py": {
+  "size": 2721,
+  "mtime": "2026-09-12 10:36:03",
+  "sha256": "c678aa21366e1d3ef12d04f18b3b5d2b88dda1acf5dd9e7c5861301c32486ebd"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_r9c.py": {
+  "size": 839,
+  "mtime": "2026-09-12 10:36:34",
+  "sha256": "cb6b6e240b1c70b3ab7f06ab7c743d4183300196f94cec205fd34f7496a9c5ae"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_r9d.py": {
+  "size": 7036,
+  "mtime": "2026-09-12 10:46:39",
+  "sha256": "365aad7327c04b94d7feaa2ccbf430145610d798c900c1a0d3c904b379c1ef0b"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_r9e.py": {
+  "size": 4426,
+  "mtime": "2026-09-12 10:51:39",
+  "sha256": "903e77e4269f0f98584bb17a3078fe205bee1f9a64cc7ee922914c0d06601275"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_r9f.py": {
+  "size": 5016,
+  "mtime": "2026-09-12 10:56:06",
+  "sha256": "b1b0c5a33c2aca9b1277cb6133d9f8108526e95353d360c1562b63541aebabd0"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_r9g.py": {
+  "size": 2164,
+  "mtime": "2026-09-12 10:56:24",
+  "sha256": "6ab25c0c52a7a279ce6abfc3af79a9f304d2fa5f2cabe1c103eddc02356dcf12"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_r9h.py": {
+  "size": 928,
+  "mtime": "2026-09-12 10:56:43",
+  "sha256": "da0d7749e4e16fbbd635c403c1dcde51fceda56672dc27140093aadf549d6244"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_r9i.py": {
+  "size": 2066,
+  "mtime": "2026-09-12 10:59:32",
+  "sha256": "0e17f69f3a02ea9e18fc9304fadcd1a2e1ef42bdae3a4f1586ec8037a7055b18"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_r9j.py": {
+  "size": 992,
+  "mtime": "2026-09-12 10:59:43",
+  "sha256": "ddccebda8b4cbb764cb14ad516f8df4e618426911557e645997539fd52fe4d15"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_r9k.py": {
+  "size": 1857,
+  "mtime": "2026-09-12 11:01:16",
+  "sha256": "9d412441f78c89f087e0403318c82c8756f9b1945486f4a92b2fada03c040d09"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_two.py": {
+  "size": 2699,
+  "mtime": "2026-09-12 10:08:47",
+  "sha256": "ea9d6a1c6500912e8f677d58a04f8af063d6a4ec9048937160f24adad1584940"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_v22.py": {
+  "size": 10254,
+  "mtime": "2026-09-11 20:35:35",
+  "sha256": "9d9a44b29ab730ef90365e02d5eb44e357d5b164aca8b20e3a1693d093baf717"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_v22_b.py": {
+  "size": 4167,
+  "mtime": "2026-09-11 20:52:37",
+  "sha256": "3dc534acdf99dc33d91b324f9ca81ae10f3f0e0c3de7fbbdc53d906d6a024586"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_v22_c.py": {
+  "size": 10151,
+  "mtime": "2026-09-11 21:05:55",
+  "sha256": "15a27247656f235b4d9a428e672e0ac601d57de9b4ad231552972d271d328085"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_fix_v22_d.py": {
+  "size": 3651,
+  "mtime": "2026-09-11 23:12:01",
+  "sha256": "faeacb0f39f5b35f07b65e2da21144ff4aa2e3174d82ad964047d13a710f07e0"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_forecast_scan.py": {
+  "size": 3911,
+  "mtime": "2026-09-12 12:55:14",
+  "sha256": "1d24c2d86cf3fc9070abe299c4a0f9e37ee13a31dd27d6115820c94f8f279363"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_forecast_scan2.py": {
+  "size": 3309,
+  "mtime": "2026-09-12 12:56:10",
+  "sha256": "048752f2a41038d40d9db8d407294c7dc0f74fc748382bcf2154deda44ae408c"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_forecast_scan3.py": {
+  "size": 2606,
+  "mtime": "2026-09-12 13:00:37",
+  "sha256": "fac6252f1e3d60fd8ada598e0ead66f6a19fdd29a8f45e7cc92d772a291f968b"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_forecast_scan4.py": {
+  "size": 3612,
+  "mtime": "2026-09-12 13:06:29",
+  "sha256": "eb94f6f8846a181e621f68260d1cb5c070fda66bd2d0af787205c95bed1752ba"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_forecast_scan5.py": {
+  "size": 2703,
+  "mtime": "2026-09-12 13:09:20",
+  "sha256": "e6a2d6bd8aee3ec4c19987390092187b25c23c2d210ca2842de94165e201697c"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_forecast_scan6.py": {
+  "size": 3487,
+  "mtime": "2026-09-12 13:11:14",
+  "sha256": "5b7e87b23f2a2b80b026fac867ca2b7f8bc7e22f294c7ca4d001e6cc3984b926"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_forecast_scan7.py": {
+  "size": 3233,
+  "mtime": "2026-09-12 13:12:43",
+  "sha256": "10b209cbd61e7a7908f9489476890d765fab195c5f943e83d4a2543b820a8ca7"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_forecast_scan8.py": {
+  "size": 3288,
+  "mtime": "2026-09-12 13:14:18",
+  "sha256": "d7b06602228595118be0e439ffeb853695f7da7bb4377dcf187332b80878c300"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_forecast_scan9.py": {
+  "size": 3576,
+  "mtime": "2026-09-12 13:16:12",
+  "sha256": "578adc32e13280fc3a17327dc0cc30266907a5e3eba13ba70197d975435ee360"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_form2_cmp.py": {
+  "size": 4733,
+  "mtime": "2026-09-11 22:38:44",
+  "sha256": "c669bcfde0fec62d25c5b609b9ae0e8f0849ff3b100691e83fc8dfe4972e3ff2"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_form2_test.py": {
+  "size": 3855,
+  "mtime": "2026-09-11 22:32:53",
+  "sha256": "c9d9361f038209f2151c0a330673cd0a8f7b5fe1a02564e2b140a1e865108dc0"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_four_dates_tables.py": {
+  "size": 3386,
+  "mtime": "2026-09-12 18:28:13",
+  "sha256": "0503e7af40cd66373c6c1d88dc30d949a91187746f01566e5b0dc130372ee6b9"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_jan_cal.py": {
+  "size": 1122,
+  "mtime": "2026-09-11 18:07:23",
+  "sha256": "2a6522da109252174f3d1e8429c9723d4cd3d5e9d668c02910be754e1d1c00ee"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_jan_lam.py": {
+  "size": 3586,
+  "mtime": "2026-09-11 18:45:30",
+  "sha256": "a1ecade0b989dc64eb907fc5bcc0578f4e89d50a2654329cc11ba6a5a744f2d4"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_jobj_close.py": {
+  "size": 2630,
+  "mtime": "2026-09-12 10:04:21",
+  "sha256": "871c3ceeef57092cb326aad8e9cbed36cdd08d152fb3367658ffcfff31fe9b39"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_lam_calib.py": {
+  "size": 9083,
+  "mtime": "2026-09-11 18:11:13",
+  "sha256": "2649679c84fbf27393a15e9e54c73af4ade0ec4aa423cd64bc4680a52cf0ea68"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_lam_cont.py": {
+  "size": 23462,
+  "mtime": "2026-09-11 19:37:52",
+  "sha256": "353844ad11133cf0999f8e706f71d2ff4606de65df8b023a07eb5db2cefef79c"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_lam_cont2.py": {
+  "size": 4290,
+  "mtime": "2026-09-11 19:48:11",
+  "sha256": "699dbd851b40de5b8b7f3e1d7cd1bdfadd5bbc59a23ff1a19f133ec4f6a12393"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_lam_diag.py": {
+  "size": 957,
+  "mtime": "2026-09-11 19:48:55",
+  "sha256": "83744ff88d709cb9609e9155237738e26a168571aa54bf6d134d14c157b8c919"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_lam_fine.py": {
+  "size": 1533,
+  "mtime": "2026-09-11 20:19:35",
+  "sha256": "079c3b79a38f2bec48211774046923064d29c62c0b4c24f70a2f4e4be05a2b4a"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_lam_robustness.py": {
+  "size": 34977,
+  "mtime": "2026-09-12 00:39:43",
+  "sha256": "41e2e72ba929eb2b9c569d946835eea1cdb03b6013b18b57478649f64d4c57ea"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_lam_scan.py": {
+  "size": 3323,
+  "mtime": "2026-09-11 19:49:11",
+  "sha256": "63d1b9493ce555f68e26486ebc96ab71aeec21eb53941d8d672756e6b47ff40e"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_lam_scan_newcaliber.py": {
+  "size": 3608,
+  "mtime": "2026-09-12 14:40:27",
+  "sha256": "9db6fd0fae4e51869dd0d38e45335ba625056b345e0b1ebf0eb8f9daaca530dd"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_load_unknown_arm.py": {
+  "size": 3463,
+  "mtime": "2026-09-12 18:23:15",
+  "sha256": "43293aeb259dd232e643ce241cd380b1efc58f0d3ca89e091b36511b76c5be89"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_lp.py": {
+  "size": 6294,
+  "mtime": "2026-09-11 20:51:58",
+  "sha256": "307723a6d638d9792ec539d6476cfa8b06ebda238d77d743c8b5d0f9de68bb7e"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_lp_physical_audit.py": {
+  "size": 26906,
+  "mtime": "2026-09-12 00:38:11",
+  "sha256": "289f71e070fad70341d3847d7e6daf387607e9f7095d413da4e8fe7ecd27ebdd"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_lp_test.py": {
+  "size": 2096,
+  "mtime": "2026-09-11 19:41:29",
+  "sha256": "8b00da4fb40e49eccdbff1a3bd33bb07dcae3105607cd72d95d4d27c5a6f1d60"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_main_recheck.py": {
+  "size": 3422,
+  "mtime": "2026-09-11 19:45:03",
+  "sha256": "4b9275e5b99bc008528302fa4f190746de50d888c1c2dd9f4f19be98ab739d8f"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_make_v22.py": {
+  "size": 20215,
+  "mtime": "2026-09-11 20:34:02",
+  "sha256": "8a7b3a11ad85a6e39889d695debb901056449cf6b9ab4cf3d98ea4aed3f026ea"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_manifest_r9.py": {
+  "size": 9329,
+  "mtime": "2026-09-12 11:01:31",
+  "sha256": "0bd2c7d2e20c5e26a6d8888fa7a725610250237ce2e7f30a6643f7a5b3eb5de5"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_mapping_discriminate.py": {
+  "size": 2493,
+  "mtime": "2026-09-12 12:42:45",
+  "sha256": "7b7044a9326354c3af3c64ccc2bcc27f2d2773f30b6a867cfbb275cefc420a5b"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_milp_main.py": {
+  "size": 5044,
+  "mtime": "2026-09-11 21:45:40",
+  "sha256": "fc2461d7e7176b76d77d2544503eb09700e6e4778e85d1ed46f2021bfddae768"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_p02_audit.py": {
+  "size": 3294,
+  "mtime": "2026-09-12 00:23:05",
+  "sha256": "3ca3833a2b693448aa2ac7a91d9b2895e2961f72b1d705073c1f03cb3af5017c"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_p1a_text.py": {
+  "size": 5108,
+  "mtime": "2026-09-12 00:28:30",
+  "sha256": "410318ef1e747669fb7dfd323338cf28323cda3e392b87fb1c82924e786014e1"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_p1a_text2.py": {
+  "size": 4456,
+  "mtime": "2026-09-12 00:40:28",
+  "sha256": "fffdc462bb4111712b9198d12b1209f7d1b10b86e41f75caf7c3f9a569163620"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_p1cd_text.py": {
+  "size": 3122,
+  "mtime": "2026-09-12 00:53:02",
+  "sha256": "af704d2dfaca008b48af894850e6ed1040f00c4660cae1dcf685279e88c1fdbb"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_pack.py": {
+  "size": 6281,
+  "mtime": "2026-09-12 12:41:12",
+  "sha256": "3015fa15f05482a61798ce0f7ade4fb8754c04da44f056800fadabd025302966"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_pack_A.py": {
+  "size": 5974,
+  "mtime": "2026-09-12 12:42:56",
+  "sha256": "edf3e3d0d080352809551cbecd456d79916449f014f0109568c8111ab41b7f11"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_pack_causal.py": {
+  "size": 5914,
+  "mtime": "2026-09-12 14:42:08",
+  "sha256": "b4a587e485762d058e6ab1f6f662e26a56bafa6355f4f4e04ed1b17bd593b929"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_patch_ruling.py": {
+  "size": 5208,
+  "mtime": "2026-09-11 20:20:13",
+  "sha256": "5597582fc3541c9807016be9c88ba8cb5d15cdcbf3111be0c44f62f9e37ab3b0"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_patch_ruling2.py": {
+  "size": 4898,
+  "mtime": "2026-09-11 20:24:21",
+  "sha256": "0deb9865b6b01f5e9b124c5fcf42607a6adc5144d26b7115e08f14002bc2894a"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_patch_ruling3.py": {
+  "size": 5327,
+  "mtime": "2026-09-11 20:24:43",
+  "sha256": "9847a2a30cc009b9de993413c64b12debf19c086a333cf1306528e2229ee1180"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_pointwise_audit.py": {
+  "size": 5011,
+  "mtime": "2026-09-12 20:02:23",
+  "sha256": "9388dc951cadd84153fba209dd3595844ac55fb624f223de62ec983907836a14"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_probe_deterministic.py": {
+  "size": 2485,
+  "mtime": "2026-09-12 12:08:45",
+  "sha256": "7f641f27a74f49ed6d1516ccadf5269c6b4a5e50946548f0b2a92af507930617"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_probe_improve.py": {
+  "size": 3673,
+  "mtime": "2026-09-12 11:53:52",
+  "sha256": "4499fa29178fefd36aaa6222f4cec7001f8872a7bff84878281e7f2eca2bebe3"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_probe_mpc.py": {
+  "size": 4314,
+  "mtime": "2026-09-12 12:04:23",
+  "sha256": "3512a13fa2c4a205601ecd076a2e2012c62c777c23aad4b989218aa85b583c72"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_probe_reserve_floor.py": {
+  "size": 2076,
+  "mtime": "2026-09-12 12:03:51",
+  "sha256": "30da5dfc46797cf91131ce239c9a64ee808a27b1977b68a6dbe1ffa1ee4667ad"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_probe_where_is_money.py": {
+  "size": 5749,
+  "mtime": "2026-09-12 12:03:05",
+  "sha256": "921535d22850112f946642fdc3455ccfa5ce653a1ae863190c8f394376fbae74"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_purge_stale.py": {
+  "size": 5704,
+  "mtime": "2026-09-12 13:52:38",
+  "sha256": "55f3edcf8929434c245ae7cfeda46660ef129c3bb1415a1382b0918887db77b5"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_rg_audit.py": {
+  "size": 4410,
+  "mtime": "2026-09-11 19:39:56",
+  "sha256": "7cc127a5fb31aa999af59c04913f680ed1a3a2b0f593c2725fe999096e8403e5"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_rg_audit2.py": {
+  "size": 1755,
+  "mtime": "2026-09-11 19:52:39",
+  "sha256": "f58a58826e6229faec586fb0806d0f9a95e0f71bf955bf310c2180b2ccb6e434"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_s1_final.py": {
+  "size": 5361,
+  "mtime": "2026-09-12 10:00:12",
+  "sha256": "5ed27324b6fecdc9f3239630c8f11862251d28e094c35c3d9cfe8deb684eb290"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_s5_materialize.py": {
+  "size": 5452,
+  "mtime": "2026-09-12 12:41:12",
+  "sha256": "a87835b9ff0a886489deb7546040cb342e96205b0835f60096f344d9ca2d8f68"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_s5_materialize_causal.py": {
+  "size": 3760,
+  "mtime": "2026-09-12 13:22:08",
+  "sha256": "df22e22ba0ebccd2d79dd194fce0f62e816f1ccfd0aa21176924da25cabeb962"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_s5_materialize_det.py": {
+  "size": 3669,
+  "mtime": "2026-09-12 12:37:48",
+  "sha256": "20a6207e503c02530303f16e3fa9d55ff4764ee1f61bebd6e381e77a8c46a081"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_s6_verify.py": {
+  "size": 8668,
+  "mtime": "2026-09-12 12:41:12",
+  "sha256": "29fb0ce86c511d02d5c511b2ebfe4650074299a33c0c1612f39ef7bfe2c09ef6"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_s6_verify_causal.py": {
+  "size": 4162,
+  "mtime": "2026-09-12 13:22:50",
+  "sha256": "d3f4645ae56b06e7fd2eafc6302c128254776fbc6de7a65fd1375003f56e32de"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_s6_verify_det.py": {
+  "size": 3425,
+  "mtime": "2026-09-12 12:37:54",
+  "sha256": "c6261c4c986e58ac1965c2e8b70d697cbc55685ef8045ddba0719bf6f099dc34"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_scenset_lam.py": {
+  "size": 2825,
+  "mtime": "2026-09-12 00:49:49",
+  "sha256": "8b3b0ca1e9fc875326fa6dcf7d66b136d9d508fd58d0b762dee045ff544a3a1a"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_scenset_mech.py": {
+  "size": 38295,
+  "mtime": "2026-09-12 00:58:52",
+  "sha256": "2351173d12bc13d9fc616ae3d921827fbd018ccb0d0a9a522420c2983206b529"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_scenset_oos.py": {
+  "size": 2064,
+  "mtime": "2026-09-12 00:23:23",
+  "sha256": "6688d6570013381a2d3a3de149f3f0dd7c4ffe8457737f78e47f652ea157db16"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_scenset_sweep.py": {
+  "size": 2441,
+  "mtime": "2026-09-12 00:23:23",
+  "sha256": "a6f162ea894445949b66480a3ce5a323ed240a0f2a551f0b332f56e716b989cd"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_scenset_year.py": {
+  "size": 2476,
+  "mtime": "2026-09-12 00:06:07",
+  "sha256": "a72d0c98ecd1dd0c8e61011df566dba48de1791488d1d23409f42d2bd8e96cf7"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_scen_cal.py": {
+  "size": 28034,
+  "mtime": "2026-09-11 19:43:13",
+  "sha256": "4c9cc5952d8e78d768ec97f7fbc1b5c1f5c001e76b4138782b75a284c07d6050"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_sync_causal_docs.py": {
+  "size": 4340,
+  "mtime": "2026-09-12 13:23:50",
+  "sha256": "e526f2c75c8436db3cb15ccb139891053cc0a86a9eabdbf299dcb39d725f864f"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_t1_t5_text.py": {
+  "size": 4681,
+  "mtime": "2026-09-12 09:59:48",
+  "sha256": "68448837f814233c87c51616b3db67e2584d13c040591c806827a43225dcd20d"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_t4_t10.py": {
+  "size": 3892,
+  "mtime": "2026-09-12 10:00:02",
+  "sha256": "39f6d8d43bb015d6faa3b8ed206f1ab5b2a231395ce57b9e7f26211f9c7f6c3f"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_terminal_compare.py": {
+  "size": 1264,
+  "mtime": "2026-09-11 17:59:47",
+  "sha256": "183aa8bd4e34646622f4902f9d73e9c5b67c9e393502a9f129623bc2b0934be2"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_term_delivered.py": {
+  "size": 3080,
+  "mtime": "2026-09-12 10:32:47",
+  "sha256": "af8a874c82af610f964b9aed1e3be7710a3fea9c302c062c5079b1646a0fe5d6"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_trust_layer.py": {
+  "size": 4722,
+  "mtime": "2026-09-12 13:07:39",
+  "sha256": "a0fc881a36b24f3dc41bcca75d670fc03eed54dd53cb9edb378cbb399d8e5c1e"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_v3_analyze.py": {
+  "size": 2828,
+  "mtime": "2026-09-11 19:38:33",
+  "sha256": "31f82046a968d5762493ec1b46634bb3979142962458b19c1496d0822c18a34d"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_v5_count.py": {
+  "size": 914,
+  "mtime": "2026-09-11 19:55:10",
+  "sha256": "24a1c693b7295e6018edd6eb62d4081399c2a114cbcf2d42f1d60950e4e71913"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_v5_gate_probe.py": {
+  "size": 3347,
+  "mtime": "2026-09-12 13:39:07",
+  "sha256": "1d7c4a23d465161d76cfbb36431b053b0a6d75adf75efcbdfc32b352436bc9ec"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_v6_attrib.py": {
+  "size": 2329,
+  "mtime": "2026-09-11 19:44:36",
+  "sha256": "675aa068a8b67fa1cd56c426d9cb2818d5b8610842e271fd9fc2f549b7c826b1"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_xform.py": {
+  "size": 4239,
+  "mtime": "2026-09-11 23:02:01",
+  "sha256": "84a26390f5661637827532067b0f445011761f7c8d50bdb6674a5ef1ad90891f"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_xform2.py": {
+  "size": 4681,
+  "mtime": "2026-09-11 23:11:17",
+  "sha256": "b823294208b3bfda9c6a87453d5170df97feda31b005c947085f08085e31c77c"
+ },
+ "D:\\CMUCU\\5对话\\code\\q2_xform_lib.py": {
+  "size": 2965,
+  "mtime": "2026-09-11 23:02:40",
+  "sha256": "3502437830e6cedc5092a7bae8b11427019419dde52fd955d0421db666f09bc5"
+ }
+}

@@ -1,0 +1,269 @@
+{
+  "package": "Q1交付",
+  "revision": "R-20260912-1",
+  "generated": "2026-09-12",
+  "file_count": 52,
+  "note": "manifest 自身不含在 file_count 内",
+  "files": [
+    {
+      "path": "01_提交文件/result1.xlsx",
+      "bytes": 8755,
+      "sha256": "d7f90410776bfe31767f347328843ac12cc4db9d551db6aae02ebf7173c6cfe2"
+    },
+    {
+      "path": "02_权威数值/q1_checkpoint.json",
+      "bytes": 17780,
+      "sha256": "cdc1beeb6b07daaff1573bb1fe84aea3781acad73877c48fb230a52e33c9f5f3"
+    },
+    {
+      "path": "02_权威数值/q1_label_readback_pos.json",
+      "bytes": 1866,
+      "sha256": "b5255a7408d25fd5f7b049cd45c739b027fdfbeaa05b17d388653fa2ef048528"
+    },
+    {
+      "path": "02_权威数值/q1_materialize_report_pos.json",
+      "bytes": 868,
+      "sha256": "d6b98eed3ce920cb2b131de6db898866f14ac893075630f2712f9ec5aebafee2"
+    },
+    {
+      "path": "02_权威数值/论文用_Q1数值总表.md",
+      "bytes": 6713,
+      "sha256": "60b8d452e72b7b7ff1099073b992826ab4780e445d323556af372cbb628932c9"
+    },
+    {
+      "path": "03_论文图件/3对话价值层图_清单.json",
+      "bytes": 1228,
+      "sha256": "d3f787ef63ff3b0a305b2ec7e3fde088c1b814e387cb06d46519cde499fb67e6"
+    },
+    {
+      "path": "03_论文图件/4对话Q1图件清单.json",
+      "bytes": 6786,
+      "sha256": "a45c013969feeb77b668108bf818bce472993caff58140ceae167a324c8fff4f"
+    },
+    {
+      "path": "03_论文图件/q1_01_plan_overview.png",
+      "bytes": 247115,
+      "sha256": "1356f5eae0d99981e4894e2fc7a1299f335b0f11c85c5cb48411acd8b66aae37"
+    },
+    {
+      "path": "03_论文图件/q1_01_plan_overview.svg",
+      "bytes": 268281,
+      "sha256": "b50bf98f158ed15ddb2c5b3e846b034442cdb75da85c79b91e27110c076bd65e"
+    },
+    {
+      "path": "03_论文图件/q1_02_soc_price.png",
+      "bytes": 237466,
+      "sha256": "4bb54f57c00f3490269da7274ada4bbf563a5fb102fb24c97d1af23b6125b539"
+    },
+    {
+      "path": "03_论文图件/q1_02_soc_price.svg",
+      "bytes": 185914,
+      "sha256": "51b235a72632cc6968afa2ea93086ee258d64eafe4baa07978962e646f06269e"
+    },
+    {
+      "path": "03_论文图件/q1_03_grid_vs_netload.png",
+      "bytes": 230986,
+      "sha256": "2108fcabd11d07187a15fff51f244e7bdfc5f8d104d5cc370cb8ccd352490b13"
+    },
+    {
+      "path": "03_论文图件/q1_03_grid_vs_netload.svg",
+      "bytes": 183250,
+      "sha256": "975dbb111c848eb84d8b4ce2fed188574c488805023a6d45b2b117266e2f20b9"
+    },
+    {
+      "path": "03_论文图件/q1_04_blocks.png",
+      "bytes": 179674,
+      "sha256": "0ff4658322cbec1a5aaa873fe32893afe010fbe0807efdabc7e09543b430d6ac"
+    },
+    {
+      "path": "03_论文图件/q1_04_blocks.svg",
+      "bytes": 112317,
+      "sha256": "7c1f3e803656edc631327eeb839f7787295ea71eb8b820caa90291278a549ba6"
+    },
+    {
+      "path": "03_论文图件/q1_05_cost_compare.png",
+      "bytes": 151204,
+      "sha256": "40d022b93d1009f2086e3216210ad010ac6f33813f007181e6f18927d1b430fe"
+    },
+    {
+      "path": "03_论文图件/q1_05_cost_compare.svg",
+      "bytes": 131184,
+      "sha256": "6f73ce5394436b397012d0cff73887a1736636825cfa305f0f13db83dd86d6d5"
+    },
+    {
+      "path": "03_论文图件/q1_06_sensitivity.png",
+      "bytes": 358031,
+      "sha256": "8a801d0acaafaffe5c5727a48e90aa990aa4d41bd91ada81860b0c1ee0beeba5"
+    },
+    {
+      "path": "03_论文图件/q1_06_sensitivity.svg",
+      "bytes": 383794,
+      "sha256": "356142e132cd6ce66f4231804827c8eb8385f7742affc01b0ea5be82ea5e5079"
+    },
+    {
+      "path": "03_论文图件/q1_07_price_separation.png",
+      "bytes": 155311,
+      "sha256": "59348792c97465bac1b57f8ae9c9bfeaf0eb63b642e861c3bf9ec904b16b1fd1"
+    },
+    {
+      "path": "03_论文图件/q1_07_price_separation.svg",
+      "bytes": 195259,
+      "sha256": "c8b395a72b95c0502dda5a51391a7b51c0408f8b69e585d5108dbb311b36a4e3"
+    },
+    {
+      "path": "03_论文图件/q1_08_value_function.png",
+      "bytes": 238029,
+      "sha256": "d57e53b6a67a46a1560d275c9756a25dbdcb01617105e50dda68180e74c92795"
+    },
+    {
+      "path": "03_论文图件/q1_08_value_function.svg",
+      "bytes": 223797,
+      "sha256": "54de2661b22fd4a8bf7f1aa2807e38dfef19f350a5b1d8784cbc81b6ce593a91"
+    },
+    {
+      "path": "04_计调与灵敏度/code_materialize_result1_pos.py",
+      "bytes": 5764,
+      "sha256": "d6f3dad714acb48eb5ee0b019dc6a2479a4249bca56d25ec536df5dfcc995fda"
+    },
+    {
+      "path": "04_计调与灵敏度/code_q1_common.py",
+      "bytes": 6126,
+      "sha256": "57ec5664a14b52c2b2bde47ec7e66289a19e32250c7527a29c21201c0b345712"
+    },
+    {
+      "path": "04_计调与灵敏度/code_q1_readback_pos.py",
+      "bytes": 2764,
+      "sha256": "e7bd73ccde37c2f42358b9c21b0e344d61ef33d5132bfbda43b8e49b4fbcc87c"
+    },
+    {
+      "path": "04_计调与灵敏度/code_q1_sensitivity.py",
+      "bytes": 23442,
+      "sha256": "9436ce4a0e802426504329683f01140392bc17fd8074f7e94d7e588943aade1c"
+    },
+    {
+      "path": "04_计调与灵敏度/code_q1_solver.py",
+      "bytes": 12189,
+      "sha256": "62a71a2ae7a553ca30ed82b27e62d95d36ccee8519236aaa0cf1efe00ef2510b"
+    },
+    {
+      "path": "04_计调与灵敏度/code_q1_validator.py",
+      "bytes": 4952,
+      "sha256": "cde4935283e75968347d6df25aea038d0fe993add0deae09e447c88ac9ed7355"
+    },
+    {
+      "path": "04_计调与灵敏度/q1_sensitivity_report.json",
+      "bytes": 20028,
+      "sha256": "e0bbf65f4001b14aae41921e0f737c8b89f713b098d4ce6153c48fba92591ad9"
+    },
+    {
+      "path": "05_验证证据/q1_dp_slopes.json",
+      "bytes": 1658,
+      "sha256": "e003b72e1bd32b206542118cf139e5c81db917b67bd3f0b4eca8d9eda4cb8064"
+    },
+    {
+      "path": "05_验证证据/q1_dp_verify.json",
+      "bytes": 6205,
+      "sha256": "afc6b6f6a7bed4aa24cff1e0b732fd838f3a68e8fc8679eb230d5d40afcc3201"
+    },
+    {
+      "path": "05_验证证据/q1_value_curve.json",
+      "bytes": 1054001,
+      "sha256": "ff8ad82f0747d3116c5d1390a63b27fd58c4d2a60806c42b865acbe448b2e283"
+    },
+    {
+      "path": "05_验证证据/q1_value_layer.json",
+      "bytes": 2064,
+      "sha256": "3f5083ab8336b0314c458c46fc2869d3f421063d2e8ae4d832282e38e0de1e58"
+    },
+    {
+      "path": "05_验证证据/q1_value_probe.json",
+      "bytes": 1954,
+      "sha256": "e289617ac4be21fd6848da8e52451fa8247d345bf2b13725e9767866c94bb12b"
+    },
+    {
+      "path": "05_验证证据/数据审计与画像.md",
+      "bytes": 5798,
+      "sha256": "e2c7f84d112bb00569b87dc7dce4d35da068304d17a4d6499f5b7ad5a3640369"
+    },
+    {
+      "path": "05_验证证据/独立复审报告.md",
+      "bytes": 5562,
+      "sha256": "35479731070f318466504b0027d185f545c32b18140d1e9a36d936a01cd60f31"
+    },
+    {
+      "path": "05_验证证据/独立复核_四条证据与影响面.md",
+      "bytes": 16142,
+      "sha256": "4cd96bf071fd2b9144a7be9125237fd3d1c685eb0be135abf5e7a84f9aae56d7"
+    },
+    {
+      "path": "05_验证证据/独立复算_LP对偶与DP配对.md",
+      "bytes": 9737,
+      "sha256": "ff4db4a067bdcfa62f140d2cbac0867151fb9633cfc6b475b49c365756a819d9"
+    },
+    {
+      "path": "05_验证证据/独立复算_位置对齐数值未变.md",
+      "bytes": 5095,
+      "sha256": "a1b3abb37a77d137c29f4d5bec983a4c485b738b182380e5070b190f9570d743"
+    },
+    {
+      "path": "05_验证证据/监工_终局认证PASS.md",
+      "bytes": 5511,
+      "sha256": "4064db6ec652ae6d082e029095193ddd0a47b50e09512227886f4a0c9464833d"
+    },
+    {
+      "path": "06_方法与口径文档/Q1价值层_最终口径.md",
+      "bytes": 10431,
+      "sha256": "dc85df741584d937fda0e9265e5e9807aa71dc935fba8246854270c5c3b1938b"
+    },
+    {
+      "path": "06_方法与口径文档/Q1最终方案.md",
+      "bytes": 10808,
+      "sha256": "d019bb144595956ef1bcf6dbba952711ca9d9b424a091169df4aa3d7f3cdd9ff"
+    },
+    {
+      "path": "06_方法与口径文档/Q1现有方案汇总.md",
+      "bytes": 12860,
+      "sha256": "2286e184b09037e6bd430f8634eaeaf6e67c533e8b3632a34e6d1d556c2968ca"
+    },
+    {
+      "path": "06_方法与口径文档/result1落位口径修订记录_位置对齐.md",
+      "bytes": 8798,
+      "sha256": "ed5e542a35cd38ca3da582a8cfa94ad915a4c80012c03ac88f22f4a21ca49b5b"
+    },
+    {
+      "path": "06_方法与口径文档/交接清单_对话4.md",
+      "bytes": 5556,
+      "sha256": "fb29980e6c9d2e956b7481fb676b75190edfceff087754f5c433e04303aac760"
+    },
+    {
+      "path": "06_方法与口径文档/复核_对话7收口裁定.md",
+      "bytes": 10276,
+      "sha256": "d7ed3486d3ca181ad12615574e10d8420d7d40289aefc70f962e37ed757becb1"
+    },
+    {
+      "path": "06_方法与口径文档/外部共验_请神GPT.txt",
+      "bytes": 5930,
+      "sha256": "c9f83d6724b5a1da294e6f0eec7e99258362667aba7be6cc2518e874d4971128"
+    },
+    {
+      "path": "06_方法与口径文档/外部共验_豆包.txt",
+      "bytes": 975,
+      "sha256": "0aeab509a8ec7c38d4f2677878f550eeab7a8cdaeaeb840cc3f613c1735e6be7"
+    },
+    {
+      "path": "06_方法与口径文档/外部复核_图件.txt",
+      "bytes": 77,
+      "sha256": "faa7c2b074b7fc9da339fd283d3c511eccf3129cb14c59fad5911b6d168037ec"
+    },
+    {
+      "path": "06_方法与口径文档/跨问表1落位一致性_核验与更正.md",
+      "bytes": 4539,
+      "sha256": "8177219f6d1bf53c2bf8907f8b995e2f21a7e517c33b90c0b62576ced6f7d578"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5319,
+      "sha256": "b731ca5a25d93c77fa8219508b08225ac8d84aa76e9bffb23978b1137f349214"
+    }
+  ]
+}

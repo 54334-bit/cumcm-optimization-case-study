@@ -1,0 +1,62 @@
+[
+ {
+  "tag": "K=4 margin 5.0%",
+  "K": 4,
+  "margin": 0.05,
+  "causal_q": null,
+  "total": 13239727.69,
+  "J_emg": 554225.5,
+  "emg_days": 252,
+  "emg_segments": 415,
+  "QG": 20958999.32,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=6 margin 5.0%",
+  "K": 6,
+  "margin": 0.05,
+  "causal_q": null,
+  "total": 13289493.34,
+  "J_emg": 607701.98,
+  "emg_days": 257,
+  "emg_segments": 438,
+  "QG": 20954881.46,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=10 margin 5.0%",
+  "K": 10,
+  "margin": 0.05,
+  "causal_q": null,
+  "total": 13438456.98,
+  "J_emg": 763331.49,
+  "emg_days": 250,
+  "emg_segments": 454,
+  "QG": 20947691.17,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=8 margin 4.5%",
+  "K": 8,
+  "margin": 0.045,
+  "causal_q": null,
+  "total": 13384636.65,
+  "J_emg": 751668.65,
+  "emg_days": 249,
+  "emg_segments": 450,
+  "QG": 20879918.82,
+  "s_end": 7950.0
+ },
+ {
+  "tag": "K=8 margin 5.5%",
+  "K": 8,
+  "margin": 0.055,
+  "causal_q": null,
+  "total": 13319976.89,
+  "J_emg": 592171.6,
+  "emg_days": 246,
+  "emg_segments": 428,
+  "QG": 21030939.85,
+  "s_end": 7950.0
+ }
+]

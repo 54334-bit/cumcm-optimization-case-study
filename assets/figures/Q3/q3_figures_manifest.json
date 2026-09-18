@@ -1,0 +1,454 @@
+{
+  "group": "q3",
+  "generated_at": "2026-09-13T03:20:36",
+  "figure_dir": "D:\\CMUCU\\6对话\\output\\figures\\q3",
+  "dpi": 300,
+  "formats": [
+    "svg",
+    "png"
+  ],
+  "count": 14,
+  "figures": [
+    {
+      "name": "q3_01_day_rollout_chain",
+      "purpose": "Q3 指定日（2025-12-21）四时点滚动全景：计划 G⁰ 与调整后 A、紧急购电 H、充放电与 SOC，竖虚线标出 6/12/18 三个更新时点",
+      "data_source": [
+        "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_seg.jsonl",
+        "D:\\CMUCU\\Q3交付\\01_提交件\\result3_v2.xlsx",
+        "B对话/clean（附件2 负载/光伏）",
+        "6对话/output/q3_voi_v2b/voi_v2b.json（v2b 口径四臂，本线隔离重跑）"
+      ],
+      "key_values": {
+        "day": "2025-12-21",
+        "day_index": 323,
+        "G0_kWh": 96785.5766,
+        "A_kWh": 94515.1821,
+        "H_kWh": 119.0394,
+        "n_adj_segments": 44,
+        "C_kWh": 24777.854,
+        "D_kWh": 20072.5437,
+        "R_PV_kWh": 718.2198,
+        "R_G_kWh": 172.9095,
+        "s0_kWh": 7952.7582,
+        "s1_kWh": 7950.0004,
+        "soc_min_kWh": 1200.0004,
+        "soc_max_kWh": 10800.0,
+        "J_plan_yuan": 60028.1186,
+        "J_adj_yuan": 1586.4365,
+        "J_emg_yuan": 560.5749
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_01_day_rollout_chain.png",
+        "svg": "q3_01_day_rollout_chain.svg"
+      }
+    },
+    {
+      "name": "q3_02_cost_decomposition",
+      "purpose": "Q3 全年费用四段分解（读法 C：计划内 / 取消退款 0.5p / 超额 1.5p / 紧急 5p）＋ 执行器 E1(v1，已作废) → v2b(v2) 的分项对照",
+      "data_source": [
+        "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_seg.jsonl",
+        "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_e1_seg.jsonl",
+        "D:\\CMUCU\\Q3交付\\01_提交件\\result3_v2.xlsx",
+        "B对话/clean（附件1 电价）"
+      ],
+      "key_values": {
+        "v2_J_plan": 12381239.5543,
+        "v2_J_cut": 348179.4501,
+        "v2_J_over": 193872.8485,
+        "v2_J_adj": 542052.2986,
+        "v2_J_emg": 196902.2092,
+        "v2_J_cash": 13120194.0621,
+        "v1_J_plan": 12477070.2731,
+        "v1_J_adj": 514350.184,
+        "v1_J_emg": 378261.8803,
+        "v1_J_cash": 13369682.3374,
+        "v1_sumH_kWh": 95806.0191,
+        "v2_sumH_kWh": 42672.2164,
+        "drop_pct": -1.8661,
+        "note": "v1 = E1 执行器口径，已作废（见 Q3交付\\01_提交件\\作废声明_v0.md），本图仅作对照"
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_02_cost_decomposition.png",
+        "svg": "q3_02_cost_decomposition.svg"
+      }
+    },
+    {
+      "name": "q3_03_rolling_value_voi",
+      "purpose": "Q3 滚动价值（题面第 7 问）：v2b 口径下 0:00-only 与逐次加入 6/12/18 更新的四臂对比，标出每次更新的边际节省与 ΣH 变化",
+      "data_source": [
+        "D:\\CMUCU\\6对话\\output\\q3_voi_v2b\\voi_v2b.json",
+        "6对话/code/q3_voi_v2b_run.py（隔离重跑，只调 run_arm）"
+      ],
+      "key_values": {
+        "arms_epochs": [
+          [
+            0
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            12
+          ],
+          [
+            0,
+            6,
+            12,
+            18
+          ]
+        ],
+        "J_cash_yuan": [
+          13564151.8394,
+          13446385.0342,
+          13125320.043,
+          13120194.0621
+        ],
+        "sumH_kWh": [
+          98295.6007,
+          63465.6045,
+          43615.0349,
+          42672.2164
+        ],
+        "J_plan_yuan": [
+          13076934.0898,
+          12550437.3281,
+          12382148.7771,
+          12381239.5543
+        ],
+        "J_adj_yuan": [
+          0.0,
+          587597.3344,
+          539758.4787,
+          542052.2986
+        ],
+        "J_emg_yuan": [
+          487217.7496,
+          308350.3717,
+          203412.7872,
+          196902.2092
+        ],
+        "marginal_yuan": [
+          -117766.8051,
+          -321064.9913,
+          -5125.9808
+        ],
+        "total_saving_yuan": 443957.7773,
+        "total_saving_pct": 3.273,
+        "self_check_full_arm": {
+          "full_epochs_J_cash": 13120194.062138619,
+          "expected": 13120194.062139,
+          "match": true
+        }
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_03_rolling_value_voi.png",
+        "svg": "q3_03_rolling_value_voi.svg"
+      }
+    },
+    {
+      "name": "q3_04_paper_tables_graph",
+      "purpose": "Q3 论文表 1（6 时段购电量 G⁰/A）、表 2（6 个 4 小时块充放电）、表 3（当日紧急购电全量段）在四个指定日期上的图形化对照",
+      "data_source": [
+        "D:\\CMUCU\\Q3交付\\01_提交件\\result3_v2.xlsx（按单元格值，列映射 col=2+t）",
+        "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_seg.jsonl",
+        "Q3交付/03_论文素材/论文表1表2表3_四个指定日期_v2.md（已勘误）"
+      ],
+      "key_values": {
+        "2025-03-20": {
+          "n": 7,
+          "kWh": 366.3371,
+          "day_G0": 70918.3908,
+          "day_A": 65979.6913,
+          "day_fee": 43711.1967
+        },
+        "2025-06-21": {
+          "n": 2,
+          "kWh": 2.8798,
+          "day_G0": 34499.0573,
+          "day_A": 34173.1028,
+          "day_fee": 18955.1723
+        },
+        "2025-09-23": {
+          "n": 4,
+          "kWh": 49.0544,
+          "day_G0": 73703.1127,
+          "day_A": 67644.4973,
+          "day_fee": 44537.6345
+        },
+        "2025-12-21": {
+          "n": 4,
+          "kWh": 119.0394,
+          "day_G0": 96785.5766,
+          "day_A": 94515.1821,
+          "day_fee": 62175.13
+        }
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_04_paper_tables_graph.png",
+        "svg": "q3_04_paper_tables_graph.svg"
+      }
+    },
+    {
+      "name": "q3_05_soc_year",
+      "purpose": "Q3 全年储能 SOC：日界链与时段内范围、1200/10800 边界、逐日触顶/触底日历（v2b 口径）",
+      "data_source": [
+        "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_seg.jsonl"
+      ],
+      "key_values": {
+        "n_days": 334,
+        "soc_min_kWh": 1200.0,
+        "soc_max_kWh": 10800.0,
+        "touch_low_days": 8,
+        "touch_high_days": 334,
+        "S0_kWh": 6000.0,
+        "S_end_kWh": 7950.0001
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_05_soc_year.png",
+        "svg": "q3_05_soc_year.svg"
+      }
+    },
+    {
+      "name": "q3_06_adj_structure",
+      "purpose": "Q3 计划↔调整结构：逐日削减/超调量与全年时段分布（正=超调、负=削减），说明调整主要发生在哪些时段",
+      "data_source": [
+        "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_seg.jsonl",
+        "D:\\CMUCU\\Q3交付\\01_提交件\\result3_v2.xlsx"
+      ],
+      "key_values": {
+        "sum_cut_kWh": 1092401.3287,
+        "sum_over_kWh": 197704.378,
+        "days_with_cut": 317,
+        "days_with_over": 253,
+        "max_day_cut_kWh": 17807.632,
+        "max_day_over_kWh": 6407.4255
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_06_adj_structure.png",
+        "svg": "q3_06_adj_structure.svg"
+      }
+    },
+    {
+      "name": "q3_07_three_layer_price",
+      "purpose": "Q3 三层价格与紧急购电的决策边界示意（取消退款 0.5p / 计划内 1p / 超出 1.5p / 缺口 5p）",
+      "data_source": [
+        "赛题 C 题问题 3 原文（系数来源）",
+        "Q3交付/manifest.sha256.json（读法 C 公式）"
+      ],
+      "key_values": {
+        "coefficients": {
+          "cancel_refund": 0.5,
+          "in_plan": 1.0,
+          "over_plan": 1.5,
+          "shortfall": 5.0
+        },
+        "note": "纯机制示意，无数值结论"
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_07_three_layer_price.png",
+        "svg": "q3_07_three_layer_price.svg"
+      }
+    },
+    {
+      "name": "q3_08_exec_v2b_mechanism",
+      "purpose": "Q3 执行器 v2b 机制示意（实测与计划冲突时回退计划动作）+ 与 E1 的逐日取用差异（净效应）",
+      "data_source": [
+        "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_seg.jsonl",
+        "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_e1_seg.jsonl",
+        "Q3交付/04_证据/组件哈希与环境指纹.md（执行器 fa1d86f0…）"
+      ],
+      "key_values": {
+        "days_with_diff": 333,
+        "n_days": 334,
+        "sum_dA_kWh": -206935.0007,
+        "sum_dC_kWh": -237582.7859,
+        "sum_dD_kWh": -192442.0566,
+        "note": "E1 为已作废口径，仅作对照"
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_08_exec_v2b_mechanism.png",
+        "svg": "q3_08_exec_v2b_mechanism.svg"
+      }
+    },
+    {
+      "name": "q3_09_qm_parameterization",
+      "purpose": "Q3 计划层 (q, m) 参数化示意：说明 q 与 m 是两根不同的轴、费用差不可归因于方法优劣，并给出论文允许的措辞（标定结果 + 分辨率 + 区间）",
+      "data_source": [
+        "7.5对话/裁定记录_Q3优化方向_四方共验汇总_20260912.md（措辞裁定）",
+        "7.6对话/禁引清单_Q3_20260912.md（禁引规则）"
+      ],
+      "key_values": {
+        "forbidden_phrases": [
+          "q=0.8 最优",
+          "q=0.5 更优",
+          "Q3 比 Q2 改进"
+        ],
+        "note": "纯示意；不含 E1/v1 口径数值"
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_09_qm_parameterization.png",
+        "svg": "q3_09_qm_parameterization.svg"
+      }
+    },
+    {
+      "name": "q3_10_settlement_readings",
+      "purpose": "Q3 结算读法 A（按计划量全额）与 C（本文交付：退款 0.5p / 超出 1.5p）的差异示意，并强调结论须写成读法条件结论",
+      "data_source": [
+        "7.5对话/裁定记录_Q75_结算读法_三方共验.md",
+        "Q3交付/manifest.sha256.json（读法 C 公式）"
+      ],
+      "key_values": {
+        "readings": [
+          "A: p·G0",
+          "C: p·min+0.5p退款+1.5p超出"
+        ],
+        "note": "纯示意；A/C 金额对照为 E1 口径，未用于本图"
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_10_settlement_readings.png",
+        "svg": "q3_10_settlement_readings.svg"
+      }
+    },
+    {
+      "name": "q3_12_emergency_tail",
+      "purpose": "Q3 紧急购电（费/量）的尾部集中：Lorenz 型累计曲线 + 最高的 10 天，说明尾部的量级与集中度（v2b 口径）",
+      "data_source": [
+        "D:\\CMUCU\\7.6对话\\output\\v2b_full\\q76_v2b_full_seg.jsonl",
+        "D:\\CMUCU\\Q3交付\\01_提交件\\result3_v2.xlsx"
+      ],
+      "key_values": {
+        "total_J_emg_yuan": 196902.2092,
+        "total_QH_kWh": 42672.2164,
+        "top_shares_pct": {
+          "5": 8.1693,
+          "10": 14.4532,
+          "17": 21.2314,
+          "34": 34.1294
+        },
+        "top20pct_days_share_pct": 52.2861,
+        "top10_days": [
+          "2025-10-12",
+          "2025-02-16",
+          "2025-06-22",
+          "2025-07-15",
+          "2025-05-04",
+          "2025-06-16",
+          "2025-02-12",
+          "2025-09-29",
+          "2025-12-01",
+          "2025-03-30"
+        ],
+        "top10_J_emg_yuan": [
+          3345.81,
+          3340.01,
+          3310.94,
+          3290.05,
+          2798.64,
+          2677.02,
+          2604.67,
+          2516.68,
+          2342.07,
+          2232.73
+        ]
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_12_emergency_tail.png",
+        "svg": "q3_12_emergency_tail.svg"
+      }
+    },
+    {
+      "name": "q3_14_limits_disclosure",
+      "purpose": "Q3 必须披露的限度汇总：版本口径、哈希稳定性、R_G 非交付列、A/C 读法张力、(q,m) 措辞、预报规则、敏感性口径",
+      "data_source": [
+        "Q3交付/01_提交件/作废声明_v0.md",
+        "Q3交付/manifest.sha256.json",
+        "Q3交付/04_证据/组件哈希与环境指纹.md",
+        "7.5对话/裁定记录_Q3优化方向_四方共验汇总_20260912.md",
+        "7.6对话/禁引清单_Q3_20260912.md"
+      ],
+      "key_values": {
+        "n_items": 7,
+        "v2_J_cash_yuan": 13120194.06,
+        "v1_J_cash_yuan": 13369682.34
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_14_limits_disclosure.png",
+        "svg": "q3_14_limits_disclosure.svg"
+      }
+    },
+    {
+      "name": "q3_15_flow",
+      "purpose": "Q3 全流程示意：数据 → 预报构造 → 计划层 → 调整层 → 执行器 v2b → 物化与双轨验证",
+      "data_source": [
+        "Q3交付/manifest.sha256.json（口径）",
+        "Q3交付/04_证据/组件哈希与环境指纹.md"
+      ],
+      "key_values": {
+        "stages": [
+          "数据",
+          "预报构造",
+          "计划层",
+          "调整层",
+          "执行器 v2b",
+          "物化与验证"
+        ],
+        "note": "概念示意"
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_15_flow.png",
+        "svg": "q3_15_flow.svg"
+      }
+    },
+    {
+      "name": "q3_16_rollout_timeline",
+      "purpose": "Q3 决策时序示意：0:00 计划 + 6/12/18 三个更新时点，且每次更新不得回溯修改此前已执行部分",
+      "data_source": [
+        "赛题 C 题问题 3 原文（0/6/12/18 预报时刻）"
+      ],
+      "key_values": {
+        "update_hours": [
+          0,
+          6,
+          12,
+          18
+        ],
+        "note": "概念示意"
+      },
+      "script": "q3_fig_A_main.py",
+      "note": "",
+      "files": {
+        "png": "q3_16_rollout_timeline.png",
+        "svg": "q3_16_rollout_timeline.svg"
+      }
+    }
+  ]
+}

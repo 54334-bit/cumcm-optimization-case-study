@@ -4,4 +4,4 @@ Copyright 2026 项目贡献者
 
 本仓库中明确标为原创的代码和文档依据 Apache License 2.0 许可。
 仓库发布的 `paper/final-paper.pdf` 是本案例的最终论文成品，按同一项目许可提供；其中引用的第三方事实、名称和材料仍归各自权利人所有。
-该声明不授予对竞赛题面、官方附件、官方模板、真实结果工作簿、第三方论文、字体、二进制程序或外部服务的任何权利。相关材料未随本仓库分发；其来源和边界见 THIRD_PARTY_NOTICES.md、data/README.md 与 references/SOURCES.md。
+本仓库的五个 `submissions/*.xlsx` 为本队自行发布的交付成果；它们不是官方模板，也不改变官方材料的权利归属。该声明不授予对竞赛题面、官方附件、官方模板、第三方论文、字体、二进制程序或外部服务的任何权利。相关来源和边界见 THIRD_PARTY_NOTICES.md、data/README.md 与 references/SOURCES.md。

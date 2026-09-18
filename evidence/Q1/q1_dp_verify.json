@@ -1,0 +1,213 @@
+{
+  "task": "dp_verify_pairing",
+  "authority": {
+    "J1_star": {
+      "value": 35126.94858928963,
+      "source": "3对话/output/q1_checkpoint.json"
+    },
+    "row288_marginal_value": {
+      "value": 0.47544444444429246,
+      "source": "3对话/output/q1_value_probe.json"
+    },
+    "row289_shadow_price": {
+      "value": 0.4711111111111111,
+      "source": "3对话/output/q1_value_probe.json"
+    }
+  },
+  "dp_object": "V_0(s)：初始状态 s 的全天最优成本",
+  "pairing_conclusion": "DP 在 s=6000 的斜率 dV_0/ds 对应 LP 行 288（S_0=s0）那一支：-dV_0/ds = +0.475444，与 -dJ*/ds0 同支；行 289 的 +0.471111 是日末影子价格，是另一个量，不得与之配对。",
+  "feasibility_interval_check": {
+    "method": "解析闭式 vs 4001 点暴力枚举（3 时段 x 3 SOC，x 全幅 [-925.93, 750]）",
+    "all_match": true,
+    "bruteforce_step_kWh": 0.4189814814815236,
+    "rows": [
+      {
+        "t": 0,
+        "s": 3000.0,
+        "analytic": [
+          -637.0086296296295,
+          750.0
+        ],
+        "bruteforce": [
+          -636.8287037037037,
+          750.0
+        ],
+        "match": true
+      },
+      {
+        "t": 0,
+        "s": 6000.0,
+        "analytic": [
+          -637.0086296296295,
+          750.0
+        ],
+        "bruteforce": [
+          -636.8287037037037,
+          750.0
+        ],
+        "match": true
+      },
+      {
+        "t": 0,
+        "s": 9000.0,
+        "analytic": [
+          -637.0086296296295,
+          750.0
+        ],
+        "bruteforce": [
+          -636.8287037037037,
+          750.0
+        ],
+        "match": true
+      },
+      {
+        "t": 60,
+        "s": 3000.0,
+        "analytic": [
+          -925.9259259259259,
+          750.0
+        ],
+        "bruteforce": [
+          -925.9259259259259,
+          750.0
+        ],
+        "match": true
+      },
+      {
+        "t": 60,
+        "s": 6000.0,
+        "analytic": [
+          -925.9259259259259,
+          750.0
+        ],
+        "bruteforce": [
+          -925.9259259259259,
+          750.0
+        ],
+        "match": true
+      },
+      {
+        "t": 60,
+        "s": 9000.0,
+        "analytic": [
+          -925.9259259259259,
+          750.0
+        ],
+        "bruteforce": [
+          -925.9259259259259,
+          750.0
+        ],
+        "match": true
+      },
+      {
+        "t": 120,
+        "s": 3000.0,
+        "analytic": [
+          -793.0045370370369,
+          750.0
+        ],
+        "bruteforce": [
+          -792.6898148148148,
+          750.0
+        ],
+        "match": true
+      },
+      {
+        "t": 120,
+        "s": 6000.0,
+        "analytic": [
+          -793.0045370370369,
+          750.0
+        ],
+        "bruteforce": [
+          -792.6898148148148,
+          750.0
+        ],
+        "match": true
+      },
+      {
+        "t": 120,
+        "s": 9000.0,
+        "analytic": [
+          -793.0045370370369,
+          750.0
+        ],
+        "bruteforce": [
+          -792.6898148148148,
+          750.0
+        ],
+        "match": true
+      }
+    ],
+    "note": "完整 30 组、20001 点扫描见 q1_feas.py（ALL_MATCH=True）"
+  },
+  "resolution_scan": {
+    "2": {
+      "delta": 2.0,
+      "V0_6000": 35136.22009232945,
+      "rel_err_direct": 0.00026394273946846094,
+      "slope_left": -0.47544444444429246,
+      "slope_right": -0.47544444444429246,
+      "slope_center": -0.47544444444429246,
+      "marginal_value_at_6000": 0.47544444444429246,
+      "slope_center_1step": -0.47544444444429246,
+      "runtime_s": 8.342108726501465,
+      "no_action_states": 0,
+      "grid_n": 4801
+    },
+    "1": {
+      "delta": 1.0,
+      "V0_6000": 35131.45656540334,
+      "rel_err_direct": 0.0001283338375452067,
+      "slope_left": -0.47544444444793044,
+      "slope_right": -0.4754444444406545,
+      "slope_center": -0.47544444444429246,
+      "marginal_value_at_6000": 0.47544444444429246,
+      "slope_center_1step": -0.47544444444429246,
+      "runtime_s": 18.619539737701416,
+      "no_action_states": 0,
+      "grid_n": 9601
+    },
+    "0.5": {
+      "delta": 0.5,
+      "V0_6000": 35129.24691110166,
+      "rel_err_direct": 6.542901972236929e-05,
+      "slope_left": -0.47544444444793044,
+      "slope_right": -0.4754444444406545,
+      "slope_center": -0.47544444444429246,
+      "marginal_value_at_6000": 0.47544444444429246,
+      "slope_center_1step": -0.4754444444406545,
+      "runtime_s": 46.79934525489807,
+      "no_action_states": 0,
+      "grid_n": 19201
+    }
+  },
+  "richardson": {
+    "V0_6000": 35127.03725679998,
+    "rel_err_richardson": 2.5242018995318835e-06,
+    "pass_1e6_richardson": false,
+    "slope_center": -0.47544444444429246,
+    "marginal_value": 0.47544444444429246,
+    "rel_err_marginal_value_vs_row288": 0.0,
+    "pass_marginal_value_1pct": true
+  },
+  "direct_scan_convergence": {
+    "rel_err_direct_delta2": 0.00026394273946846094,
+    "rel_err_direct_delta1": 0.0001283338375452067,
+    "rel_err_direct_delta0.5": 6.542901972236929e-05,
+    "ratio_2_to_1": 2.056688590610289,
+    "ratio_1_to_0.5": 1.9614207593168496,
+    "first_order_convergence": true
+  },
+  "gap_row288_minus_row289": 0.004333333333181366,
+  "note": "DP 为离散网格 DP（最细 delta=0.5 kWh）；直接解残差与外推解残差分别记录；斜率字段 slope_center 是 s=6000 附近 1 kWh 宽窗口的中心差商，输出 -slope_center 即初始库存边际价值。DP 值是 LP 最优值的**上界近似**（V_0(6000) >= J1*，差值即离散化误差），不得把 V_0(6000) 当作最优成本。",
+  "independent_recheck": {
+    "by": "reviewer 子代理（未读本脚本实现，自写复算）",
+    "report": "3对话/output/q1_vl_recheck_v2.md",
+    "verdict": "PASS",
+    "their_row288_dual": -0.47544444444444445,
+    "their_row288_central_diff": -0.47544444444429246,
+    "their_dp_slope_minus_dV0_ds_delta0.5": 0.4754444444406545,
+    "their_note": "DP 恒 >= LP 且差值随 delta 一阶收敛，说明可行域没有多算"
+  }
+}

@@ -1,0 +1,468 @@
+% 论文正文表 L1（booktabs 三线表）—— 由 6对话\code\make_l1_tables.py 生成
+% 编译：ctex + XeLaTeX（含 Σ/λ/×/① 等非 ASCII 符号）；依赖 booktabs。
+% 位置映射：第 1 个数据格 = [0:00,0:10)，与 xlsx 可见标签相差一格（标签为区间右端点）。
+
+\begin{table}[htbp]
+\centering
+\caption{问题一：指定时段的计划购电量、全天购电量与购电费}
+\label{tab:q1-a}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrlrlr}
+\toprule
+时间段 & 购电量(kWh) & 时间段 & 购电量(kWh) & 时间段 & 购电量(kWh) \\
+\midrule
+10:00-10:10 & 0.00 & 14:00-14:10 & 0.00 & 18:00-18:10 & 531.89 \\
+12:00-12:10 & 480.41 & 16:00-16:10 & 445.43 & 20:00-20:10 & 0.00 \\
+全天购电量 (kWh) & 59,482.70 & 全天购电费 (元) & 35,126.95 &  &  \\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题一：储能充放电与日界储电量（题面原样两栏布局）}
+\label{tab:q1-b2}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrlrr}
+\toprule
+时间段 & 充电量(kWh) & 放电量(kWh) & 时间段 & 充电量(kWh) & 放电量(kWh) \\
+\midrule
+0:00-4:00 & 4,500.00 & 0.00 & 12:00-16:00 & 5,286.04 & 91.10 \\
+4:00-8:00 & 833.33 & 6,365.84 & 16:00-20:00 & 0.00 & 5,780.13 \\
+8:00-12:00 & 4,787.96 & 1,703.00 & 20:00-24:00 & 5,333.33 & 2,859.87 \\
+0:00 储电量 & 6,000.00 & 24:00 储电量 & 6,000.00 &  &  \\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题一：储能设备指定时段充放电量}
+\label{tab:q1-b}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrr}
+\toprule
+时间段 & 充电量(kWh) & 放电量(kWh) \\
+\midrule
+0:00-4:00 & 4,500.00 & 0.00 \\
+4:00-8:00 & 833.33 & 6,365.84 \\
+8:00-12:00 & 4,787.96 & 1,703.00 \\
+12:00-16:00 & 5,286.04 & 91.10 \\
+16:00-20:00 & 0.00 & 5,780.13 \\
+20:00-24:00 & 5,333.33 & 2,859.87 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：储能容量 [1,200, 10,800] kWh、最大充放电功率 5,000 kW（每 10 min ≤ 833.33 kWh）、效率 η = 0.9。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题一：0:00 / 24:00 储电量}
+\label{tab:q1-b1}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lr}
+\toprule
+时刻 & 储电量(kWh) \\
+\midrule
+0:00 & 6,000.00 \\
+24:00 & 6,000.00 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：日初 = 日末 = 6,000.00 kWh，满足题设 S0 = S144。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题二：指定日期的计划购电量与全天计划购电量}
+\label{tab:q2-a}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+时间段 & 3.20 & 6.21 & 9.23 & 12.21 \\
+\midrule
+10:00-10:10 & 0.00 & 0.00 & 0.00 & 0.00 \\
+12:00-12:10 & 552.31 & 0.00 & 555.11 & 1,002.77 \\
+14:00-14:10 & 0.00 & 0.00 & 0.00 & 0.00 \\
+16:00-16:10 & 519.50 & 185.94 & 623.07 & 806.43 \\
+18:00-18:10 & 698.00 & 0.00 & 764.33 & 715.41 \\
+20:00-20:10 & 0.00 & 0.00 & 0.00 & 0.00 \\
+全天计划购电量 & 67,083.45 & 34,795.81 & 70,722.56 & 95,876.74 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：非紧急部分按计划购电量全量计费；紧急购电按 5 倍电价单独列示。提交件表内「全天购电费」列为该表购电量 × 电价（计划费，不含紧急），与本表口径不同，引用时勿混；表中各费项相加即当日合计。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题二：指定日期的当日费用（元）}
+\label{tab:q2-a2}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+项目 & 3.20 & 6.21 & 9.23 & 12.21 \\
+\midrule
+当日计划购电费 & 40,498.51 & 19,334.88 & 43,914.08 & 61,446.07 \\
+当日紧急购电费 & 1,096.59 & 0.00 & 181.89 & 0.00 \\
+当日合计 & 41,595.10 & 19,334.88 & 44,095.97 & 61,446.07 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：各费项为表内显示值之和，相加即当日合计。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题三：指定时段调整购电量（最终执行量）}
+\label{tab:q3-a1b}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+时间段 & 3.20 & 6.21 & 9.23 & 12.21 \\
+\midrule
+10:00-10:10 & 0.00 & 0.00 & 0.00 & 0.00 \\
+12:00-12:10 & 491.43 & 0.00 & 0.00 & 878.64 \\
+14:00-14:10 & 0.00 & 0.00 & 0.00 & 0.00 \\
+16:00-16:10 & 543.53 & 102.64 & 597.11 & 839.91 \\
+18:00-18:10 & 698.00 & 0.00 & 793.54 & 715.41 \\
+20:00-20:10 & 0.00 & 0.00 & 0.00 & 0.00 \\
+全天调整购电量（最终执行量） & 65,979.69 & 34,173.10 & 67,644.50 & 94,515.18 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题三：指定日期的计划购电量与全天计划购电量}
+\label{tab:q3-a}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+时间段 & 3.20 & 6.21 & 9.23 & 12.21 \\
+\midrule
+10:00-10:10 & 0.00 & 0.00 & 0.00 & 0.00 \\
+12:00-12:10 & 621.87 & 0.00 & 452.48 & 1,069.53 \\
+14:00-14:10 & 0.00 & 0.00 & 0.00 & 0.00 \\
+16:00-16:10 & 692.13 & 156.76 & 694.96 & 839.91 \\
+18:00-18:10 & 698.00 & 0.00 & 792.73 & 715.41 \\
+20:00-20:10 & 0.00 & 0.00 & 0.00 & 0.00 \\
+全天计划购电量 & 70,918.39 & 34,499.06 & 73,703.11 & 96,785.58 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：当日合计按读法 C = 计划净退费 + 调整相关费用 + 紧急购电费；调整购电量为最终执行量。提交件表内「全天购电费」列为该表购电量 × 电价（计划量/调整量毛额），与本表口径不同，引用时勿混；表中各费项相加即当日合计。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题三：指定日期的当日费用（元）}
+\label{tab:q3-a2}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+项目 & 3.20 & 6.21 & 9.23 & 12.21 \\
+\midrule
+计划净退费 & 39,804.28 & 18,784.09 & 42,388.71 & 60,028.12 \\
+违约退款 & 1,692.14 & 142.43 & 1,887.59 & 961.02 \\
+超购加价 & 374.95 & 15.61 & 17.08 & 625.42 \\
+紧急购电费 & 1,839.82 & 13.05 & 244.25 & 560.57 \\
+当日合计 & 43,711.19 & 18,955.18 & 44,537.63 & 62,175.13 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：各费项为表内显示值之和，相加即当日合计。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题二：指定日期储能充电量（kWh）}
+\label{tab:q2-b1}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+时间段 & 3.20 & 6.21 & 9.23 & 12.21 \\
+\midrule
+0:00-4:00 & 2,332.84 & 0.00 & 2,333.33 & 2,333.32 \\
+4:00-8:00 & 1,010.17 & 344.45 & 889.56 & 1,666.66 \\
+8:00-12:00 & 5,937.65 & 9,849.77 & 6,293.08 & 5,855.25 \\
+12:00-16:00 & 4,451.16 & 0.00 & 3,525.40 & 6,663.91 \\
+16:00-20:00 & 41.73 & 16.05 & 0.93 & 3.93 \\
+20:00-24:00 & 7,500.00 & 7,500.00 & 7,500.00 & 7,500.00 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：三块共用同一日期列；充放电量为执行层最终充/放电量（单位 kWh）。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题二：指定日期储能放电量（kWh）}
+\label{tab:q2-b2}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+时间段 & 3.20 & 6.21 & 9.23 & 12.21 \\
+\midrule
+0:00-4:00 & 0.00 & 1,311.73 & 0.00 & 0.00 \\
+4:00-8:00 & 5,526.08 & 4,405.91 & 5,635.92 & 1,483.03 \\
+8:00-12:00 & 2,777.38 & 0.00 & 1,896.62 & 7,112.37 \\
+12:00-16:00 & 364.61 & 0.00 & 465.97 & 2,223.29 \\
+16:00-20:00 & 5,790.89 & 6,127.58 & 5,629.73 & 5,797.47 \\
+20:00-24:00 & 2,773.02 & 2,485.90 & 3,011.02 & 2,842.53 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题二：指定日期日界储电量（kWh）}
+\label{tab:q2-b3}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+时刻 & 3.20 & 6.21 & 9.23 & 12.21 \\
+\midrule
+0:00 & 7,950.44 & 7,978.14 & 7,950.00 & 7,950.01 \\
+24:00 & 7,950.00 & 7,993.91 & 7,950.00 & 7,950.00 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题三：指定日期储能充电量（kWh）}
+\label{tab:q3-b1}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+时间段 & 3.20 & 6.21 & 9.23 & 12.21 \\
+\midrule
+0:00-4:00 & 2,332.27 & $<$0.01 & 2,333.33 & 2,330.27 \\
+4:00-8:00 & 841.07 & 399.38 & 843.92 & 1,664.10 \\
+8:00-12:00 & 4,478.39 & 9,809.90 & 6,128.07 & 5,269.27 \\
+12:00-16:00 & 6,083.54 & 0.00 & 4,491.03 & 8,014.21 \\
+16:00-20:00 & 197.69 & 24.66 & 0.00 & 0.00 \\
+20:00-24:00 & 7,500.00 & 7,500.00 & 7,500.00 & 7,500.00 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：三块共用同一日期列；充放电量为执行层最终充/放电量（单位 kWh）。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题三：指定日期储能放电量（kWh）}
+\label{tab:q3-b2}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+时间段 & 3.20 & 6.21 & 9.23 & 12.21 \\
+\midrule
+0:00-4:00 & 0.00 & 1,333.46 & 0.00 & 0.00 \\
+4:00-8:00 & 6,073.62 & 4,389.23 & 6,343.53 & 1,506.25 \\
+8:00-12:00 & 2,468.26 & 0.00 & 1,895.25 & 7,706.18 \\
+12:00-16:00 & 248.21 & 0.00 & 371.26 & 2,220.11 \\
+16:00-20:00 & 5,640.41 & 6,090.47 & 5,602.90 & 5,797.47 \\
+20:00-24:00 & 2,930.22 & 2,485.90 & 3,037.09 & 2,842.53 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题三：指定日期日界储电量（kWh）}
+\label{tab:q3-b3}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+时刻 & 3.20 & 6.21 & 9.23 & 12.21 \\
+\midrule
+0:00 & 7,950.95 & 7,970.19 & 7,950.01 & 7,952.76 \\
+24:00 & 7,950.92 & 8,042.90 & 7,950.00 & 7,950.00 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题二：指定日期紧急购电（题面原样四日期并排）}
+\label{tab:q2-c2}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrlrlrlr}
+\toprule
+时间段 & 购电量 (kWh) & 时间段 & 购电量 (kWh) & 时间段 & 购电量 (kWh) & 时间段 & 购电量 (kWh) \\
+\midrule
+20:30-20:40 & 157.19 &  &  & 20:30-20:40 & 26.07 &  &  \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：列组依次为 2025.3.20 / 6.21 / 9.23 / 12.21；空白 = 该日无更多紧急段。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题二：指定日期的紧急购电}
+\label{tab:q2-c}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llr}
+\toprule
+日期 & 时间段 & 购电量(kWh) \\
+\midrule
+3.20 & 20:30-20:40 & 157.19 \\
+6.21 & 无 & 0.00 \\
+9.23 & 20:30-20:40 & 26.07 \\
+12.21 & 无 & 0.00 \\
+合计 &  & 183.26 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：时段为同日相邻正区间合并后的区间（提交件同口径）；当日紧急购电费见费用表（5 倍电价）。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题三：指定日期紧急购电（题面原样四日期并排）}
+\label{tab:q3-c2}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrlrlrlr}
+\toprule
+时间段 & 购电量 (kWh) & 时间段 & 购电量 (kWh) & 时间段 & 购电量 (kWh) & 时间段 & 购电量 (kWh) \\
+\midrule
+6:40-7:00 & 4.88 & 4:00-4:50 & 1.40 & 6:00-6:20 & 9.89 & 7:00-7:30 & 3.99 \\
+7:40-8:40 & 91.62 & 19:00-19:50 & 1.48 & 10:00-10:10 & 1.36 & 7:50-8:00 & 2.11 \\
+8:50-9:20 & 151.22 &  &  & 14:20-14:50 & 32.36 & 9:00-9:20 & 4.67 \\
+9:30-10:00 & 77.61 &  &  & 17:30-17:50 & 5.45 & 9:30-10:50 & 108.27 \\
+14:10-14:20 & 6.51 &  &  &  &  &  &  \\
+15:30-15:40 & 0.72 &  &  &  &  &  &  \\
+15:50-16:20 & 33.78 &  &  &  &  &  &  \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：列组依次为 2025.3.20 / 6.21 / 9.23 / 12.21；空白 = 该日无更多紧急段。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题三：指定日期的紧急购电}
+\label{tab:q3-c}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llr}
+\toprule
+日期 & 时间段 & 购电量(kWh) \\
+\midrule
+3.20 & 6:40-7:00 & 4.88 \\
+ & 7:40-8:40 & 91.62 \\
+ & 8:50-9:20 & 151.22 \\
+ & 9:30-10:00 & 77.61 \\
+ & 14:10-14:20 & 6.51 \\
+ & 15:30-15:40 & 0.72 \\
+ & 15:50-16:20 & 33.78 \\
+6.21 & 4:00-4:50 & 1.40 \\
+ & 19:00-19:50 & 1.48 \\
+9.23 & 6:00-6:20 & 9.89 \\
+ & 10:00-10:10 & 1.36 \\
+ & 14:20-14:50 & 32.36 \\
+ & 17:30-17:50 & 5.45 \\
+12.21 & 7:00-7:30 & 3.99 \\
+ & 7:50-8:00 & 2.11 \\
+ & 9:00-9:20 & 4.67 \\
+ & 9:30-10:50 & 108.27 \\
+合计 &  & 537.32 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：时段为同日相邻正区间合并后的区间（提交件同口径）；当日紧急购电费见费用表（5 倍电价）。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题三：滚动信息价值（四臂）}
+\label{tab:q3-voi}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+预报时点 & 全年费用(元) & 边际增益(元) & 计划费(元) & 调整费(元) & 紧急费(元) & ΣH(kWh) \\
+\midrule
+0:00 & 13,564,151.84 & - & 13,076,934.09 & 0.00 & 487,217.75 & 98,295.60 \\
+0:00+6:00 & 13,446,385.03 & -117,766.81 & 12,550,437.33 & 587,597.33 & 308,350.37 & 63,465.60 \\
+0:00+6:00+12:00 & 13,125,320.04 & -321,064.99 & 12,382,148.78 & 539,758.48 & 203,412.79 & 43,615.03 \\
+0:00+6:00+12:00+18:00 & 13,120,194.06 & -5,125.98 & 12,381,239.55 & 542,052.30 & 196,902.21 & 42,672.22 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：四臂均在同一口径（读法 C + v2b 执行器）下重算；由「仅 0:00」到「0/6/12/18」全年省 443,957.78 元（3.27\%），12:00 一臂贡献最大。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题四：波动电价下的全年结果与归因（2×2 反事实）}
+\label{tab:q4-a}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrr}
+\toprule
+指标 & Q4-2 & Q4-3 \\
+\midrule
+全年费用 (元) & 13,850,454.64 & 13,727,033.66 \\
+本问基线 (元) & 13,252,341.09（问题二） & 13,120,194.06（问题三 v2） \\
+相对基线 & 598,113.55 & 606,839.60 \\
+① 价格水平效应 (元) & 744,522.48 & 760,032.97 \\
+② 日前重优化效应 (元) & -146,408.94 & -153,193.38 \\
+①+② = 相对基线差 (元) & 598,113.55 & 606,839.60 \\
+价格冲击占比 & 5.62\% & 5.79\% \\
+重优化对冲比例 & 19.66\% & 20.16\% \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：① 为「同计划换价」、② 为「同价换计划」；两组基线分属不同问（Q4-2 对问题二、Q4-3 对问题三 v2），组内可比、组间只比效应量级。①、② 各自四舍五入到 0.01 元，「①+②」与「相对基线差」按未舍入值计算，故与①、②显示值之和可能相差 0.01 元。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{问题四：指定日期的全天购电量与购电费}
+\label{tab:q4-b}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+日期（2025 年） & Q4-2 购电量 (kWh) & Q4-2 购电费 (元) & Q4-3 购电量 (kWh) & Q4-3 购电费 (元) \\
+\midrule
+3.20 & 67,948.54 & 42,519.33 & 71,794.22 & 44,691.48 \\
+6.21 & 35,601.06 & 16,794.81 & 35,317.51 & 16,549.17 \\
+9.23 & 69,050.22 & 44,724.64 & 71,846.20 & 45,275.49 \\
+12.21 & 90,210.08 & 69,595.07 & 91,121.97 & 70,593.86 \\
+四日期合计 & 262,809.90 & 173,633.85 & 270,079.90 & 177,110.00 \\
+全年合计（334 天） & 21,323,915.22 & 13,850,454.64 & 21,541,336.55 & 13,727,033.66 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：末行「全年合计（334 天）」为全年；上方「四日期合计」仅示题面点名的四个日期，二者不可混用。Q4-2 购电费 = 计划购电费 + 紧急购电费，Q4-3 = 读法 C 当日结算费用。\end{flushleft}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{灵敏度与稳健性汇总}
+\label{tab:sens}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrr}
+\toprule
+参数 & 取值 & 全年费用(元) & 相对基准 \\
+\midrule
+终端残值 λ & 0.00 / 0.15 / 0.30 / 0.40 & 13,251,225.13 & -0.01\% \\
+ & 0.4720（本文取值） & 13,252,341.09 & 基准 \\
+ & 0.55 / 0.70 / 0.90 & 13,287,931.82 & +0.27\% \\
+价格口径 & I 主口径（当日附件 4 价） & 13,850,454.64 & 基准 \\
+ & II 上周同日价 & 13,996,208.12 & +1.05\% \\
+ & III 典型日价（附件 1） & 13,996,863.57 & +1.06\% \\
+ & IV 同周 4 周价 & 13,958,811.17 & +0.78\% \\
+光伏裕度 M（Q4-2） & M2 = 0.10 & 13,887,365.20 & +0.27\% \\
+光伏裕度 M（Q4-2） & M2 = 0.15 & 13,827,423.16 & -0.17\% \\
+光伏裕度 M（Q4-2） & M2 = 0.20 & 13,821,334.40 & -0.21\% \\
+光伏裕度 M（Q4-2） & M2 = 0.25 & 13,862,475.66 & +0.09\% \\
+光伏裕度 M（Q4-2） & M2 = 0.30 & 13,945,029.23 & +0.68\% \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{flushleft}\footnotesize 注：λ 三级台阶极差 0.277\%（弱参数，见问题二交付说明 §5 第 6 条限度）；价格口径四档（I 主口径 / II 上周同日 / III 典型日 / IV 同周 4 周）相对偏差 0.78\% ~ 1.06\%；光伏裕度 M 取 M2 扫描值（见 Q4 证据 q4_margin_M2_scan.json）。\end{flushleft}
+\end{table}

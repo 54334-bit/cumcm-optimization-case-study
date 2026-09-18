@@ -1,0 +1,19 @@
+{
+  "min_price": {
+    "value": 0.3713,
+    "label": "05:40"
+  },
+  "max_price": {
+    "value": 1.3952,
+    "label": "20:40"
+  },
+  "peak_valley_ratio": 3.757608402908699,
+  "non_positive_price_count": 0,
+  "pv_surplus_kWh": 6247.962966666666,
+  "peak_pv_surplus_kW": 2117.5253000000002,
+  "late_net_load_18_21_kWh": 12666.3715,
+  "late_interval_count": 18,
+  "n_intervals": 144,
+  "dt_h": 0.16666666666666666,
+  "Ebar_kWh": 833.3333333333333
+}

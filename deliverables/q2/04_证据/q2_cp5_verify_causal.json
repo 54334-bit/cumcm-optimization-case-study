@@ -1,0 +1,18 @@
+{
+ "J_plan_from_xlsx": 12891818.2448,
+ "row_cost_max_dev": 4.9994698201771826e-05,
+ "QG_from_xlsx": 21283432.6217,
+ "sum_C_blocks": 6684044.8536,
+ "sum_D_blocks": 5412321.3326,
+ "soc_min": 6000.0,
+ "soc_max": 8085.491045,
+ "soc_chain_break_max": 0.0,
+ "sheet3_rows": 375,
+ "sheet3_kwh": 55801.0459,
+ "emg_kwh_greedy": 55801.0461,
+ "emg_segments_greedy": 375,
+ "emg_cost_greedy": 360522.8481,
+ "soc_vs_sheet_max_dev": 5.351848813006654e-06,
+ "J_total_check": 13252341.09,
+ "ALL_PASS": true
+}

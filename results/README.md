@@ -1,5 +1,5 @@
-# 结果说明
+# Result ledger
 
-本目录只保留不含逐槽真实数据的原创汇总台账。真实结果工作簿、官方模板、提交压缩包及由其导出的可识别原始数据均不随仓库发布。
+`tables/frozen_results_summary.csv` is the compact, citation-friendly ledger of frozen totals and components. The five canonical team submission workbooks are now published separately in [submissions/](../submissions/), with their byte-level hashes and delivery scope recorded in `submissions/README.md`.
 
-`tables/frozen_results_summary.csv` 摘录冻结方案报告的总费用与组成。数字是历史结果登记：它们尚未因本次仓库重构而重新计算或重新验收。若使用者持有授权数据，可用 `scripts/audit_q3_result.py` 对自己的 Q3 工作簿独立核算。
+The numbers remain historical delivery records. They were not recomputed or re-accepted merely because the repository was reorganized. Use the source code, processed data, evidence records, and the independent audit interface together when conducting a new verification.
