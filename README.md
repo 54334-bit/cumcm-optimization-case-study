@@ -1,6 +1,6 @@
 # CUMCM 优化调度案例：微网与外部电网协同
 
-> 非官方案例项目。它整理一个微网优化调度的建模、代码片段、论文源码和可复核的汇总结果；**不包含中国大学生数学建模竞赛题面、官方附件、官方结果模板、真实填报工作簿、第三方论文或竞赛 PDF**。
+> 非官方案例项目。它整理一个微网优化调度的建模、代码片段、论文源码、最终论文和可复核的汇总结果；**不包含中国大学生数学建模竞赛题面、官方附件、官方结果模板、真实填报工作簿或第三方论文**。
 
 本项目与 `cumcm-optimization-rag` 是两个独立项目：这里不含 RAG 引擎、语料或索引。RAG 仅可作为建模方法检索的可选外部服务，核心模型、说明和本地复核脚本不依赖它。
 
@@ -25,20 +25,22 @@ scripts/                 独立复核脚本
 tests/                   可移植路径接口测试
 data/                    数据许可、获取和目录约定；不含题面及附件
 results/                 汇总结果台账和来源说明；不含真实结果工作簿
-paper/                   唯一主 TeX 与 Q3 代码附录源码
+paper/                   稳定论文源码、Q3 代码附录与最终论文 PDF
+paper-optimization/      恢复的论文打磨过程、验证台账和 Q3 附录源码
+sensitivity-analysis/    恢复的 Q1–Q4 汇总建模与灵敏度分析工作区
 references/              来源、许可和获取登记
 docs/                    方法、复现、RAG 接入与重构设计/计划
 ```
 
-## Restored source-project layout
+## 恢复的原项目结构
 
-The repository also preserves the recoverable parts of the original working layout instead of replacing that layout with the publication-oriented tree:
+仓库在面向发布的稳定目录之外保留了可由证据验证的原工作区内容：
 
-- `灵敏度分析/` contains the byte-verified original unified Q1–Q4 formulation.
-- `论文优化/` contains the byte-verified final TeX source, its verification ledgers, and the Q3 appendix sources.
-- The publication-oriented `models/`, `paper/`, and `src/` paths remain available as stable entry points; they do not replace the restored source-project paths.
+- [`sensitivity-analysis/`](sensitivity-analysis/) 保存经字节级验证的原始 Q1–Q4 汇总建模方案。
+- [`paper-optimization/`](paper-optimization/) 保存经验证的论文优化版 TeX、修复台账和 Q3 附录源码。
+- `models/`、`paper/` 与 `src/` 仍是面向复现和引用的稳定入口；恢复目录用于保留原始工作结构和审计链。
 
-The recovery is evidence-driven. Files are restored only when a surviving byte-identical copy, a recorded SHA-256, or a complete canonical Codex write event is available. Missing binary workbooks, PDFs, and figures are listed in `docs/recovery/recovery-report.md` rather than recreated from prose.
+恢复只接受字节一致副本、已记录 SHA-256 或完整 canonical Codex 写入事件。仍缺失的工作簿、图件和过程文件记录在 [`docs/recovery/recovery-report.md`](docs/recovery/recovery-report.md)，不会根据文字描述伪造。
 
 ## 环境与最小检查
 
@@ -62,7 +64,7 @@ python scripts/audit_q3_result.py `
 
 ## 论文源码
 
-`paper/main.tex` 是唯一维护的论文主文件，`paper/appendix/` 含可嵌入的 Q3 代码附录。论文依赖竞赛 LaTeX 模板和多张由原工作流生成的图件，这些依赖未在本公开仓库再分发；因此本次仅完成静态 TeX 检查，不宣称可在无外部材料的环境中编译。详见 `docs/reproducibility.md`。
+[`paper/final-paper.pdf`](paper/final-paper.pdf) 是本案例的最终论文，49 页，SHA-256 为 `A843378D68ABD3C429AC56BE17E6ED70B4A7F3EFF33DF4C9747B13B53B74A44C`。`paper/main.tex` 是稳定论文源码入口，`paper/appendix/` 含可嵌入的 Q3 代码附录；恢复的优化过程源文件另见 `paper-optimization/`。由于公开仓库未分发竞赛模板和全部原始图件，不能据此声称 `paper/main.tex` 可在任意环境重新编译出完全相同的 PDF。详见 [`docs/reproducibility.md`](docs/reproducibility.md)。
 
 ## 可选 RAG 接入
 

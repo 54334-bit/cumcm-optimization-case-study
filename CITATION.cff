@@ -2,10 +2,12 @@ cff-version: 1.2.0
 message: "若本项目对你的工作有帮助，请按以下元数据引用。"
 title: "CUMCM 优化调度案例：微网与外部电网协同"
 type: software
-version: "0.1.0"
-date-released: 2026-09-16
+version: "0.2.0"
+date-released: 2026-09-18
 license: Apache-2.0
-abstract: "非官方的微网优化调度建模、代码片段、论文源码与复现边界案例；不含竞赛题面、附件或真实结果文件。"
+repository-code: "https://github.com/54334-bit/cumcm-optimization-case-study"
+url: "https://github.com/54334-bit/cumcm-optimization-case-study"
+abstract: "非官方的微网优化调度建模、代码片段、论文源码、最终论文与复现边界案例；不含竞赛题面、附件或真实结果工作簿。"
 keywords:
   - mathematical-modeling
   - microgrid

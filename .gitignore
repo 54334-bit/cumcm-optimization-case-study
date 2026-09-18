@@ -28,6 +28,7 @@ venv/
 *.out
 *.synctex.gz
 *.pdf
+!paper/final-paper.pdf
 tectonic-cache/
 *.zip
 *.7z
