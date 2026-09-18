@@ -2,6 +2,7 @@
 data/local/
 .codex/config.toml
 .restructure-work/
+_recovery_staging/
 .env
 .env.*
 !.env.example
