@@ -1,0 +1,38 @@
+% Q3 代码附录所需宏包；在主论文导言区输入本文件。
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{caption}
+\newfontfamily\AppendixCodeLatin{Segoe UI Symbol}
+
+
+\definecolor{AppendixCodeBg}{HTML}{F7F8FA}
+\definecolor{AppendixCodeFrame}{HTML}{D7DCE2}
+\definecolor{AppendixCodeKeyword}{HTML}{174EA6}
+\definecolor{AppendixCodeComment}{HTML}{4F772D}
+\definecolor{AppendixCodeString}{HTML}{9C2C2C}
+
+\lstdefinestyle{q3python}{
+  language=Python,
+  basicstyle=\AppendixCodeLatin\zihao{-5},
+  keywordstyle=\color{AppendixCodeKeyword}\bfseries,
+  commentstyle=\color{AppendixCodeComment},
+  stringstyle=\color{AppendixCodeString},
+  backgroundcolor=\color{AppendixCodeBg},
+  frame=single,
+  rulecolor=\color{AppendixCodeFrame},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  numbersep=7pt,
+  xleftmargin=2.2em,
+  framexleftmargin=1.8em,
+  breaklines=true,
+  breakatwhitespace=false,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  tabsize=4,
+  aboveskip=0.7em,
+  belowskip=0.7em,
+  captionpos=t,
+}
+\captionsetup[lstlisting]{font=small,labelfont=bf,justification=centering}

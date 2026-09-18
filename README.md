@@ -30,6 +30,16 @@ references/              来源、许可和获取登记
 docs/                    方法、复现、RAG 接入与重构设计/计划
 ```
 
+## Restored source-project layout
+
+The repository also preserves the recoverable parts of the original working layout instead of replacing that layout with the publication-oriented tree:
+
+- `灵敏度分析/` contains the byte-verified original unified Q1–Q4 formulation.
+- `论文优化/` contains the byte-verified final TeX source, its verification ledgers, and the Q3 appendix sources.
+- The publication-oriented `models/`, `paper/`, and `src/` paths remain available as stable entry points; they do not replace the restored source-project paths.
+
+The recovery is evidence-driven. Files are restored only when a surviving byte-identical copy, a recorded SHA-256, or a complete canonical Codex write event is available. Missing binary workbooks, PDFs, and figures are listed in `docs/recovery/recovery-report.md` rather than recreated from prose.
+
 ## 环境与最小检查
 
 Python 3.11 或更高版本可运行本仓库的静态检查；如果要执行基于本地授权工作簿的 Q3 审计，还需要 `numpy` 与 `openpyxl`。
